@@ -1,3 +1,4 @@
+/*
 /datum/psi_complexus/proc/cancel()
 	sound_to(owner, sound('sound/effects/psi/power_fail.ogg'))
 	if(LAZYLEN(manifested_items))
@@ -102,3 +103,4 @@
 	stamina = min(stamina, max_stamina)
 	cancel()
 	update()
+*/

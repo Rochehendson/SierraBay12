@@ -1,3 +1,4 @@
+/*
 /obj/machinery/psi_meter
 	name = "psi-meter"
 	desc = "A bulky psi-meter for conducting assays of psi-operants."
@@ -69,3 +70,4 @@
 		if(refresh)
 			interact(usr)
 			return TRUE
+*/

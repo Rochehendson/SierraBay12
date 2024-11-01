@@ -1,3 +1,4 @@
+/*
 /datum/psi_complexus/proc/check_latency_trigger(trigger_strength = 0, source, redactive = FALSE)
 
 	if(!LAZYLEN(latencies) || world.time < next_latency_trigger)
@@ -16,3 +17,4 @@
 	if(!redactive) owner.adjustBrainLoss(rand(trigger_strength * 2, trigger_strength * 4))
 	log_and_message_admins("gained the [faculty_singleton.name] psionic faculty by: [source].", owner)
 	return TRUE
+*/

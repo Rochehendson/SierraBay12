@@ -1,3 +1,4 @@
+/*
 /singleton/reaction/nullglass
 	name = "Soulstone"
 	result = null
@@ -87,3 +88,4 @@
 		M.adjustBruteLoss(rand(3,6))
 		if(prob(10))
 			new /obj/item/material/shard(get_turf(M), result_mat)
+*/

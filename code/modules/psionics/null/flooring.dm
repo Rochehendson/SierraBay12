@@ -1,3 +1,4 @@
+/*
 /singleton/flooring
 	var/psi_null
 
@@ -18,3 +19,4 @@
 	name = "nullglass floor tile"
 	icon_state = "tile_nullglass"
 	matter = list(MATERIAL_NULLGLASS = 937.5)
+*/

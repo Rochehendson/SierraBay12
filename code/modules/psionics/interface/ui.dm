@@ -1,3 +1,4 @@
+/*
 /obj/screen/psi
 	icon = 'icons/screen/psi.dmi'
 	var/mob/living/owner
@@ -19,3 +20,4 @@
 		invisibility = INVISIBILITY_ABSTRACT
 	else
 		invisibility = 0
+*/

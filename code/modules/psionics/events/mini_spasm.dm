@@ -1,3 +1,4 @@
+/*
 /datum/event/minispasm
 	startWhen = 60
 	endWhen = 90
@@ -65,3 +66,4 @@
 		"PRIORITY ALERT: SIGNAL BROADCAST HAS CEASED. Personnel are cleared to resume use of non-hardened radio transmission equipment. Have a nice day.", \
 		"Cuchulain Sensor Array Automated Message" \
 		)
+*/

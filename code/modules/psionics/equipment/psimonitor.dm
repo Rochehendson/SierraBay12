@@ -1,3 +1,4 @@
+/*
 /obj/machinery/psi_monitor
 	name = "psionic implant monitor"
 	icon = 'icons/obj/machines/research/psimeter.dmi'
@@ -115,3 +116,4 @@
 
 /obj/machinery/psi_monitor/proc/report_violation(obj/item/implant/psi_control/implant, stress)
 	psi_violations += "Sigma [round(stress/10)] event - [implant.imp_in.name]."
+*/

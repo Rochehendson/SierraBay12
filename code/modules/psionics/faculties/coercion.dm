@@ -1,3 +1,4 @@
+/*
 /singleton/psionic_faculty/coercion
 	id = PSI_COERCION
 	name = "Coercion"
@@ -222,3 +223,4 @@
 			var/mob/living/carbon/M = target
 			M.adjust_hallucination(-30)
 		return TRUE
+*/

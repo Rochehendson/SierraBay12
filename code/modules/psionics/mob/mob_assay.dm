@@ -1,3 +1,4 @@
+/*
 /mob/living/proc/show_psi_assay(mob/viewer, obj/machinery/psi_meter/machine)
 
 	if(!viewer) viewer = usr
@@ -91,3 +92,4 @@
 	var/datum/browser/popup = new(viewer, "psi_assay_\ref[src]", "Psi-Assay")
 	popup.set_content(jointext(dat,null))
 	popup.open()
+*/

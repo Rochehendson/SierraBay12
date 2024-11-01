@@ -1,3 +1,4 @@
+/*
 /obj/item/psychic_power
 	name = "psychic power"
 	icon = 'icons/obj/psychic_powers.dmi'
@@ -60,3 +61,4 @@
 			host.drop_from_inventory(src)
 		else
 			qdel(src)
+*/

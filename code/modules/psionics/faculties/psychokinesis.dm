@@ -1,3 +1,4 @@
+/*
 /singleton/psionic_faculty/psychokinesis
 	id = PSI_PSYCHOKINESIS
 	name = "Psychokinesis"
@@ -91,3 +92,4 @@
 					machine.attack_hand(user)
 					return TRUE
 	return FALSE
+*/

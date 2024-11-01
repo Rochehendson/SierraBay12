@@ -1,3 +1,4 @@
+/*
 /datum/event/psi/balm
 	var/static/list/balm_messages = list(
 		"A soothing balm washes over your psyche.",
@@ -18,3 +19,4 @@
 		soothed = TRUE
 	if(soothed && prob(10))
 		to_chat(psi.owner, SPAN_NOTICE("<i>[pick(balm_messages)]</i>"))
+*/

@@ -1,3 +1,4 @@
+/*
 #define INVOKE_PSI_POWERS(holder, powers, target, return_on_invocation) \
 	if(holder && holder.psi && holder.psi.can_use()) { \
 		for(var/thing in powers) { \
@@ -35,3 +36,4 @@
 	. = ..()
 
 #undef INVOKE_PSI_POWERS
+*/

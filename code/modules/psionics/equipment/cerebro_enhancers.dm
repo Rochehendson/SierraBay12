@@ -1,4 +1,5 @@
 //Psi-boosting item (antag only)
+/*
 /obj/item/clothing/head/helmet/space/psi_amp
 	name = "cerebro-energetic enhancer"
 	desc = "A matte-black, eyeless cerebro-energetic enhancement helmet. It uses highly sophisticated, and illegal, techniques to drill into your brain and install psi-infected AIs into the fluid cavities between your lobes."
@@ -165,3 +166,4 @@
 	H.update_action_buttons()
 
 	set_light(3, 0.5, l_color = "#880000")
+*/

@@ -1,3 +1,4 @@
+/*
 /datum/event/psi
 	startWhen = 30
 	endWhen = 120
@@ -22,3 +23,4 @@
 
 /datum/event/psi/proc/apply_psi_effect(datum/psi_complexus/psi)
 	return
+*/

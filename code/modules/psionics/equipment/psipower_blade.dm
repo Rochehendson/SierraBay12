@@ -1,3 +1,4 @@
+/*
 /obj/item/psychic_power/psiblade
 	name = "psychokinetic slash"
 	force = 10
@@ -9,7 +10,7 @@
 /obj/item/psychic_power/psiblade/master
 	force = 20
 	maintain_cost = 2
-	
+
 /obj/item/psychic_power/psiblade/master/grand
 	force = 30
 	maintain_cost = 3
@@ -19,3 +20,4 @@
 	force = 50
 	maintain_cost = 4
 	icon_state = "psiblade_long"
+*/
