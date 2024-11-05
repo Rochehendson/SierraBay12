@@ -1544,6 +1544,8 @@
 #include "code\modules\client\ui_style.dm"
 #include "code\modules\client\preference_setup\_defines.dm"
 #include "code\modules\client\preference_setup\preference_setup.dm"
+#include "code\modules\client\preference_setup\psionics\02_abilities.dm"
+#include "code\modules\client\preference_setup\psionics\01_basic.dm"
 #include "code\modules\client\preference_setup\antagonism\01_candidacy.dm"
 #include "code\modules\client\preference_setup\antagonism\02_setup.dm"
 #include "code\modules\client\preference_setup\background\01_culture.dm"
@@ -3374,9 +3376,5 @@
 #include "mods\_master_files\maps\mapsystem\maps.dm"
 #include "mods\_master_files\maps\sierra\sierra_ranks.dm"
 #include "mods\_master_files\maps\sierra\items\rigs.dm"
-#include "mods\psionics\code\misc\decoyobj.dm"
-#include "mods\psionics\code\misc\defines.dm"
-#include "mods\psionics\code\misc\mindcontrol.dm"
-#include "mods\psionics\code\misc\psi.dm"
 #include "~code\global_init.dm"
 // END_INCLUDE
