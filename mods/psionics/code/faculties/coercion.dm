@@ -64,12 +64,12 @@
 
 /singleton/psionic_power/coercion/emotions/invoke(mob/living/user, mob/living/target)
 	var/list/options = list(
-		"Joy" = image('icons/screen/psi.dmi', "JOY"),
-		"Sadness" = image('icons/screen/psi.dmi', "SADNESS"),
-		"Fear" = image('icons/screen/psi.dmi', "FEAR"),
-		"Caution" = image('icons/screen/psi.dmi', "ANXIETY"),
-		"Anger" = image('icons/screen/psi.dmi', "ANGER"),
-		"Stillness" = image('icons/screen/psi.dmi', "STILLNESS")
+		"Joy" = image('mods/psionics/icons/psi.dmi', "JOY"),
+		"Sadness" = image('mods/psionics/icons/psi.dmi', "SADNESS"),
+		"Fear" = image('mods/psionics/icons/psi.dmi', "FEAR"),
+		"Caution" = image('mods/psionics/icons/psi.dmi', "ANXIETY"),
+		"Anger" = image('mods/psionics/icons/psi.dmi', "ANGER"),
+		"Stillness" = image('mods/psionics/icons/psi.dmi', "STILLNESS")
 	)
 
 	if(user.zone_sel.selecting != BP_CHEST)

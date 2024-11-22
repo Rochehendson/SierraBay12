@@ -49,6 +49,8 @@
 //UPDATED
 
 /singleton/psionic_power/redaction/mend/invoke(mob/living/user, mob/living/carbon/human/target)
+	if(!isliving(target))
+		return
 	var/red_rank = user.psi.get_rank(PSI_REDACTION)
 	var/pk_rank = user.psi.get_rank(PSI_PSYCHOKINESIS)
 	var/obj/item/organ/external/E = target.get_organ(user.zone_sel.selecting)

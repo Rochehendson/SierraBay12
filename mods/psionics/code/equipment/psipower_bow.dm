@@ -64,8 +64,8 @@
 	maintain_cost = 2
 	draw_time = 10
 
-/obj/item/gun/launcher/crossbow/psibow/New(mob/living/_owner)
-	owner = _owner
+/obj/item/gun/launcher/crossbow/psibow/New()
+	owner = usr
 	if(!istype(owner))
 		qdel(src)
 		return

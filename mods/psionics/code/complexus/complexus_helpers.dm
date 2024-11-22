@@ -93,7 +93,7 @@
 			pop.levitation = FALSE
 			pop.pass_flags &= ~PASS_FLAG_TABLE
 			pop.pixel_y = 0
-			pop.overlays -= image('icons/screen/psi.dmi', "levitation")
+			pop.CutOverlays(image('mods/psionics/icons/psi.dmi', "levitation"))
 			pop.stop_floating()
 //FD PSIONICS//
 		if(pop.should_have_organ(BP_BRAIN))

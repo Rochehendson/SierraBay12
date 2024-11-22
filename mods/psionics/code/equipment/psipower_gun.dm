@@ -78,8 +78,8 @@
 
 	self_recharge = 1	//if set, the weapon will recharge itself
 
-/obj/item/gun/energy/psigun/New(mob/living/_owner)
-	owner = _owner
+/obj/item/gun/energy/psigun/New()
+	owner = usr
 	if(!istype(owner))
 		qdel(src)
 		return

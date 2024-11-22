@@ -86,7 +86,7 @@
 			A.levitation = FALSE
 			A.pass_flags &= ~PASS_FLAG_TABLE
 			A.pixel_y = 0
-			A.overlays -= image('icons/screen/psi.dmi', "levitation")
+			A.CutOverlays(image('mods/psionics/icons/psi.dmi', "levitation"))
 			A.stop_floating()
 		owner.psi.cancel()
 		owner.psi.hide_auras()

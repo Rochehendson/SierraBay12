@@ -9,8 +9,8 @@
 	color = "#0095ff"
 	alpha = 110
 
-/obj/item/clothing/gloves/latex/psi/New(mob/living/_owner)
-	owner = _owner
+/obj/item/clothing/gloves/latex/psi/New()
+	owner = usr
 	if(!istype(owner))
 		qdel(src)
 		return
@@ -59,8 +59,8 @@
 	color = "#0095ff"
 	alpha = 110
 
-/obj/item/retractor/psi/New(mob/living/_owner)
-	owner = _owner
+/obj/item/retractor/psi/New()
+	owner = usr
 	if(!istype(owner))
 		qdel(src)
 		return
@@ -95,8 +95,8 @@
 	color = "#0095ff"
 	alpha = 110
 
-/obj/item/hemostat/psi/New(mob/living/_owner)
-	owner = _owner
+/obj/item/hemostat/psi/New()
+	owner = usr
 	if(!istype(owner))
 		qdel(src)
 		return
@@ -131,8 +131,8 @@
 	color = "#0095ff"
 	alpha = 110
 
-/obj/item/surgicaldrill/psi/New(mob/living/_owner)
-	owner = _owner
+/obj/item/surgicaldrill/psi/New()
+	owner = usr
 	if(!istype(owner))
 		qdel(src)
 		return
@@ -167,8 +167,8 @@
 	color = "#0095ff"
 	alpha = 110
 
-/obj/item/scalpel/psi/New(mob/living/_owner)
-	owner = _owner
+/obj/item/scalpel/psi/New()
+	owner = usr
 	if(!istype(owner))
 		qdel(src)
 		return
@@ -203,8 +203,8 @@
 	color = "#0095ff"
 	alpha = 110
 
-/obj/item/circular_saw/psi/New(mob/living/_owner)
-	owner = _owner
+/obj/item/circular_saw/psi/New()
+	owner = usr
 	if(!istype(owner))
 		qdel(src)
 		return
@@ -239,8 +239,8 @@
 	color = "#0095ff"
 	alpha = 110
 
-/obj/item/bonesetter/psi/New(mob/living/_owner)
-	owner = _owner
+/obj/item/bonesetter/psi/New()
+	owner = usr
 	if(!istype(owner))
 		qdel(src)
 		return

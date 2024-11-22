@@ -27,7 +27,7 @@
 			A.levitation = TRUE
 			A.pass_flags |= PASS_FLAG_TABLE
 			A.pixel_y = 8
-			A.overlays += image('icons/screen/psi.dmi', "levitation")
+			A.AddOverlays(image('mods/psionics/icons/psi.dmi', "levitation"))
 			A.make_floating(5)
 	else
 		to_chat(owner, SPAN_NOTICE("You will no longer use your psionics to deflect or block incoming attacks."))
@@ -36,7 +36,7 @@
 			A.levitation = FALSE
 			A.pass_flags &= ~PASS_FLAG_TABLE
 			A.pixel_y = 0
-			A.overlays -= image('icons/screen/psi.dmi', "levitation")
+			A.CutOverlays(image('mods/psionics/icons/psi.dmi', "levitation"))
 			A.stop_floating()
 	update_icon()
 
@@ -71,13 +71,13 @@
 	var/image/disable_overlay
 	var/faculty_id
 
-/obj/screen/psi/toggle_faculty/New(mob/living/_owner, id)
+/obj/screen/psi/toggle_faculty/New(mob/living/owner, id)
 	disable_overlay = image(icon, "cooldown")
 	faculty_id = id
 
 	name = "Переключить школу [faculty_id]"
 	icon_state = "[faculty_id]"
-	..(_owner)
+	..(owner)
 
 /obj/screen/psi/toggle_faculty/on_update_icon()
 	..()
@@ -85,9 +85,9 @@
 		return
 
 	if(owner.psi.ranks_stat[faculty_id])
-		overlays.Cut()
+		ClearOverlays()
 	else
-		overlays |= disable_overlay
+		AddOverlays(disable_overlay)
 
 /obj/screen/psi/toggle_faculty/Click()
 	if(!owner.psi)

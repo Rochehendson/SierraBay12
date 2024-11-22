@@ -6,8 +6,8 @@
 	color = "#0095ff"
 	alpha = 110
 
-/obj/item/clothing/gloves/insulated/psi/New(mob/living/_owner)
-	owner = _owner
+/obj/item/clothing/gloves/insulated/psi/New()
+	owner = usr
 	if(!istype(owner))
 		qdel(src)
 		return
@@ -55,8 +55,8 @@
 	color = "#0095ff"
 	alpha = 110
 
-/obj/item/crowbar/psi/New(mob/living/_owner)
-	owner = _owner
+/obj/item/crowbar/psi/New()
+	owner = usr
 	if(!istype(owner))
 		qdel(src)
 		return
@@ -105,8 +105,8 @@
 	color = "#0095ff"
 	alpha = 110
 
-/obj/item/screwdriver/psi/New(mob/living/_owner)
-	owner = _owner
+/obj/item/screwdriver/psi/New()
+	owner = usr
 	if(!istype(owner))
 		qdel(src)
 		return
@@ -155,8 +155,8 @@
 	color = "#0095ff"
 	alpha = 110
 
-/obj/item/wirecutters/psi/New(mob/living/_owner)
-	owner = _owner
+/obj/item/wirecutters/psi/New()
+	owner = usr
 	if(!istype(owner))
 		qdel(src)
 		return
@@ -204,8 +204,8 @@
 	color = "#0095ff"
 	alpha = 110
 
-/obj/item/wrench/psi/New(mob/living/_owner)
-	owner = _owner
+/obj/item/wrench/psi/New()
+	owner = usr
 	if(!istype(owner))
 		qdel(src)
 		return
@@ -257,8 +257,8 @@
 	color = "#0095ff"
 	alpha = 110
 
-/obj/item/weldingtool/experimental/psi/New(mob/living/_owner)
-	owner = _owner
+/obj/item/weldingtool/experimental/psi/New()
+	owner = usr
 	if(!istype(owner))
 		qdel(src)
 		return
@@ -307,8 +307,8 @@
 	color = "#0095ff"
 	alpha = 110
 
-/obj/item/device/multitool/psi/New(mob/living/_owner)
-	owner = _owner
+/obj/item/device/multitool/psi/New()
+	owner = usr
 	if(!istype(owner))
 		qdel(src)
 		return

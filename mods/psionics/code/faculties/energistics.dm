@@ -141,10 +141,10 @@
 /singleton/psionic_power/energistics/spit/invoke(mob/living/user, mob/living/target)
 
 	var/list/options = list(
-		"Armor Piercing" = image('icons/screen/psi.dmi', "AP"),
-		"Explosive" = image('icons/screen/psi.dmi', "EXP"),
-		"Piercing Charges" = image('icons/screen/psi.dmi', "EXPAP"),
-		"Standart" = image('icons/screen/psi.dmi', "DEF")
+		"Armor Piercing" = image('mods/psionics/icons/psi.dmi', "AP"),
+		"Explosive" = image('mods/psionics/icons/psi.dmi', "EXP"),
+		"Piercing Charges" = image('mods/psionics/icons/psi.dmi', "EXPAP"),
+		"Standart" = image('mods/psionics/icons/psi.dmi', "DEF")
 	)
 
 	if(user.zone_sel.selecting != BP_HEAD)
@@ -284,8 +284,8 @@
 
 /singleton/psionic_power/energistics/storm/invoke(mob/living/user, mob/living/target)
 	var/list/options = list(
-		"Explosive" = image('icons/screen/psi.dmi', "EXP"),
-		"Standart" = image('icons/screen/psi.dmi', "DEF")
+		"Explosive" = image('mods/psionics/icons/psi.dmi', "EXP"),
+		"Standart" = image('mods/psionics/icons/psi.dmi', "DEF")
 	)
 
 	if(user.zone_sel.selecting != BP_MOUTH)
@@ -406,7 +406,7 @@
 					continue
 				targets += point
 
-		if(!targets.len)
+		if(!LAZYLEN(targets))
 			return FALSE
 
 		var/turf/user_turf = get_turf(user)

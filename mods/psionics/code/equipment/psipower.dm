@@ -1,6 +1,6 @@
 /obj/item/psychic_power
 	name = "psychic power"
-	icon = 'icons/obj/psychic_powers.dmi'
+	icon = 'mods/psionics/icons/psychic_powers.dmi'
 	atom_flags = 0
 	anchored = TRUE
 	var/maintain_cost = 3
@@ -12,8 +12,8 @@
 
 	..()
 */
-/obj/item/psychic_power/New(mob/living/_owner)
-	owner = _owner
+/obj/item/psychic_power/New()
+	owner = usr
 	if(!istype(owner))
 		qdel(src)
 		return

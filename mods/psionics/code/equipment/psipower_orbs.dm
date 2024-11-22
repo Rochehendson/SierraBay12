@@ -124,6 +124,7 @@
 	. = ..()
 
 /obj/item/psychic_power/psielectro/New(mob/living/user)
+	user = usr
 	var/el_rank = user.psi.get_rank(PSI_METAKINESIS)
 	maintain_cost -= el_rank
 
@@ -328,6 +329,7 @@
 	var/flame_color = COLOR_RED
 
 /obj/item/psychic_power/psifire/New(mob/living/user)
+	user = usr
 	var/fire_rank = user.psi.get_rank(PSI_METAKINESIS)
 
 	maintain_cost -= fire_rank
@@ -344,8 +346,8 @@
 	var/pyro_rank = user.psi.get_rank(PSI_METAKINESIS)
 	if(combat_mode)
 		var/list/options = list(
-			"FIRE WALL" = image('icons/screen/psi.dmi', "FIRE PUNCH"),
-			"FIRE JUMP" = image('icons/screen/psi.dmi', "FIRE JUMP")
+			"FIRE WALL" = image('mods/psionics/icons/psi.dmi', "FIRE PUNCH"),
+			"FIRE JUMP" = image('mods/psionics/icons/psi.dmi', "FIRE JUMP")
 		)
 		var/chosen_option = show_radial_menu(user, user, options, radius = 25, require_near = TRUE)
 		if (!chosen_option)
@@ -369,8 +371,8 @@
 
 /obj/item/psychic_power/psifire/AltClick(mob/living/carbon/user)
 	var/list/options = list(
-		"HELP" = image('icons/screen/psi.dmi', "HELP"),
-		"HARM" = image('icons/screen/psi.dmi', "HARM")
+		"HELP" = image('mods/psionics/icons/psi.dmi', "HELP"),
+		"HARM" = image('mods/psionics/icons/psi.dmi', "HARM")
 	)
 
 	var/chosen_option = show_radial_menu(user, user, options, radius = 25, require_near = TRUE)
@@ -591,6 +593,7 @@
 	var/outer_radius = 2
 
 /obj/item/psychic_power/psiice/New(mob/living/user)
+	user = usr
 	var/cryo_rank = user.psi.get_rank(PSI_METAKINESIS)
 
 	maintain_cost -= cryo_rank
@@ -608,10 +611,10 @@
 	var/cryo_rank = user.psi.get_rank(PSI_METAKINESIS)
 	if(combat_mode)
 		var/list/options = list(
-			"ICE WALL" = image('icons/screen/psi.dmi', "WALL"),
-			"ICE SPIKES" = image('icons/screen/psi.dmi', "SPIKES"),
-			"ICE FISTS" = image('icons/screen/psi.dmi', "FISTS"),
-			"ICE SWORD" = image('icons/screen/psi.dmi', "SWORD")
+			"ICE WALL" = mutable_appearance('mods/psionics/icons/psi.dmi', "WALL"),
+			"ICE SPIKES" = mutable_appearance('mods/psionics/icons/psi.dmi', "SPIKES"),
+			"ICE FISTS" = mutable_appearance('mods/psionics/icons/psi.dmi', "FISTS"),
+			"ICE SWORD" = mutable_appearance('mods/psionics/icons/psi.dmi', "SWORD")
 		)
 		var/chosen_option = show_radial_menu(user, user, options, radius = 25, require_near = TRUE)
 		if (!chosen_option)
@@ -643,8 +646,8 @@
 
 /obj/item/psychic_power/psiice/AltClick(mob/living/user as mob)
 	var/list/options = list(
-		"HELP" = image('icons/screen/psi.dmi', "HELP"),
-		"HARM" = image('icons/screen/psi.dmi', "HARM")
+		"HELP" = image('mods/psionics/icons/psi.dmi', "HELP"),
+		"HARM" = image('mods/psionics/icons/psi.dmi', "HARM")
 	)
 
 	var/chosen_option = show_radial_menu(user, user, options, radius = 25, require_near = TRUE)
@@ -678,7 +681,7 @@
 					continue
 				targets += point
 
-		if(!targets.len)
+		if(!LAZYLEN(targets))
 			return FALSE
 
 		var/turf/user_turf = get_turf(user)
@@ -777,7 +780,7 @@
 						continue
 					targets += point
 
-			if(!targets.len)
+			if(!LAZYLEN(targets))
 				return FALSE
 
 			var/turf/user_turf = get_turf(user)

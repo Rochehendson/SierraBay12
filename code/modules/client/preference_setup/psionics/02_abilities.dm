@@ -39,7 +39,7 @@ GLOBAL_LIST_INIT(psi_threat_level2free_points, list(3, 4, 9, 14))
 	. = GLOB.psi_threat_level2free_points[psi_threat_level]
 
 	for(var/faculty in psi_abilities)
-		for(var/level in 1 to GLOB.psi_level2cost.len)
+		for(var/level in 1 to LAZYLEN(GLOB.psi_level2cost))
 			var/level_name = GLOB.psi_level2cost[level]
 			var/level_cost = GLOB.psi_level2cost[level_name]
 
@@ -59,7 +59,7 @@ GLOBAL_LIST_INIT(psi_threat_level2free_points, list(3, 4, 9, 14))
 	W.write("psi_abilities", pref.psi_abilities)
 
 /datum/category_item/player_setup_item/psionics/abilities/sanitize_character()
-	if(pref.psi_abilities?.len)
+	if(LAZYLEN(pref.psi_abilities))
 		return ..()
 
 	if(!psi_faculties_names)
@@ -112,7 +112,7 @@ GLOBAL_LIST_INIT(psi_threat_level2free_points, list(3, 4, 9, 14))
 		. += "<tr class='candystripe'>"
 		. += "<th><div class='average' style='color: [GLOB.psi_faculty2color[faculty]]'>[faculty]:</div></th>"
 
-		for(var/level_index in 1 to GLOB.psi_level2cost.len)
+		for(var/level_index in 1 to LAZYLEN(GLOB.psi_level2cost))
 			var/level_name = GLOB.psi_level2cost[level_index]
 
 			if(pref.psi_abilities[faculty] == level_index)
