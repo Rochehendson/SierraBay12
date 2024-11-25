@@ -11,8 +11,8 @@
 #define PSI_ENERGISTICS        "energistics"
 */
 
-#define PSI_COERCION           "catastellia"
-#define PSI_CONSCIOUSNESS      "allaxetia"
+#define PSI_COERCION           "coercion"
+#define PSI_CONSCIOUSNESS      "consciousness"
 #define PSI_PSYCHOKINESIS      "teleplexy"
 #define PSI_MANIFESTATION      "demiurgy"
 #define PSI_METAKINESIS        "metaplexy"

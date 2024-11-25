@@ -1,6 +1,6 @@
 /singleton/psionic_faculty/coercion
 	id = PSI_COERCION
-	name = "Catastellia"
+	name = "Coercion"
 	associated_intent = I_DISARM
 	armour_types = list(DAMAGE_PSIONIC)
 
@@ -27,7 +27,7 @@
 	use_ranged =     TRUE
 	use_melee =      TRUE
 	min_rank =       PSI_RANK_OPERANT
-	use_description = "Выберите глаза и переключитесь на синий интент. Затем, нажмите куда угодно чтобы применить радиальную атаку, слепящую и оглушающую всех, кто оказался поблизости."
+	use_description = "Выберите глаза и переключитесь на синий интент. Затем, нажмите куда угодно чтобы применить круговую атаку, слепящую и оглушающую всех, кто оказался поблизости."
 
 /singleton/psionic_power/coercion/blindstrike/invoke(mob/living/user, mob/living/target)
 	if(user.zone_sel.selecting != BP_EYES)
@@ -35,7 +35,7 @@
 	. = ..()
 	if(.)
 		user.visible_message(SPAN_DANGER("[user] закидывает голову назад, издавая пронзительный крик!"))
-		to_chat(user, SPAN_DANGER("Вы издаёте пронзительный псионический крик, оглушая всех вокруг!"))
+		to_chat(user, SPAN_DANGER("Вы издаёте пронзительный крик, оглушая всех вокруг!"))
 		var/cn_rank = user.psi.get_rank(PSI_COERCION)
 		for(var/mob/living/M in range(user, user.psi.get_rank(PSI_COERCION)))
 			if(M == user)
@@ -146,7 +146,7 @@
 		return FALSE
 	. = ..()
 	if(.)
-		user.visible_message("<span class='danger'>\ [target] ударяет [user], и тот складывается в АГОНИИ!</span>")
+		user.visible_message("<span class='danger'>\ [target] дотрагивается к [user]</span>")
 		playsound(user.loc, 'sound/weapons/Egloves.ogg', 50, 1, -1)
 		var/cn_rank = user.psi.get_rank(PSI_COERCION)
 		new /obj/temporary(get_turf(target),3, 'icons/effects/effects.dmi', "blue_electricity_constant")
@@ -172,8 +172,8 @@
 
 	if(.)
 		var/cn_rank = user.psi.get_rank(PSI_COERCION)
-		to_chat(user, "<span class='danger'>Вы выкидываете кисть вперёд, представляя как сжимаете в ней [target].</span>")
-		to_chat(target, "<span class='danger'>Всё ваше тело сковывает ужасающий СПАЗМ!</span>")
+		to_chat(user, "<span class='danger'>Вы представляете как протыкаете руку [target] иглой.</span>")
+		to_chat(target, "<span class='danger'>Вашу руку словно проткнули!</span>")
 		if(prob(80))
 			target.emote("scream")
 		if(prob(cn_rank * 20) && target.l_hand && target.l_hand.simulated && target.unEquip(target.l_hand))
@@ -183,6 +183,40 @@
 		new /obj/temporary(get_turf(target),3, 'icons/effects/effects.dmi', "white_electricity_constant")
 		return TRUE
 
+
+/singleton/psionic_power/coercion/mindslave
+	name =          "Mindslave"
+	cost =          28
+	cooldown =      200
+	use_grab =      TRUE
+	min_rank =      PSI_RANK_GRANDMASTER
+	use_description = "Grab a victim, target the eyes, then use the grab on them while on disarm intent, in order to convert them into a loyal mind-slave. The process takes some time, and failure is punished harshly."
+
+/singleton/psionic_power/coercion/mindslave/invoke(mob/living/user, mob/living/target)
+	if(!istype(target) || user.zone_sel.selecting != BP_EYES)
+		return FALSE
+	. = ..()
+	if(.)
+		if(target.stat == DEAD || (target.status_flags & FAKEDEATH))
+			to_chat(user, SPAN_WARNING("\The [target] is dead!"))
+			return TRUE
+		if(!target.mind || !target.key)
+			to_chat(user, SPAN_WARNING("\The [target] is mindless!"))
+			return TRUE
+		if(GLOB.thralls.is_antagonist(target.mind))
+			to_chat(user, SPAN_WARNING("\The [target] is already in thrall to someone!"))
+			return TRUE
+		user.visible_message(SPAN_DANGER("<i>\The [user] seizes the head of \the [target] in both hands...</i>"))
+		to_chat(user, SPAN_WARNING("You plunge your mentality into that of \the [target]..."))
+		to_chat(target, SPAN_DANGER("Your mind is invaded by the presence of \the [user]! They are trying to make you a slave!"))
+		if(!do_after(user, (target.stat == CONSCIOUS ? 8 : 4) SECONDS, target, DO_DEFAULT | DO_USER_UNIQUE_ACT))
+			user.psi.backblast(rand(10,25))
+			return TRUE
+		to_chat(user, SPAN_DANGER("You sear through \the [target]'s neurons, reshaping as you see fit and leaving them subservient to your will!"))
+		to_chat(target, SPAN_DANGER("Your defenses have eroded away and \the [user] has made you their mindslave."))
+		GLOB.thralls.add_antagonist(target.mind, new_controller = user)
+		return TRUE
+/*
 /singleton/psionic_power/coercion/mind_control
 	name =          "Mind Control"
 	cost =          28
@@ -289,3 +323,4 @@
 		return
 
 	mind_controller.target = A
+*/

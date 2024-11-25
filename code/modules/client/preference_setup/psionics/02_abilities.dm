@@ -1,15 +1,15 @@
 GLOBAL_LIST_INIT(psi_level2cost, list(
 	"Blunt"       = 0,
 	"Latent"      = 1,
-	"Apprentice"  = 2,
-	"Operant"     = 4,
-	"Master"      = 6,
-	"Grandmaster" = 8
+	"Apprentice"  = 4,
+	"Operant"     = 8,
+	"Master"      = 16,
+	"Grandmaster" = 21
 ))
 
 GLOBAL_LIST_INIT(psi_faculty2color, list(
-	"Catastellia" = COLOR_SURGERY_BLUE,
-	"Allaxetia"   = COLOR_SURGERY_BLUE,
+	"Coercion" = COLOR_RED,
+	"Consciousness"   = COLOR_SURGERY_BLUE,
 	"Hyloforia"   = COLOR_MEDICAL_UNKNOWN_IMPLANT,
 	"Demiurgy"    = COLOR_LIGHT_CYAN,
 	"Metaplexy"   = COLOR_SEDONA,
@@ -17,7 +17,7 @@ GLOBAL_LIST_INIT(psi_faculty2color, list(
 	"Ephanoferia" = MANIFEST_COLOR_SERVICE
 ))
 
-GLOBAL_LIST_INIT(psi_threat_level2free_points, list(3, 4, 9, 14))
+GLOBAL_LIST_INIT(psi_threat_level2free_points, list(3, 4, 9, 16))
 
 /datum/preferences
 	var/list/psi_abilities
