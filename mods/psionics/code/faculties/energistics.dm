@@ -323,7 +323,7 @@
 				user.fragmentate(O, 20, 5, list(/obj/item/projectile/psi = 1))
 		return TRUE
 
-/mob/proc/fragmentate(turf/T=get_turf(src), fragment_number = 30, spreading_range = 5, list/fragtypes=list(/obj/item/projectile/))
+/mob/proc/fragmentate(turf/T=get_turf(src), fragment_number = 30, spreading_range = 5, list/fragtypes=list(/obj/item/projectile))
 	set waitfor = 0
 	var/list/target_turfs = getcircle(T, spreading_range)
 	for(var/turf/O in target_turfs)
