@@ -64,7 +64,7 @@
 
 /obj/item/gun/energy/psigun
 	name = "psychokinetic gun"
-	desc = "Result of Demiurgy and Hyloforia combinated factors."
+	desc = "Result of Manifestation and Energistics combinated factors."
 	icon = 'icons/obj/psychic_powers.dmi'
 	icon_state = "gun"
 	fire_sound = 'sound/weapons/Taser.ogg'

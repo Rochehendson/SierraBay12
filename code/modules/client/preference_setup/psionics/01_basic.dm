@@ -24,13 +24,16 @@ GLOBAL_LIST_INIT(text2psi_status, list("C" = 1, "B" = 2, "A" = 3, "S" = 4))
 	pref.psi_threat_level = clamp(pref.psi_threat_level, 0, 4)
 	pref.psi_status       = clamp(pref.psi_status      , 1, 4)
 
-/datum/category_item/player_setup_item/psionics/basic/content()
+/datum/category_item/player_setup_item/psionics/basic/content(mob/user)
 	. = list()
-	. += "Threat level: <a href='?src=\ref[src];select_psi_threat_level=1'><b>[pref.psi_threat_level]</b></a><br>"
+	if(!whitelist_lookup(SPECIES_PSI, user.ckey))
+		. += "<b>You are not permitted to be Psionic</b><br>"
+	else
+		. += "Threat level: <a href='?src=\ref[src];select_psi_threat_level=1'><b>[pref.psi_threat_level]</b></a><br>"
 
-	if(pref.psi_threat_level)
-		. += "Psionic status: <a href='?src=\ref[src];select_psi_status=1'><b>[GLOB.psi_status2text[pref.psi_status]]</b></a><br>"
-		. += "Openness: <a href='?src=\ref[src];toggle_psi_openness=1'><b>[pref.psi_openness ? "Yes" : "No"]</b></a><br>"
+		if(pref.psi_threat_level)
+			. += "Psionic status: <a href='?src=\ref[src];select_psi_status=1'><b>[GLOB.psi_status2text[pref.psi_status]]</b></a><br>"
+			. += "Openness: <a href='?src=\ref[src];toggle_psi_openness=1'><b>[pref.psi_openness ? "Yes" : "No"]</b></a><br>"
 
 	. = jointext(.,null)
 

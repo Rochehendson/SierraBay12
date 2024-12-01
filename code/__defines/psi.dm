@@ -13,11 +13,11 @@
 
 #define PSI_COERCION           "coercion"
 #define PSI_CONSCIOUSNESS      "consciousness"
-#define PSI_PSYCHOKINESIS      "teleplexy"
-#define PSI_MANIFESTATION      "demiurgy"
-#define PSI_METAKINESIS        "metaplexy"
-#define PSI_ENERGISTICS        "hyloforia"
-#define PSI_REDACTION          "ephanoferia"
+#define PSI_PSYCHOKINESIS      "psychokinesis"
+#define PSI_MANIFESTATION      "manifestation"
+#define PSI_METAKINESIS        "metakinesis"
+#define PSI_ENERGISTICS        "energistics"
+#define PSI_REDACTION          "redaction"
 
 #define PSI_RANK_BLUNT         0
 #define PSI_RANK_LATENT        1

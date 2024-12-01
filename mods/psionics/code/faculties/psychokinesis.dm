@@ -1,6 +1,6 @@
 /singleton/psionic_faculty/psychokinesis
 	id = PSI_PSYCHOKINESIS
-	name = "Teleplexy"
+	name = "Psychokinesis"
 	associated_intent = I_GRAB
 	armour_types = list("melee", "bullet")
 
@@ -16,7 +16,7 @@
 	use_ranged =      TRUE
 	use_manifest =    FALSE
 	min_rank =        PSI_RANK_APPRENTICE
-	use_description = "Нажмите по отдалённом объекту или существу на жёлтом интенте с выбранной головой или телом, чтобы захватить его телекинезом."
+	use_description = "Нажмите по отдалённом объекту или существу на жёлтом интенте с выбранным телом, чтобы захватить его телекинезом."
 	admin_log = FALSE
 	use_sound = 'sound/effects/psi/power_used.ogg'
 	var/global/list/valid_machine_types = list(
@@ -64,7 +64,7 @@
 	use_ranged =     TRUE
 	use_melee =      TRUE
 	min_rank =       PSI_RANK_OPERANT
-	use_description = "Выберите руки или кисти на жёлтом интенте, а затем нажмите куда угодно, чтобы разбросать всё вокруг себя мощной волной."
+	use_description = "Выберите руки или кисти на жёлтом интенте, а затем нажмите куда угодно, чтобы разбросать людей от себя мощной волной."
 
 /singleton/psionic_power/psychokinesis/gravigeddon/invoke(mob/living/user, mob/living/target)
 	if(!(user.zone_sel.selecting in list(BP_L_ARM, BP_R_ARM, BP_L_HAND, BP_R_HAND)))
@@ -283,7 +283,7 @@
 
 /singleton/psionic_power/psychokinesis/tele_punch
 	name =           "Telekinetic Punch"
-	cost =           20
+	cost =           40
 	cooldown =       50
 	use_ranged =     TRUE
 	use_melee =      TRUE
@@ -345,11 +345,11 @@
 						target.visible_message(SPAN_DANGER("[target] ловит лицом кулак, улетая назад!"))
 						if(!user.skill_check(SKILL_HAULING, SKILL_EXPERIENCED))
 
-							user.apply_damage(rand(15,30),DAMAGE_BRUTE, user.hand ? BP_L_ARM : BP_R_ARM)
+							user.apply_damage(rand(5,10),DAMAGE_BRUTE, user.hand ? BP_L_ARM : BP_R_ARM)
 							to_chat(user, SPAN_WARNING("Ваше неподготовленное тело не выдерживает отдачи от удара, и кожа на вашей руке стирается в кровь!"))
 
 						for(var/zone in list(BP_CHEST, BP_GROIN, BP_HEAD))
-							target.apply_damage(rand(15,30),DAMAGE_BRUTE,def_zone=zone)
+							target.apply_damage(rand(5,10),DAMAGE_BRUTE,def_zone=zone)
 						new /obj/temporary(get_turf(target),3, 'icons/effects/effects.dmi', "smash")
 						target.throw_at(get_edge_target_turf(target, get_dir(user, target)), 1, 2, user)
 						return TRUE
@@ -358,7 +358,7 @@
 						to_chat(target, SPAN_NOTICE("Ваше силовое поле успешно сдержало удар, пускай на это и ушло приличное количество концентрации."))
 						target.psi.spend_power(10)
 						for(var/zone in list(BP_CHEST, BP_GROIN, BP_HEAD))
-							user.apply_damage(rand(15,30),DAMAGE_BRUTE,def_zone=zone)
+							user.apply_damage(rand(5,10),DAMAGE_BRUTE,def_zone=zone)
 						new /obj/temporary(get_turf(target),3, 'icons/effects/effects.dmi', "smash")
 						user.throw_at(get_edge_target_turf(user, get_dir(target, user)), 1, 2, target)
 						user.visible_message(SPAN_DANGER("Мощное силовое поле [target] отбрасывает [user] назад, создавая мощную обратную волну!"))
@@ -368,13 +368,13 @@
 
 			if(!user.skill_check(SKILL_HAULING, SKILL_EXPERIENCED))
 
-				user.apply_damage(rand(15,30),DAMAGE_BRUTE, user.hand ? BP_L_ARM : BP_R_ARM)
+				user.apply_damage(rand(5,10),DAMAGE_BRUTE, user.hand ? BP_L_ARM : BP_R_ARM)
 				to_chat(user, SPAN_WARNING("Ваше неподготовленное тело не выдерживает отдачи от удара, и кожа на вашей руке стирается в кровь!"))
 
 			new /obj/temporary(get_turf(target),3, 'icons/effects/effects.dmi', "smash")
 			target.visible_message(SPAN_DANGER("[target] ловит лицом кулак, улетая назад!"))
 			for(var/zone in list(BP_CHEST, BP_GROIN, BP_HEAD))
-				target.apply_damage(rand(15,30),DAMAGE_BRUTE,def_zone=zone)
+				target.apply_damage(rand(5,10),DAMAGE_BRUTE,def_zone=zone)
 
 			target.throw_at(get_edge_target_turf(target, get_dir(user, target)), 1, 2, user)
 
@@ -410,7 +410,7 @@
 							to_chat(user, SPAN_WARNING("Ваше неподготовленное тело не выдерживает отдачи от удара, и вашу руку выворачивает наизнанку!"))
 
 						for(var/zone in list(BP_CHEST, BP_GROIN, BP_HEAD))
-							target.apply_damage(rand(25,40),DAMAGE_BRUTE,def_zone=zone)
+							target.apply_damage(rand(10,15),DAMAGE_BRUTE,def_zone=zone)
 						new /obj/temporary(get_turf(target),3, 'icons/effects/effects.dmi', "smash")
 						new /obj/temporary(get_turf(target),6, 'icons/effects/heavyimpact.dmi', "heavyimpact")
 						target.throw_at(get_edge_target_turf(target, get_dir(user, target)), 3, 2, user)
@@ -420,7 +420,7 @@
 						to_chat(target, SPAN_NOTICE("Ваше силовое поле успешно сдержало удар, пускай на это и ушло приличное количество концентрации."))
 						target.psi.spend_power(10)
 						for(var/zone in list(BP_CHEST, BP_GROIN, BP_HEAD))
-							user.apply_damage(rand(25,40),DAMAGE_BRUTE,def_zone=zone)
+							user.apply_damage(rand(10,15),DAMAGE_BRUTE,def_zone=zone)
 						new /obj/temporary(get_turf(target),3, 'icons/effects/effects.dmi', "smash")
 						new /obj/temporary(get_turf(target),6, 'icons/effects/heavyimpact.dmi', "heavyimpact")
 						user.throw_at(get_edge_target_turf(user, get_dir(target, user)), 3, 2, target)
@@ -431,7 +431,7 @@
 
 			if(!user.skill_check(SKILL_HAULING, SKILL_EXPERIENCED))
 
-				user.apply_damage(rand(30,40),DAMAGE_BRUTE, user.hand ? BP_L_ARM : BP_R_ARM)
+				user.apply_damage(rand(10,15),DAMAGE_BRUTE, user.hand ? BP_L_ARM : BP_R_ARM)
 				to_chat(user, SPAN_WARNING("Ваше неподготовленное тело не выдерживает отдачи от удара, и вашу руку выворачивает наизнанку!"))
 
 			new /obj/temporary(get_turf(target),3, 'icons/effects/effects.dmi', "smash")
@@ -485,7 +485,7 @@
 							to_chat(user, SPAN_WARNING("Ваше неподготовленное тело не выдерживает отдачи от удара, и вашу руку выворачивает наизнанку!"))
 
 						for(var/zone in list(BP_CHEST, BP_GROIN, BP_HEAD))
-							target.apply_damage(rand(40,60),DAMAGE_BRUTE,def_zone=zone)
+							target.apply_damage(rand(20,60),DAMAGE_BRUTE,def_zone=zone)
 						new /obj/temporary(get_turf(target),3, 'icons/effects/effects.dmi', "smash")
 						new /obj/temporary(get_turf(target),6, 'icons/effects/heavyimpact.dmi', "heavyimpact")
 						target.throw_at(get_edge_target_turf(target, get_dir(user, target)), 6, 2, user)
@@ -495,7 +495,7 @@
 						to_chat(target, SPAN_NOTICE("Ваше силовое поле успешно сдержало удар, пускай на это и ушло приличное количество концентрации."))
 						target.psi.spend_power(10)
 						for(var/zone in list(BP_CHEST, BP_GROIN, BP_HEAD))
-							user.apply_damage(rand(40,60),DAMAGE_BRUTE,def_zone=zone)
+							user.apply_damage(rand(20,60),DAMAGE_BRUTE,def_zone=zone)
 						new /obj/temporary(get_turf(target),3, 'icons/effects/effects.dmi', "smash")
 						new /obj/temporary(get_turf(target),6, 'icons/effects/heavyimpact.dmi', "heavyimpact")
 						user.throw_at(get_edge_target_turf(user, get_dir(target, user)), 6, 2, target)
@@ -513,7 +513,7 @@
 			new /obj/temporary(get_turf(target),6, 'icons/effects/heavyimpact.dmi', "heavyimpact")
 			target.visible_message(SPAN_DANGER("[target] ловит лицом кулак, улетая назад!"))
 			for(var/zone in list(BP_CHEST, BP_GROIN, BP_HEAD))
-				target.apply_damage(rand(40,60),DAMAGE_BRUTE,def_zone=zone)
+				target.apply_damage(rand(20,60),DAMAGE_BRUTE,def_zone=zone)
 
 			target.throw_at(get_edge_target_turf(target, get_dir(user, target)), 6, 2, user)
 

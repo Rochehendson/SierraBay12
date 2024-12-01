@@ -1,6 +1,6 @@
 /singleton/psionic_faculty/redaction
 	id = PSI_REDACTION
-	name = "Ephanoferia"
+	name = "Redaction"
 	associated_intent = I_HELP
 	armour_types = list("bio", "rad")
 
@@ -69,7 +69,7 @@
 				new /obj/temporary(get_turf(target),8, 'icons/effects/effects.dmi', "redaction_healing")
 
 				if(user.skill_check(SKILL_ANATOMY, SKILL_TRAINED) && user.skill_check(SKILL_MEDICAL, SKILL_TRAINED))
-					to_chat(user, SPAN_NOTICE("Помимо прочего, благодаря имеющимся навыкам, вам удалогсь залечить некоторые из менее заметных ран [target], значительно ускорив его реабилитацию."))
+					to_chat(user, SPAN_NOTICE("Благодаря имеющимся навыкам, вам удалось залечить некоторые из менее заметных ран [target], значительно ускорив его реабилитацию."))
 					target.adjustBruteLoss(-rand(20,40))
 					target.adjustFireLoss(-rand(20,40))
 
@@ -208,6 +208,7 @@
 											var/limb = pick(BP_L_LEG,BP_R_LEG, BP_L_HAND, BP_R_HAND)
 											to_chat(user, SPAN_WARNING("Ваша некомпетентность привела к тому, что во время восстановления [new_limb.name] вы нанесли критический урон вашей конечности!"))
 											user.apply_damage(80,DAMAGE_BRUTE,limb)
+											// limb.mutate() -- придумать
 									user.adjustBruteLoss(rand(30,40))
 									user.psi.spend_power(30)
 

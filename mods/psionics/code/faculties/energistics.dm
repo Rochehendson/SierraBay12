@@ -1,6 +1,6 @@
 /singleton/psionic_faculty/energistics
 	id = PSI_ENERGISTICS
-	name = "Hyloforia"
+	name = "Energistics"
 	associated_intent = I_HURT
 	armour_types = list("energy", "melee")
 

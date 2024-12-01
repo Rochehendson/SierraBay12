@@ -1,6 +1,6 @@
 /singleton/psionic_faculty/manifestation
 	id = PSI_MANIFESTATION
-	name = "Demiurgy"
+	name = "Manifestation"
 	associated_intent = I_GRAB
 	armour_types = list("bullet", "melee")
 

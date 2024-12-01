@@ -8,13 +8,13 @@ GLOBAL_LIST_INIT(psi_level2cost, list(
 ))
 
 GLOBAL_LIST_INIT(psi_faculty2color, list(
-	"Coercion" = COLOR_RED,
-	"Consciousness"   = COLOR_SURGERY_BLUE,
-	"Hyloforia"   = COLOR_MEDICAL_UNKNOWN_IMPLANT,
-	"Demiurgy"    = COLOR_LIGHT_CYAN,
-	"Metaplexy"   = COLOR_SEDONA,
-	"Teleplexy"   = COLOR_LIGHT_CYAN,
-	"Ephanoferia" = MANIFEST_COLOR_SERVICE
+	"Coercion"      = COLOR_RED,
+	"Consciousness" = COLOR_SURGERY_BLUE,
+	"Energistics"     = COLOR_MEDICAL_UNKNOWN_IMPLANT,
+	"Manifestation"      = COLOR_LIGHT_CYAN,
+	"Metakinesis"     = COLOR_SEDONA,
+	"Psychokinesis"     = COLOR_LIGHT_CYAN,
+	"Redaction"   = MANIFEST_COLOR_SERVICE
 ))
 
 GLOBAL_LIST_INIT(psi_threat_level2free_points, list(3, 4, 9, 16))
@@ -83,50 +83,53 @@ GLOBAL_LIST_INIT(psi_threat_level2free_points, list(3, 4, 9, 16))
 
 	return (pref.calculate_free_points() + GLOB.psi_level2cost[GLOB.psi_level2cost[pref.psi_abilities[faculty]]]) >= GLOB.psi_level2cost[GLOB.psi_level2cost[level]]
 
-/datum/category_item/player_setup_item/psionics/abilities/content()
-	if(!pref.psi_threat_level)
-		return ..()
-
-	if(!pref.psi_abilities)
-		sanitize_character()
-
+/datum/category_item/player_setup_item/psionics/abilities/content(mob/user)
 	. = list()
+	if(!whitelist_lookup(SPECIES_PSI, user.ckey))
+		. += "<b>You need to be whitelisted, to do psionics</b><br>"
+	else
 
-	. += "<style>"
-	. += ".Current{background: #2f943c}"
-	. += ".Unavailable{background: #404040}"
-	. += ".Selectable, a.Selectable{float:none; border:none; margin:none !important; padding:none !important}"
-	. += ".center { margin: auto; }"
-	. += ".candystripe { background-color: rgba(148, 148, 148, 0.25);}"
-	. += ".candystripe:nth-child(odd) {background-color: rgba(0, 0, 0, 0.16);}"
+		if(!pref.psi_threat_level || !whitelist_lookup(SPECIES_PSI, user.ckey))
+			return ..()
 
-	. += "</style>"
+		if(!pref.psi_abilities)
+			sanitize_character()
 
-	. += "<tt><center>"
+		. += "<style>"
+		. += ".Current{background: #2f943c}"
+		. += ".Unavailable{background: #404040}"
+		. += ".Selectable, a.Selectable{float:none; border:none; margin:none !important; padding:none !important}"
+		. += ".center { margin: auto; }"
+		. += ".candystripe { background-color: rgba(148, 148, 148, 0.25);}"
+		. += ".candystripe:nth-child(odd) {background-color: rgba(0, 0, 0, 0.16);}"
 
-	. += FONT_LARGE("<b>Points remaining: [pref.calculate_free_points()]</b>")
+		. += "</style>"
 
-	. += "<table style='width: 100%' style='font-size: 15px; text-align: center' class='table'>"
+		. += "<tt><center>"
 
-	for(var/faculty in pref.psi_abilities)
-		. += "<tr class='candystripe'>"
-		. += "<th><div class='average' style='color: [GLOB.psi_faculty2color[faculty]]'>[faculty]:</div></th>"
+		. += FONT_LARGE("<b>Points remaining: [pref.calculate_free_points()]</b>")
 
-		for(var/level_index in 1 to LAZYLEN(GLOB.psi_level2cost))
-			var/level_name = GLOB.psi_level2cost[level_index]
+		. += "<table style='width: 100%' style='font-size: 15px; text-align: center' class='table'>"
 
-			if(pref.psi_abilities[faculty] == level_index)
-				. += "<td class='Current'><div class='center'>[level_name]</div></td>"
-			else if(can_select_level(faculty, level_index))
-				. += "<td class style='background: #40628a;'><div class='center'><a class='Selectable' href='?src=\ref[src];select=[level_index];faculty=[faculty]'>[level_name]</a></div></td>"
-			else
-				. += "<td class='Unavailable'><div class='center'>[level_name]</div></td>"
+		for(var/faculty in list("Coercion", "Consciousness", "Energistics", "Manifestation", "Metakinesis", "Psychokinesis", "Redaction"))
+			. += "<tr class='candystripe'>"
+			. += "<th><div class='average' style='color: [GLOB.psi_faculty2color[faculty]]'>[faculty]:</div></th>"
 
-		. += "</tr>"
+			for(var/level_index in 1 to LAZYLEN(GLOB.psi_level2cost))
+				var/level_name = GLOB.psi_level2cost[level_index]
 
-	. += "</table>"
+				if(pref.psi_abilities[faculty] == level_index)
+					. += "<td class='Current'><div class='center'>[level_name]</div></td>"
+				else if(can_select_level(faculty, level_index))
+					. += "<td class style='background: #40628a;'><div class='center'><a class='Selectable' href='?src=\ref[src];select=[level_index];faculty=[faculty]'>[level_name]</a></div></td>"
+				else
+					. += "<td class='Unavailable'><div class='center'>[level_name]</div></td>"
 
-	. += "</center></tt>"
+			. += "</tr>"
+
+		. += "</table>"
+
+		. += "</center></tt>"
 
 	. = jointext(., null)
 

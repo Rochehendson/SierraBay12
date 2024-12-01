@@ -90,7 +90,7 @@
 		return
 
 	LAZYINITLIST(psi_faculties)
-	for(var/faculty_name in psi_abilities_by_name)
+	for(var/faculty_name in list("Coercion", "Consciousness", "Energistics", "Manifestation", "Metakinesis", "Psychokinesis", "Redaction"))
 		var/singleton/psionic_faculty/faculty = SSpsi.faculties_by_name[faculty_name]
 		var/faculty_id = faculty.id
 		psi_faculties |= list("[faculty_id]" = psi_abilities_by_name[faculty_name] - 1)

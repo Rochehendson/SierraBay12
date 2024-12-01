@@ -1,6 +1,6 @@
 /singleton/psionic_faculty/metakinesis
 	id = PSI_METAKINESIS
-	name = "Metaplexy"
+	name = "Metakinesis"
 	associated_intent = I_GRAB
 	armour_types = list("laser", "melee")
 
