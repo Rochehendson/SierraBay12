@@ -397,7 +397,7 @@
 /obj/item/psychic_power/psifire/afterattack(atom/A as mob|obj|turf|area, mob/living/user as mob, proximity)
 //TURFS
 
-	if(istype(A, /turf/) && !proximity && combat_mode)
+	if(istype(A, /turf) && !proximity && combat_mode)
 		if(attack_type == "FIRE WALL")
 			var/turf/target_turf = get_turf(A)
 			if(target_turf)
@@ -726,7 +726,7 @@
 
 //TURFS
 
-	if(istype(A, /turf/))
+	if(istype(A, /turf))
 		var/turf/target = A
 		if(combat_mode)
 			if(!proximity && cryo_rank >= PSI_RANK_MASTER && structure_attack == "ICE WALL")
@@ -749,7 +749,7 @@
 		else
 			if(!proximity)
 				return
-			if(istype(A, /turf/simulated/))
+			if(istype(A, /turf/simulated))
 				var/turf/simulated/sim = target
 				cooldown += 2
 				user.visible_message("<span class='danger'>[user] покрывает [sim] ледяной коркой!</span>")
