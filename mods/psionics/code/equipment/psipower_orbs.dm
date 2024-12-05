@@ -466,7 +466,7 @@
 	var/length = LAZYLEN(turflist)
 	if(length < 1)
 		return
-	turflist.len = min(length, range)
+	LIST_RESIZE(turflist, min(length, range))
 
 	playsound(src, pick('sound/weapons/guns/flamethrower1.ogg','sound/weapons/guns/flamethrower2.ogg','sound/weapons/guns/flamethrower3.ogg' ), 50, TRUE, -3)
 
@@ -810,7 +810,7 @@
 	var/length = LAZYLEN(turflist)
 	if(length < 1)
 		return
-	turflist.len = min(length, range)
+	LIST_RESIZE(turflist, min(length, range))
 
 	playsound(src, pick('sound/weapons/guns/flamethrower1.ogg','sound/weapons/guns/flamethrower2.ogg','sound/weapons/guns/flamethrower3.ogg' ), 50, TRUE, -3)
 
