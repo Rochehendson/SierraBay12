@@ -45,6 +45,7 @@
 #include "character_traits/_character_traits.dme"
 #include "failu_skrell_clothes/_failu_skrell_clothes.dme"
 #include "chemtweaks/_chemtweaks.dme"
+#include "diona/_diona.dme"
 
 
 #include "../packs/sierra-tweaks/_pack.dm"
