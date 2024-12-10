@@ -6,7 +6,7 @@
 	. = ..()
 	alpha = initial(alpha)
 	if(mimiced_atom)
-		name = mimiced_atom.name
+		name = "The Illusion"
 		appearance = mimiced_atom.appearance
 		set_dir(set_dir)
 		mouse_opacity = 0

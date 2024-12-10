@@ -352,7 +352,7 @@
 	use_description = "Выберите глаза на зелёном интенте, и затем нажмите по себе или другому человеку(начиная с мастера), чтобы временно сделать его или себя невидимым для остальных."
 
 /mob/living/proc/run_timer_invisibility()
-	var/invis_timer = 30
+	var/invis_timer = 10
 	set waitfor = 0
 	var/T = invis_timer
 	while(T > 0)
@@ -366,10 +366,6 @@
 		src.alpha = 200
 	spawn(3 SECONDS)
 		src.alpha = 255
-	if(src.psi)
-		var/con_rank_user = src.psi.get_rank(PSI_CONSCIOUSNESS)
-		if(con_rank_user == PSI_RANK_GRANDMASTER)
-			src.RemoveMovementHandler(/datum/movement_handler/mob/incorporeal)
 
 /singleton/psionic_power/consciousness/invis/invoke(mob/living/user, mob/living/target)
 	var/con_rank_user = user.psi.get_rank(PSI_CONSCIOUSNESS)

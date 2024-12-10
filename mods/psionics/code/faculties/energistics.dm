@@ -92,7 +92,7 @@
 	cost =            10
 	cooldown =        60
 	use_melee =       TRUE
-	min_rank =        PSI_RANK_APPRENTICE
+	min_rank =        PSI_RANK_OPERANT
 	use_description = "Выберите глаза на красном интенте и нажмите на любой объект, чтобы создать мощный электромагнитный импульс, направленный в него."
 
 /singleton/psionic_power/energistics/disrupt/invoke(mob/living/user, mob/living/target)
@@ -120,7 +120,7 @@
 		if(en_rank <= PSI_RANK_OPERANT)
 			new /obj/temporary(get_turf(target),3, 'icons/effects/effects.dmi', "blue_electricity_constant")
 			target.visible_message("<span class='danger'>[user] взмахивает рукой, создавая мощный ЭМИ-импульс!</span>")
-			empulse(target, rand(3,6) - en_rank, rand(4,7) - en_rank)
+			empulse(target, rand(2,4) - en_rank, rand(3,6) - en_rank)
 		if(en_rank == PSI_RANK_MASTER)
 			new /obj/temporary(get_turf(target),3, 'icons/effects/effects.dmi', "blue_electricity_constant")
 			target.visible_message("<span class='danger'>[user] взмахивает рукой, создавая мощный ЭМИ-импульс!</span>")
@@ -128,15 +128,15 @@
 		return TRUE
 
 /singleton/psionic_power/energistics/spit
-	name =             "Bullet Spit"
+	name =             "Ballistic Projectile"
 	cost =             20
 	cooldown =         45
 	use_ranged =       TRUE
 	use_melee =       TRUE
 	min_rank =         PSI_RANK_APPRENTICE
-	use_description = "Выберите голову на красном интенте и нажмите по чему угодно, чтобы запустить частичку вреда."
+	use_description = "Выберите голову на красном интенте и нажмите по чему угодно, чтобы запустить пулю."
 
-	var/psi_shot = "Standart"
+	var/psi_shot = "Standard"
 
 /singleton/psionic_power/energistics/spit/invoke(mob/living/user, mob/living/target)
 
@@ -144,7 +144,7 @@
 		"Armor Piercing" = image('mods/psionics/icons/psi.dmi', "AP"),
 		"Explosive" = image('mods/psionics/icons/psi.dmi', "EXP"),
 		"Piercing Charges" = image('mods/psionics/icons/psi.dmi', "EXPAP"),
-		"Standart" = image('mods/psionics/icons/psi.dmi', "DEF")
+		"Standard" = image('mods/psionics/icons/psi.dmi', "DEF")
 	)
 
 	if(user.zone_sel.selecting != BP_HEAD)
@@ -167,7 +167,7 @@
 		if(user.a_intent != I_HURT)
 			return FALSE
 
-		if(psi_shot == "Standart")
+		if(psi_shot == "Standard")
 			user.visible_message("<span class='danger'>[user] изображает пальцами пистолет, делая выстрел!</span>")
 			if(user_rank < PSI_RANK_MASTER)
 				pew = new /obj/item/projectile/psi(get_turf(user))
@@ -223,7 +223,7 @@
 					pew_sound = 'sound/weapons/guns/ricochet4.ogg'
 				else
 					to_chat(user, "<span class='danger'>Огромный ком энергии накапливается внутри тебя, готовясь вырваться наружу, но что-то идёт не так...</span>")
-					explosion(get_turf(user), 5, 10)
+					explosion(get_turf(user), 1, 2)
 			if(user_rank >= PSI_RANK_OPERANT)
 				pew = new /obj/item/projectile/psi/strong(get_turf(user))
 				pew.name = "explosive psionic round"
@@ -247,7 +247,7 @@
 					pew.penetration_modifier = 1.1
 					pew_sound = 'sound/weapons/guns/ricochet4.ogg'
 					to_chat(user, "<span class='warning'>Ты пытаешься сконцентрировать всю энергию в одном маленьком сгустке, дабы создать пробивной снаряд, но что-то мешает тебе...</span>")
-					explosion(get_turf(user), 5, 15)
+					explosion(get_turf(user), 2, 3)
 			if(user_rank == PSI_RANK_MASTER)
 				if(prob(70))
 					pew = new /obj/item/projectile/psi/strong_piercing(get_turf(user))
@@ -257,7 +257,7 @@
 					pew_sound = 'sound/weapons/guns/ricochet4.ogg'
 				else
 					to_chat(user, "<span class='warning'>Ты пытаешься сконцентрировать всю энергию в одном маленьком сгустке, дабы создать пробивной снаряд, но что-то мешает тебе...</span>")
-					explosion(get_turf(user), 5, 15)
+					explosion(get_turf(user), 2, 3)
 			if(user_rank == PSI_RANK_GRANDMASTER)
 				pew = new /obj/item/projectile/psi/strong_piercing(get_turf(user))
 				pew.name = "piercing psionic round"

@@ -101,7 +101,7 @@
 
 	H.psi.update()
 
-	give_psionic_implant_on_join ||= (H.client.prefs.psi_openness && H.client.prefs.psi_status < 4)
+	give_psionic_implant_on_join ||= (H.client.prefs.psi_threat_level > 0)
 
 	if(!give_psionic_implant_on_join)
 		return

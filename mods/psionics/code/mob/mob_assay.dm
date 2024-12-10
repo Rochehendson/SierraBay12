@@ -25,7 +25,7 @@
 		var/rating_descriptor
 		if(mind && !psi.suppressed)
 			if(GLOB.paramounts.is_antagonist(mind))
-				use_rating = SPAN_COLOR("#ff0000", "<b>CAN'T CALCULATE: POSSIBLE LEVEL - 5+</b>")
+				use_rating = SPAN_COLOR("#ff0000", "<b>POTENTIAL DEVIANT PSI-USER</b>")
 				rating_descriptor = "This indicates a completely deviant psi complexus, either beyond or outside anything currently recorded. Approach with care."
 			// This space intentionally left blank (for Omega-Minus psi vampires. todo)
 			if(viewer != usr && GLOB.thralls.is_antagonist(mind) && ishuman(viewer))
@@ -65,9 +65,9 @@
 			for(var/faculty_id in psi.ranks)
 				var/singleton/psionic_faculty/faculty = SSpsi.get_faculty(faculty_id)
 				if(psi.ranks[faculty_id] > 0)
-					dat += "[use_He_is] assayed at the rank of <b>[GLOB.psychic_ranks_to_strings[psi.ranks[faculty.id]]]</b> for the <b>[faculty.name] faculty</b>.<br>"
+					dat += "[use_He_is] assayed at the rank of <b>[GLOB.psychic_ranks_to_strings[psi.ranks[faculty.id]]]</b> for the <b>[faculty.name] discipline</b>.<br>"
 				else
-					dat += "[use_He_has] no notable power within the <b>[faculty.name] faculty</b>.<br>"
+					dat += "[use_He_has] no notable power within the <b>[faculty.name] discipline</b>.<br>"
 			dat += "<hr>"
 
 			if(viewer == usr)
@@ -76,7 +76,7 @@
 					var/list/check_powers = psi.get_powers_by_faculty(faculty_id)
 					if(LAZYLEN(check_powers))
 						var/singleton/psionic_faculty/faculty = SSpsi.get_faculty(faculty_id)
-						dat += "<tr><td colspan = 2>[use_He_has] access to the following psi-powers within the <b>[faculty.name] faculty</b>:</td></tr>"
+						dat += "<tr><td colspan = 2>[use_He_has] access to the following psi-powers within the <b>[faculty.name] discipline</b>:</td></tr>"
 						for(var/singleton/psionic_power/power in check_powers)
 							dat += "<tr><td><b>[power.name]</b></td><td>[power.use_description]</td></tr>"
 				dat += "</table>"

@@ -1,10 +1,8 @@
 GLOBAL_LIST_INIT(psi_level2cost, list(
 	"Blunt"       = 0,
-	"Latent"      = 1,
-	"Apprentice"  = 4,
-	"Operant"     = 8,
-	"Master"      = 16,
-	"Grandmaster" = 21
+	"Latent"      = 2,
+	"Apprentice"  = 6,
+	"Operant"     = 16
 ))
 
 GLOBAL_LIST_INIT(psi_faculty2color, list(
@@ -13,11 +11,11 @@ GLOBAL_LIST_INIT(psi_faculty2color, list(
 	"Energistics"     = COLOR_MEDICAL_UNKNOWN_IMPLANT,
 	"Manifestation"      = COLOR_LIGHT_CYAN,
 	"Metakinesis"     = COLOR_SEDONA,
-	"Psychokinesis"     = COLOR_LIGHT_CYAN,
+	"Psychokinesis"     = COLOR_YELLOW,
 	"Redaction"   = MANIFEST_COLOR_SERVICE
 ))
 
-GLOBAL_LIST_INIT(psi_threat_level2free_points, list(3, 4, 9, 16))
+GLOBAL_LIST_INIT(psi_threat_level2free_points, list(6, 8, 12, 16))
 
 /datum/preferences
 	var/list/psi_abilities
@@ -86,7 +84,7 @@ GLOBAL_LIST_INIT(psi_threat_level2free_points, list(3, 4, 9, 16))
 /datum/category_item/player_setup_item/psionics/abilities/content(mob/user)
 	. = list()
 	if(!whitelist_lookup(SPECIES_PSI, user.ckey))
-		. += "<b>You need to be whitelisted, to do psionics</b><br>"
+		. += "<b> </b><br>"
 	else
 
 		if(!pref.psi_threat_level || !whitelist_lookup(SPECIES_PSI, user.ckey))

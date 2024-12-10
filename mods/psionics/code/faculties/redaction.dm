@@ -58,24 +58,27 @@
 		return FALSE
 	. = ..()
 	if(.)
-		var/option = input(user, "Выберите что-нибудь!", "Какую помощь вы хотите оказать [target]?") in list("Базовая", "Переломы", "Кровотечение", "Конечности", "Органы")
+		var/option = input(user, "Выберите что-нибудь!", "Какую помощь вы хотите оказать [target]?") in list("Кровотечение", "Переломы", "Травмы", "Конечности", "Органы")
 		user.psi.set_cooldown(cooldown)
 		if (!option)
 			return
-		if(option == "Базовая")
+		if(option == "Травмы")
+			if(red_rank < PSI_RANK_MASTER)
+				to_chat(user, SPAN_WARNING("Ваших сил недостаточно для проведения этой операции!"))
+				return 0
 			if(do_after(user, 20))
 				user.visible_message(SPAN_NOTICE("<i>[user] кладёт руки на плечи [target]...</i>"))
 				to_chat(target, SPAN_NOTICE("Вы ощущаете приятное тепло...ваши раны заживают."))
 				new /obj/temporary(get_turf(target),8, 'icons/effects/effects.dmi', "redaction_healing")
 
 				if(user.skill_check(SKILL_ANATOMY, SKILL_TRAINED) && user.skill_check(SKILL_MEDICAL, SKILL_TRAINED))
-					to_chat(user, SPAN_NOTICE("Благодаря имеющимся навыкам, вам удалось залечить некоторые из менее заметных ран [target], значительно ускорив его реабилитацию."))
+					to_chat(user, SPAN_NOTICE("Благодаря имеющимся навыкам, вам удалось эффективно залечить некоторые раны[target]."))
 					target.adjustBruteLoss(-rand(20,40))
 					target.adjustFireLoss(-rand(20,40))
 
 				target.adjustBruteLoss(-(rand(10,20) * red_rank))
 				target.adjustFireLoss(-(rand(10,20) * red_rank))
-				if(pk_rank >= PSI_RANK_OPERANT)
+				if(pk_rank >= PSI_RANK_GRANDMASTER)
 					var/removal_size = clamp(5-pk_rank, 0, 5)
 					var/valid_objects = list()
 					for(var/thing in E.implants)
@@ -89,7 +92,7 @@
 					if(LAZYLEN(valid_objects))
 						var/removing = pick(valid_objects)
 						target.remove_implant(removing, TRUE)
-						to_chat(user, SPAN_NOTICE("Помимо прочего, вы также извлекли [removing] из [E.name] вашего пациента."))
+						to_chat(user, SPAN_NOTICE("Вы извлекли [removing] из [E.name] вашего пациента."))
 				return 1
 		if(option == "Переломы")
 
@@ -98,12 +101,12 @@
 			if(E.status & ORGAN_TENDON_CUT)
 				if(do_after(user, 40))
 					new /obj/temporary(get_turf(target),8, 'icons/effects/effects.dmi', "redaction_healing")
-					to_chat(user, SPAN_NOTICE("Вы аккуратно сплели новое сухожилие на месте повреждённого в [E.name]."))
+					to_chat(user, SPAN_NOTICE("Вы сплели новое сухожилие на месте повреждённого в [E.name]."))
 					E.status &= ~ORGAN_TENDON_CUT
 					return 1
 
 			if(red_rank < PSI_RANK_OPERANT)
-				to_chat(user, SPAN_WARNING("Боюсь, ваших сил недостаточно для проведения данной операции!"))
+				to_chat(user, SPAN_WARNING("Ваших сил недостаточно для проведения этой операции!"))
 				return 0
 			if(!E)
 				to_chat(user, SPAN_WARNING("Эта конечность отсутствует!"))
@@ -126,34 +129,34 @@
 					to_chat(user, SPAN_NOTICE("Вы установили кости на их прежнее место, заделав образовавшиеся на их поверхности трещины."))
 					E.status &= ~ORGAN_BROKEN
 					E.stage = 0
-					to_chat(target, SPAN_NOTICE("Вы ощущаете приятное тепло в районе [E.name]...кости начинают вставать на место."))
+					to_chat(target, SPAN_NOTICE("Вы ощущаете неприятное движение в районе [E.name]...кости начинают вставать на место."))
 					return 1
 			else
 				to_chat(user, SPAN_WARNING("[E.name] не имеет никаких внутренних повреждений!"))
 				return 0
 
 		if(option == "Кровотечение")
-			if(red_rank < PSI_RANK_OPERANT)
-				to_chat(user, SPAN_WARNING("Боюсь, ваших сил недостаточно для проведения данной операции!"))
+			if(red_rank < PSI_RANK_APPRENTICE)
+				to_chat(user, SPAN_WARNING("Ваших сил недостаточно для проведения этой операции!"))
 				return 0
 			if(!E)
 				to_chat(user, SPAN_WARNING("Эта конечность отсутствует!"))
 				return 0
 			if(BP_IS_ROBOTIC(E))
-				to_chat(user, SPAN_WARNING("Эта конечность заменена протезом."))
+				to_chat(user, SPAN_WARNING("Эта конечность не жива."))
 				return 0
 			if(E.is_stump())
 				to_chat(user, SPAN_WARNING("Нет смысла тратить силы на этот обрубок. Здесь вы бессильны."))
 				return 0
-			if(E.status & ORGAN_ARTERY_CUT)
+			if(E.status & ORGAN_ARTERY_CUT && red_rank >= PSI_RANK_OPERANT)
 				if(do_after(user, 60))
 					new /obj/temporary(get_turf(target),8, 'icons/effects/effects.dmi', "redaction_healing")
 					if(!user.skill_check(SKILL_ANATOMY, SKILL_BASIC))
 						if(prob(30))
-							to_chat(user, SPAN_WARNING("Ваша попытка связать разорванные вены в [E.name] закончились ужасным провалом."))
+							to_chat(user, SPAN_WARNING("Ваша попытка связать разорванные артерии в [E.name] закончились ужасным провалом."))
 							target.apply_damage(20,DAMAGE_BRUTE,E)
 							return 0
-					to_chat(user, SPAN_NOTICE("Вы вновь связали разованные вены в [E.name], останавливая внутреннее кровотечение."))
+					to_chat(user, SPAN_NOTICE("Вы вновь связали разованные артерии в [E.name], останавливая внутреннее кровотечение."))
 					to_chat(target, SPAN_NOTICE("Вы ощущаете неприятное чувство в районе [E.name]...словно кто-то вновь сплетает ваши вены воедино."))
 					E.status &= ~ORGAN_ARTERY_CUT
 					return 1
@@ -161,15 +164,15 @@
 				if(W.bleeding())
 					if(W.wound_damage() < 30)
 						if(do_after(user, 30))
-							to_chat(user, SPAN_NOTICE("Вы аккуратно перекрыли поток крови, хлыщащий из [E.name], устранив протечку и зашив её."))
-							to_chat(target, SPAN_NOTICE("Вы ощущаете приятное тепло в районе [E.name]...кровь, ранее шедшая из этого места - остановилась."))
+							to_chat(user, SPAN_NOTICE("Вы приказываете крови в [E.name], остановится."))
+							to_chat(target, SPAN_NOTICE("Вы ощущаете как ваша кожа смыкается в [E.name]..."))
 							new /obj/temporary(get_turf(target),8, 'icons/effects/effects.dmi', "redaction_healing")
 							W.bleed_timer = 0
 							W.clamped = TRUE
 							E.status &= ~ORGAN_BLEEDING
 							return 1
 					else
-						to_chat(user, SPAN_NOTICE("Это ранение превыше ваших сил."))
+						to_chat(user, SPAN_NOTICE("Эта рваная рана, слишком разтерзана, чтобы ее закрыть."))
 						return 0
 				else
 					to_chat(user, SPAN_WARNING("[E.name] не имеет никаких внутренних повреждений!"))
@@ -177,7 +180,7 @@
 
 		if(option == "Конечности")
 			if(red_rank < PSI_RANK_MASTER)
-				to_chat(user, SPAN_WARNING("Боюсь, ваших сил недостаточно для проведения данной операции!"))
+				to_chat(user, SPAN_WARNING("Ваших сил недостаточно для проведения этой операции!"))
 				return 0
 			if(red_rank >= PSI_RANK_MASTER)
 
@@ -206,7 +209,7 @@
 									if(!user.skill_check(SKILL_ANATOMY, SKILL_TRAINED) || !user.skill_check(SKILL_MEDICAL, SKILL_BASIC))
 										if(prob(60))
 											var/limb = pick(BP_L_LEG,BP_R_LEG, BP_L_HAND, BP_R_HAND)
-											to_chat(user, SPAN_WARNING("Ваша некомпетентность привела к тому, что во время восстановления [new_limb.name] вы нанесли критический урон вашей конечности!"))
+											to_chat(user, SPAN_WARNING("Ваша некомпетентность привела к тому, что во время восстановления [new_limb.name] вы повредили свою руку!"))
 											user.apply_damage(80,DAMAGE_BRUTE,limb)
 											// limb.mutate() -- придумать
 									user.adjustBruteLoss(rand(30,40))
@@ -219,18 +222,18 @@
 
 		if(option == "Органы")
 			if(red_rank < PSI_RANK_MASTER)
-				to_chat(user, SPAN_WARNING("Боюсь, ваших сил недостаточно для проведения данной операции!"))
+				to_chat(user, SPAN_WARNING("Ваших сил недостаточно для проведения этой операции!"))
 				return 0
 			if(red_rank >= PSI_RANK_MASTER)
 				for(var/obj/item/organ/internal/I in E.internal_organs)
 					if(!BP_IS_ROBOTIC(I) && !BP_IS_CRYSTAL(I) && I.damage > 0)
 						if(do_after(user, 120))
-							to_chat(user, SPAN_NOTICE("Вы проникаете внутрь тела [target], восстанавливая повреждённый орган: [I]."))
+							to_chat(user, SPAN_NOTICE("Вы вторгаетесь в [target], восстанавливая: [I]."))
 							new /obj/temporary(get_turf(target),8, 'icons/effects/effects.dmi', "redaction_healing")
 							var/heal_rate = red_rank
 							if(!user.skill_check(SKILL_ANATOMY, SKILL_TRAINED) || !user.skill_check(SKILL_MEDICAL, SKILL_BASIC))
 								if(prob(60))
-									to_chat(user, SPAN_WARNING("Однако, ваша неопытность приводит к тому, что [target] получает ещё больше урона!"))
+									to_chat(user, SPAN_WARNING("Ваша неопытность приводит к тому, что вы лишь усугубили состояние [target]!"))
 									I.damage = max(0, I.damage + rand(5,10))
 									return 0
 							I.damage = max(0, I.damage - rand(heal_rate,heal_rate*3))
@@ -242,7 +245,7 @@
 	cooldown =        60
 	use_melee =       TRUE
 	min_rank =        PSI_RANK_MASTER
-	use_description = "Нажмите по цели на зелёном интенте, чтобы очистить его от генетических отклонений и иных воздействий радиации."
+	use_description = "Нажмите по цели на зелёном интенте, чтобы очистить его от генетических отклонений и воздействий радиации."
 
 /singleton/psionic_power/redaction/cleanse/invoke(mob/living/user, mob/living/carbon/human/target)
 	if(!istype(user) || !istype(target))
@@ -265,7 +268,7 @@
 			else
 				target.adjustCloneLoss(-(target.getCloneLoss()))
 			return TRUE
-		to_chat(user, SPAN_NOTICE("Похоже, что у [target] нет ни радиационного заражения, не генетических отклонений."))
+		to_chat(user, SPAN_NOTICE("У [target] нет ни радиационного заражения, ни генетических отклонений."))
 		return FALSE
 
 /singleton/psionic_power/revive

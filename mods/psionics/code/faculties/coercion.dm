@@ -88,8 +88,8 @@
 			return 0
 		switch(chosen_option)
 			if("Joy")
-				var/funny_option = pick("вспоминаете крайне смешную шутку", "вспоминаете очень глупую историю", "всматриваетесь в лицо [user]")
-				to_chat(target, SPAN_WARNING("Внезапно, вы [funny_option], начиная истошно смеяться и кататься по полу."))
+				var/funny_option = pick("смеетесь над несмешной шуткой начальства", "стараетесь не обидеть друга", "насмехаетесь над [user]")
+				to_chat(target, SPAN_WARNING("Внезапно, вы ощущаете принужденный смех. Как будто вы [funny_option]."))
 				var/mob/living/carbon/C = target
 				C.Weaken(5)
 				C.spin(32,2)
@@ -100,8 +100,8 @@
 					C.emote("giggle")
 				return 1
 			if("Sadness")
-				var/sad_option = pick("погружаетесь в ваши детские воспоминания", "вспоминаете о ужасной потере", "на секунду замечаете перед собой знакомый силуэт", "вспоминаете о своих прошлых ошибках")
-				to_chat(target, SPAN_WARNING("Внезапно, вы [sad_option], не замечая, как по вашим щекам текут слёзы."))
+				var/sad_option = pick("то, как умирают солдаты на войне", "мысль о том, что после смерти ничего нет", "то, что вы никчемны", "воспоминание, как вы опозорились")
+				to_chat(target, SPAN_WARNING("В голове проскакивает [sad_option]."))
 				var/mob/living/carbon/C = target
 				C.eye_blurry = max(C.eye_blurry, 10)
 				C.emote("whimper")
@@ -111,7 +111,7 @@
 					C.emote("whimper")
 				return 1
 			if("Fear")
-				to_chat(target, SPAN_OCCULT("Внезапно, ваше тело цепенеет от одного только взгляда в сторону [user]. Вы дрожите, словно ваш мозг испытывает какой-то подсознательный страх."))
+				to_chat(target, SPAN_OCCULT("Вы цепенеете, завидев [user]. Холодный пот стекает по вашему лбу."))
 				var/cn_rank = user.psi.get_rank(PSI_COERCION)
 				var/mob/living/carbon/C = target
 				C.make_dizzy(10)
@@ -122,8 +122,8 @@
 				to_chat(target, SPAN_DANGER("Вы [strange_option]."))
 				return 1
 			if("Anger")
-				var/anger_option = pick("к самому себе", "к человеку, что стоит рядом", "к месту, в котором вы находитесь", "к своей жизни", "по отношению к данной ситуации", "к сегодняшнему дню", "к сегодняшней погоде", "к вашей работе", "к тому, что было вчера")
-				to_chat(target, SPAN_DANGER("Внезапно, вы ощущаете странную злобу [anger_option]."))
+				var/anger_option = pick("к самому себе", "к человеку, что стоит рядом", "к месту, в котором вы находитесь", "к своей жизни", "по отношению к ситуации", "к сегодняшнему дню", "к погоде", "к вашей работе", "к тому, что было вчера")
+				to_chat(target, SPAN_DANGER("Внезапно, вы ощущаете злобу [anger_option]."))
 				return 1
 			if("Stillness")
 				to_chat(target, SPAN_NOTICE("Вы ощущаете странное умиротворение."))
@@ -190,7 +190,7 @@
 	cooldown =      200
 	use_grab =      TRUE
 	min_rank =      PSI_RANK_GRANDMASTER
-	use_description = "Grab a victim, target the eyes, then use the grab on them while on disarm intent, in order to convert them into a loyal mind-slave. The process takes some time, and failure is punished harshly."
+	use_description = "Схватите жертву, цельтесь в глаза, нажмите захватом с синим интентом на цель, чтобы обратить цель в раба. Процесс занимает время, а прерывание может оглушить вас."
 
 /singleton/psionic_power/coercion/mindslave/invoke(mob/living/user, mob/living/target)
 	if(!istype(target) || user.zone_sel.selecting != BP_EYES)
@@ -198,22 +198,22 @@
 	. = ..()
 	if(.)
 		if(target.stat == DEAD || (target.status_flags & FAKEDEATH))
-			to_chat(user, SPAN_WARNING("\The [target] is dead!"))
+			to_chat(user, SPAN_WARNING("\The [target] мертв!"))
 			return TRUE
 		if(!target.mind || !target.key)
-			to_chat(user, SPAN_WARNING("\The [target] is mindless!"))
+			to_chat(user, SPAN_WARNING("\The [target] не обладает разумом!"))
 			return TRUE
 		if(GLOB.thralls.is_antagonist(target.mind))
-			to_chat(user, SPAN_WARNING("\The [target] is already in thrall to someone!"))
+			to_chat(user, SPAN_WARNING("\The [target] уже кому-то принадлежит!"))
 			return TRUE
-		user.visible_message(SPAN_DANGER("<i>\The [user] seizes the head of \the [target] in both hands...</i>"))
-		to_chat(user, SPAN_WARNING("You plunge your mentality into that of \the [target]..."))
-		to_chat(target, SPAN_DANGER("Your mind is invaded by the presence of \the [user]! They are trying to make you a slave!"))
+		user.visible_message(SPAN_DANGER("<i>\The [user] хватает голову \the [target] руками...</i>"))
+		to_chat(user, SPAN_WARNING("Ты ввергаешь свою ментальность в \the [target]..."))
+		to_chat(target, SPAN_DANGER("В твой разум стучится \the [user]! Он пытается поработить тебя!"))
 		if(!do_after(user, (target.stat == CONSCIOUS ? 8 : 4) SECONDS, target, DO_DEFAULT | DO_USER_UNIQUE_ACT))
 			user.psi.backblast(rand(10,25))
 			return TRUE
-		to_chat(user, SPAN_DANGER("You sear through \the [target]'s neurons, reshaping as you see fit and leaving them subservient to your will!"))
-		to_chat(target, SPAN_DANGER("Your defenses have eroded away and \the [user] has made you their mindslave."))
+		to_chat(user, SPAN_DANGER("Ты прорываешься через мозг \the [target], изменяя его под твое желание, оставляя его подчиненным твоей воле!"))
+		to_chat(target, SPAN_DANGER("Ты ослаб и \the [user] поработил тебя."))
 		GLOB.thralls.add_antagonist(target.mind, new_controller = user)
 		return TRUE
 /*
