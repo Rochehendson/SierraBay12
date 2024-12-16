@@ -30,6 +30,7 @@
 #include "code/top.dm"
 #include "code\skrell-ship.dm"
 #include "code/vox_beacon.dm"
+#include "code/vox-ship.dm"
 
 #endif
 // BEGIN_INTERNALS
