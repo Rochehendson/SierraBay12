@@ -145,10 +145,6 @@
 /obj/decal/cleanable/blood,
 /turf/simulated/floor/tiled/techmaint/vox,
 /area/voxship/scavship)
-"aw" = (
-/obj/decal/cleanable/filth,
-/turf/simulated/floor/tiled/techmaint/vox,
-/area/voxship/scavship)
 "ax" = (
 /turf/simulated/floor/tiled/techmaint/vox,
 /area/voxship/scavship)
@@ -465,9 +461,8 @@
 /turf/simulated/floor/tiled/techmaint/vox,
 /area/voxship/scavship)
 "bn" = (
-/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
-/obj/structure/table/rack,
-/turf/simulated/floor/plating/vox,
+/obj/decal/cleanable/filth,
+/turf/simulated/floor/tiled/techmaint/vox,
 /area/voxship/scavship)
 "bo" = (
 /obj/structure/voxuplink/vox_ship,
@@ -657,6 +652,7 @@
 /turf/simulated/floor/tiled/techmaint/vox,
 /area/voxship/scavship)
 "bO" = (
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
 /obj/structure/table/rack,
 /turf/simulated/floor/plating/vox,
 /area/voxship/scavship)
@@ -759,6 +755,10 @@
 /obj/overmap/visitable/sector/vox_scav_ship,
 /turf/space,
 /area/space)
+"cb" = (
+/obj/structure/table/rack,
+/turf/simulated/floor/plating/vox,
+/area/voxship/scavship)
 "cc" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
 /turf/simulated/wall/prepainted,
@@ -768,7 +768,6 @@
 /obj/item/screwdriver,
 /obj/item/crowbar,
 /obj/machinery/recharger,
-/obj/decal/cleanable/cobweb,
 /turf/simulated/floor/plating/vox,
 /area/voxship/scavship)
 "ce" = (
@@ -7756,10 +7755,10 @@ fX
 fX
 al
 av
-aw
+bn
 fN
 cc
-bn
+bO
 cA
 df
 dv
@@ -7857,11 +7856,11 @@ fX
 fX
 fX
 al
-aw
+bn
 bo
-aw
+bn
 as
-bO
+cb
 cB
 dg
 dw
