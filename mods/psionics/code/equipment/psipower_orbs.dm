@@ -414,7 +414,7 @@
 				var/obj/temp_visual/decoy/D = new /obj/temp_visual/decoy(T, user.dir, user)
 				D.alpha = min(150 + i*15, 255)
 				animate(D, alpha = 0, time = 2 + i*2)
-			user.forceMove(target_turf)
+			user.throw_at(target_turf, range, 1, user, FALSE)
 			user.visible_message("<span class='danger'>[user] делает рывок, используя свои ноги как двигатели!</span>")
 			flame_turf(line_list)
 	else if(!proximity)

@@ -243,13 +243,12 @@
 		to_chat(target, SPAN_WARNING("Вы ощущаете полную ясность мыслей. Словно стали новым человеком."))
 
 		var/coercion_rank = user.psi.get_rank(PSI_COERCION)
-		if(coercion_rank > PSI_RANK_APPRENTICE)
+		if(coercion_rank > PSI_RANK_OPERANT)
 			target.AdjustParalysis(-1)
 		target.drowsyness = 0
 		if(istype(target, /mob/living/carbon))
 			var/mob/living/carbon/M = target
 			M.adjust_hallucination(-30)
-			M.adjustBrainLoss(-rand(20,35))
 		return TRUE
 
 /singleton/psionic_power/consciousness/assay

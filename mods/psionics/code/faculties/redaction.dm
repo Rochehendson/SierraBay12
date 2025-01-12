@@ -244,7 +244,7 @@
 	cost =            9
 	cooldown =        60
 	use_melee =       TRUE
-	min_rank =        PSI_RANK_MASTER
+	min_rank =        PSI_RANK_OPERANT
 	use_description = "Нажмите по цели на зелёном интенте, чтобы очистить его от генетических отклонений и воздействий радиации."
 
 /singleton/psionic_power/redaction/cleanse/invoke(mob/living/user, mob/living/carbon/human/target)

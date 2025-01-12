@@ -126,7 +126,7 @@
 	if(M.psi)
 		var/hilo_rank = M.psi.get_rank(PSI_ENERGISTICS)
 		if(hilo_rank <= PSI_RANK_LATENT)
-			to_chat(M, "<span class='danger'>���, �� �������� ������ ��������! ������ ��� �� ������ ������ ��������� �� ���� ����?</span>")
+			to_chat(M, "<span class='danger'>Оно не стреляет!</span>")
 			return 0
 	if((MUTATION_CLUMSY in M.mutations) && prob(40)) //Clumsy handling
 		var/obj/P = consume_next_projectile()
