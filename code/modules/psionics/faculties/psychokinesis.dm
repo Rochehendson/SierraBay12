@@ -1,3 +1,4 @@
+// [SIERRA-REMOVE] - PSIONICS - (Перемещено в /mods/psionics)
 /*
 /singleton/psionic_faculty/psychokinesis
 	id = PSI_PSYCHOKINESIS
@@ -93,3 +94,4 @@
 					return TRUE
 	return FALSE
 */
+// [/SIERRA-REMOVE] - PSIONICS - (Перемещено в /mods/psionics)

@@ -4,6 +4,7 @@
  * Returns instance of `/atom/movable` or `FALSE`. Either the atom that can disrupt psionics, or `FALSE` if nothing will
  * disrupt.
  */
+// [SIERRA-REMOVE] - PSIONICS - (Перемещено в /mods/psionics)
 /*
 /atom/proc/disrupts_psionics()
 	for(var/thing in contents)
@@ -30,3 +31,4 @@
 				if(. <= 0)
 					break
 */
+// [/SIERRA-REMOVE] - PSIONICS - (Перемещено в /mods/psionics)

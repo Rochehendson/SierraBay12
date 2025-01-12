@@ -1,3 +1,4 @@
+// [SIERRA-REMOVE] - PSIONICS - (Перемещено в /mods/psionics)
 /*
 /singleton/psionic_faculty/coercion
 	id = PSI_COERCION
@@ -224,3 +225,4 @@
 			M.adjust_hallucination(-30)
 		return TRUE
 */
+// [/SIERRA-REMOVE] - PSIONICS - (Перемещено в /mods/psionics)

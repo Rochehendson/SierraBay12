@@ -1,4 +1,5 @@
 /*
+// [SIERRA-REMOVE] - PSIONICS - (Перемещено в /mods/psionics)
 /singleton/reaction/nullglass
 	name = "Soulstone"
 	result = null
@@ -89,3 +90,4 @@
 		if(prob(10))
 			new /obj/item/material/shard(get_turf(M), result_mat)
 */
+// [/SIERRA-REMOVE] - PSIONICS - (Перемещено в /mods/psionics)

@@ -1,3 +1,4 @@
+// [SIERRA-REMOVE] - PSIONICS - (Перемещено в /mods/psionics)
 /*
 GLOBAL_LIST_INIT(psychic_ranks_to_strings, list("Latent", "Operant", "Masterclass", "Grandmasterclass", "Paramount"))
 
@@ -34,3 +35,4 @@ PROCESSING_SUBSYSTEM_DEF(psi)
 			if(faculty)
 				faculty.powers |= power
 */
+// [/SIERRA-REMOVE] - PSIONICS

@@ -1,3 +1,4 @@
+// [SIERRA-REMOVE] - PSIONICS - (Перемещено в /mods/psionics)
 /*
 /obj/machinery/psi_meter
 	name = "psi-meter"
@@ -71,3 +72,4 @@
 			interact(usr)
 			return TRUE
 */
+// [/SIERRA-REMOVE] - PSIONICS - (Перемещено в /mods/psionics)

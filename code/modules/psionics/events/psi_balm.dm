@@ -1,3 +1,4 @@
+// [SIERRA-REMOVE] - PSIONICS - (Перемещено в /mods/psionics)
 /*
 /datum/event/psi/balm
 	var/static/list/balm_messages = list(
@@ -20,3 +21,4 @@
 	if(soothed && prob(10))
 		to_chat(psi.owner, SPAN_NOTICE("<i>[pick(balm_messages)]</i>"))
 */
+// [/SIERRA-REMOVE] - PSIONICS - (Перемещено в /mods/psionics)

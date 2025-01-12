@@ -58,7 +58,7 @@
 
 	var/faction = MOB_FACTION_CREW
 
-	var/global/psi_allowed_species = list(/datum/species/human,/datum/species/human/vatgrown,/datum/species/human/tritonian,/datum/species/human/gravworlder,/datum/species/human/spacer)
+	var/global/psi_allowed_species = list(/datum/species/human,/datum/species/human/vatgrown,/datum/species/human/tritonian,/datum/species/human/gravworlder,/datum/species/human/spacer) // [SIERRA-ADD] - PSIONICS
 
 
 /datum/job/New()
@@ -75,7 +75,7 @@
 /datum/job/dd_SortValue()
 	return title
 
-
+// [SIERRA-ADD] - PSIONICS
 /datum/job/proc/give_psi(mob/living/carbon/human/H)
 
 	if(!(all_species[H.client.prefs.species].type in psi_allowed_species))
@@ -83,6 +83,9 @@
 
 	if(psi_latency_chance && prob(psi_latency_chance))
 		H.set_psi_rank(pick(PSI_COERCION, PSI_REDACTION, PSI_ENERGISTICS, PSI_PSYCHOKINESIS, PSI_CONSCIOUSNESS, PSI_MANIFESTATION, PSI_METAKINESIS), 1, defer_update = TRUE)
+
+	if(!whitelist_lookup(SPECIES_PSI, H.client))
+		return
 
 	var/list/psi_abilities_by_name = H.client.prefs.psi_abilities
 
@@ -116,6 +119,7 @@
 		affected.implants += imp
 		imp.part = affected
 	to_chat(H, SPAN_DANGER("As a registered psionic, you are fitted with a psi-dampening control implant. Using psi-power while the implant is active will result in neural shocks and your violation being reported."))
+// [/SIERRA-ADD] - PSIONICS
 
 /datum/job/proc/equip(mob/living/carbon/human/H, alt_title, datum/mil_branch/branch, datum/mil_rank/grade)
 
@@ -127,7 +131,7 @@
 		H.add_language(LANGUAGE_SPACER)
 		H.set_default_language(all_languages[LANGUAGE_SPACER])
 
-	give_psi(H)
+	give_psi(H) // [SIERRA-ADD] - PSIONICS
 /*
 	if(psi_latency_chance && prob(psi_latency_chance))
 		H.set_psi_rank(pick(PSI_COERCION, PSI_REDACTION, PSI_ENERGISTICS, PSI_PSYCHOKINESIS), 1, defer_update = TRUE)

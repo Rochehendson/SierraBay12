@@ -1,3 +1,4 @@
+// [SIERRA-REMOVE] - PSIONICS - (Перемещено в /mods/psionics)
 /*
 /datum/psi_complexus/proc/check_latency_trigger(trigger_strength = 0, source, redactive = FALSE)
 
@@ -18,3 +19,4 @@
 	log_and_message_admins("gained the [faculty_singleton.name] psionic faculty by: [source].", owner)
 	return TRUE
 */
+// [/SIERRA-REMOVE] - PSIONICS - (Перемещено в /mods/psionics)

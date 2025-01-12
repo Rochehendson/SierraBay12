@@ -1,3 +1,4 @@
+// [SIERRA-REMOVE] - PSIONICS - (Перемещено в /mods/psionics)
 /*
 /datum/psi_complexus
 
@@ -94,3 +95,4 @@
 		manifested_items.Cut()
 	. = ..()
 */
+// [/SIERRA-REMOVE] - PSIONICS - (Перемещено в /mods/psionics)

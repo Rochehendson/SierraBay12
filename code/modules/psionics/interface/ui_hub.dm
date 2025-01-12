@@ -1,3 +1,4 @@
+// [SIERRA-REMOVE] - PSIONICS - (Перемещено в /mods/psionics)
 /*
 /obj/screen/psi/hub
 	name = "Psi"
@@ -71,3 +72,4 @@
 		owner.psi.show_auras()
 	update_icon()
 */
+// [/SIERRA-REMOVE] - PSIONICS - (Перемещено в /mods/psionics)

@@ -1,3 +1,4 @@
+// [SIERRA-REMOVE] - PSIONICS - (Перемещено в /mods/psionics)
 /*
 /obj/item/psychic_power/telekinesis
 	name = "telekinetic grip"
@@ -105,3 +106,4 @@
 		sleep(5)
 		qdel(O)
 */
+// [/SIERRA-REMOVE] - PSIONICS - (Перемещено в /mods/psionics)

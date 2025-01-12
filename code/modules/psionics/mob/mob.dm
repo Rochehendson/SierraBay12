@@ -1,3 +1,4 @@
+// [SIERRA-REMOVE] - PSIONICS - (Перемещено в /mods/psionics)
 /*
 /mob/living
 	var/datum/psi_complexus/psi
@@ -32,3 +33,4 @@
 		return TRUE
 	return FALSE
 */
+// [/SIERRA-REMOVE] - PSIONICS - (Перемещено в /mods/psionics)

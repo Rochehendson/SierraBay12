@@ -1,3 +1,4 @@
+// [SIERRA-ADD] - PSIONICS
 /datum/preferences
 	var/psi_threat_level = 0
 	var/psi_openness     = TRUE
@@ -41,3 +42,4 @@
 		return TOPIC_REFRESH
 
 	return ..()
+// [SIERRA-ADD] - PSIONICS

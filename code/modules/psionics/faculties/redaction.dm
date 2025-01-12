@@ -1,3 +1,4 @@
+// [SIERRA-REMOVE] - PSIONICS - (Перемещено в /mods/psionics)
 /*
 /singleton/psionic_faculty/redaction
 	id = PSI_REDACTION
@@ -190,3 +191,4 @@
 		target.basic_revival()
 		return TRUE
 */
+// [/SIERRA-REMOVE] - PSIONICS - (Перемещено в /mods/psionics)

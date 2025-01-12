@@ -1,3 +1,4 @@
+// [SIERRA-REMOVE] - PSIONICS - (Перемещено в /mods/psionics)
 /*
 /datum/event/minispasm
 	startWhen = 60
@@ -67,3 +68,4 @@
 		"Cuchulain Sensor Array Automated Message" \
 		)
 */
+// [/SIERRA-REMOVE] - PSIONICS - (Перемещено в /mods/psionics)

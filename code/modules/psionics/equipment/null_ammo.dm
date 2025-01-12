@@ -1,3 +1,5 @@
+// [SIERRA-REMOVE] - PSIONICS - (Перемещено в /mods/psionics)
+/*
 /obj/item/projectile/bullet/nullglass
 	name = "nullglass bullet"
 	damage = 40
@@ -15,3 +17,5 @@
 
 /obj/item/ammo_magazine/speedloader/magnum/nullglass
 	ammo_type = /obj/item/ammo_casing/pistol/magnum/nullglass
+*/
+// [/SIERRA-REMOVE] - PSIONICS - (Перемещено в /mods/psionics)

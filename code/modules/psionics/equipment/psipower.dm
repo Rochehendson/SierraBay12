@@ -1,3 +1,4 @@
+// [SIERRA-REMOVE] - PSIONICS - (Перемещено в /mods/psionics)
 /*
 /obj/item/psychic_power
 	name = "psychic power"
@@ -62,3 +63,4 @@
 		else
 			qdel(src)
 */
+// [/SIERRA-REMOVE] - PSIONICS - (Перемещено в /mods/psionics)

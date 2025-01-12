@@ -1,3 +1,4 @@
+// [SIERRA-REMOVE] - PSIONICS - (Перемещено в /mods/psionics)
 /*
 /obj/screen/psi
 	icon = 'icons/screen/psi.dmi'
@@ -21,3 +22,4 @@
 	else
 		invisibility = 0
 */
+// [/SIERRA-REMOVE] - PSIONICS - (Перемещено в /mods/psionics)

@@ -1,3 +1,4 @@
+// [SIERRA-REMOVE] - PSIONICS - (Перемещено в /mods/psionics)
 /*
 /obj/item/psychic_power/psiblade
 	name = "psychokinetic slash"
@@ -21,3 +22,4 @@
 	maintain_cost = 4
 	icon_state = "psiblade_long"
 */
+// [/SIERRA-REMOVE] - PSIONICS - (Перемещено в /mods/psionics)

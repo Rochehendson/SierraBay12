@@ -1,3 +1,4 @@
+// [SIERRA-REMOVE] - PSIONICS - (Перемещено в /mods/psionics)
 /*
 /singleton/psionic_power
 	abstract_type = /singleton/psionic_power
@@ -47,3 +48,4 @@
 	if(use_sound)
 		playsound(user.loc, use_sound, 75)
 */
+// [/SIERRA-REMOVE] - PSIONICS - (Перемещено в /mods/psionics)

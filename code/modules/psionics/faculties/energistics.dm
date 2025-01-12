@@ -1,3 +1,4 @@
+// [SIERRA-REMOVE] - PSIONICS - (Перемещено в /mods/psionics)
 /*
 /singleton/psionic_faculty/energistics
 	id = PSI_ENERGISTICS
@@ -116,3 +117,4 @@
 			sparks.start()
 		return TRUE
 */
+// [/SIERRA-REMOVE] - PSIONICS - (Перемещено в /mods/psionics)

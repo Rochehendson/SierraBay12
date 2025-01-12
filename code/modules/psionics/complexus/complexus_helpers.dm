@@ -1,3 +1,4 @@
+// [SIERRA-REMOVE] - PSIONICS - (Перемещено в /mods/psionics)
 /*
 /datum/psi_complexus/proc/cancel()
 	sound_to(owner, sound('sound/effects/psi/power_fail.ogg'))
@@ -104,3 +105,4 @@
 	cancel()
 	update()
 */
+// [/SIERRA-REMOVE] - PSIONICS - (Перемещено в /mods/psionics)

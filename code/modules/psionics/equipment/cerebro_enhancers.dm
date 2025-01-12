@@ -1,3 +1,4 @@
+// [SIERRA-REMOVE] - PSIONICS - (Перемещено в /mods/psionics)
 //Psi-boosting item (antag only)
 /*
 /obj/item/clothing/head/helmet/space/psi_amp
@@ -167,3 +168,4 @@
 
 	set_light(3, 0.5, l_color = "#880000")
 */
+// [/SIERRA-REMOVE] - PSIONICS - (Перемещено в /mods/psionics)

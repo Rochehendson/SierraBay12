@@ -1,3 +1,5 @@
+// [SIERRA-REMOVE] - PSIONICS - (Перемещено в /mods/psionics)
+/*
 /obj/item/gun/projectile/revolver/foundation
 	name = "\improper Foundation revolver"
 	icon = 'icons/obj/guns/foundation.dmi'
@@ -22,3 +24,5 @@
 	new /obj/item/ammo_magazine/speedloader/magnum/nullglass(src)
 	new /obj/item/gun/projectile/revolver/foundation(src)
 	make_exact_fit()
+*/
+// [/SIERRA-REMOVE] - PSIONICS - (Перемещено в /mods/psionics)

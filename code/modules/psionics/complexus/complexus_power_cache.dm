@@ -1,3 +1,4 @@
+// [SIERRA-REMOVE] - PSIONICS - (Перемещено в /mods/psionics)
 /*
 /datum/psi_complexus/proc/rebuild_power_cache()
 	if(rebuild_power_cache)
@@ -49,3 +50,4 @@
 	rebuild_power_cache()
 	return manifestation_powers
 */
+// [/SIERRA-REMOVE] - PSIONICS - (Перемещено в /mods/psionics)
