@@ -1,4 +1,4 @@
 /singleton/modpack/psionics
-	name = "Писоника"
-	desc = "Добавляет писонику с Final Destination"
+	name = "Псионика"
+	desc = "Добавляет псионику с Final Destination, оригинальные авторы Maximum123, DANILCUS, Воид"
 	author = "Roche Hendson"
