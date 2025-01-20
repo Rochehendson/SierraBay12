@@ -412,7 +412,7 @@
 						for(var/zone in list(BP_CHEST, BP_GROIN, BP_HEAD))
 							target.apply_damage(rand(10,15),DAMAGE_BRUTE,def_zone=zone)
 						new /obj/temporary(get_turf(target),3, 'icons/effects/effects.dmi', "smash")
-						new /obj/temporary(get_turf(target),6, 'icons/effects/heavyimpact.dmi', "heavyimpact")
+						new /obj/temporary(get_turf(target),6, 'mods/psionics/icons/effects/heavyimpact.dmi', "heavyimpact")
 						target.throw_at(get_edge_target_turf(target, get_dir(user, target)), 3, 2, user)
 						return TRUE
 
@@ -422,7 +422,7 @@
 						for(var/zone in list(BP_CHEST, BP_GROIN, BP_HEAD))
 							user.apply_damage(rand(10,25),DAMAGE_BRUTE,def_zone=zone)
 						new /obj/temporary(get_turf(target),3, 'icons/effects/effects.dmi', "smash")
-						new /obj/temporary(get_turf(target),6, 'icons/effects/heavyimpact.dmi', "heavyimpact")
+						new /obj/temporary(get_turf(target),6, 'mods/psionics/icons/effects/heavyimpact.dmi', "heavyimpact")
 						user.throw_at(get_edge_target_turf(user, get_dir(target, user)), 3, 2, target)
 						user.visible_message(SPAN_DANGER("Мощное силовое поле [target] отбрасывает [user] назад, создавая мощную обратную волну!"))
 						return TRUE
@@ -435,7 +435,7 @@
 				to_chat(user, SPAN_WARNING("Ваше неподготовленное тело не выдерживает отдачи от удара, и вашу руку выворачивает наизнанку!"))
 
 			new /obj/temporary(get_turf(target),3, 'icons/effects/effects.dmi', "smash")
-			new /obj/temporary(get_turf(target),6, 'icons/effects/heavyimpact.dmi', "heavyimpact")
+			new /obj/temporary(get_turf(target),6, 'mods/psionics/icons/effects/heavyimpact.dmi', "heavyimpact")
 			target.visible_message(SPAN_DANGER("[target] ловит лицом кулак, улетая назад!"))
 			for(var/zone in list(BP_CHEST, BP_GROIN, BP_HEAD))
 				target.apply_damage(rand(25,40),DAMAGE_BRUTE,def_zone=zone)
@@ -487,7 +487,7 @@
 						for(var/zone in list(BP_CHEST, BP_GROIN, BP_HEAD))
 							target.apply_damage(rand(20,60),DAMAGE_BRUTE,def_zone=zone)
 						new /obj/temporary(get_turf(target),3, 'icons/effects/effects.dmi', "smash")
-						new /obj/temporary(get_turf(target),6, 'icons/effects/heavyimpact.dmi', "heavyimpact")
+						new /obj/temporary(get_turf(target),6, 'mods/psionics/icons/effects/heavyimpact.dmi', "heavyimpact")
 						target.throw_at(get_edge_target_turf(target, get_dir(user, target)), 6, 2, user)
 						return TRUE
 
@@ -497,7 +497,7 @@
 						for(var/zone in list(BP_CHEST, BP_GROIN, BP_HEAD))
 							user.apply_damage(rand(20,60),DAMAGE_BRUTE,def_zone=zone)
 						new /obj/temporary(get_turf(target),3, 'icons/effects/effects.dmi', "smash")
-						new /obj/temporary(get_turf(target),6, 'icons/effects/heavyimpact.dmi', "heavyimpact")
+						new /obj/temporary(get_turf(target),6, 'mods/psionics/icons/effects/heavyimpact.dmi', "heavyimpact")
 						user.throw_at(get_edge_target_turf(user, get_dir(target, user)), 6, 2, target)
 						user.visible_message(SPAN_DANGER("Мощное силовое поле [target] отбрасывает [user] назад, создавая мощную обратную волну!"))
 						return TRUE
@@ -510,7 +510,7 @@
 				to_chat(user, SPAN_WARNING("Ваше неподготовленное тело не выдерживает отдачи от удара, и вашу руку выворачивает наизнанку!"))
 
 			new /obj/temporary(get_turf(target),3, 'icons/effects/effects.dmi', "smash")
-			new /obj/temporary(get_turf(target),6, 'icons/effects/heavyimpact.dmi', "heavyimpact")
+			new /obj/temporary(get_turf(target),6, 'mods/psionics/icons/effects/heavyimpact.dmi', "heavyimpact")
 			target.visible_message(SPAN_DANGER("[target] ловит лицом кулак, улетая назад!"))
 			for(var/zone in list(BP_CHEST, BP_GROIN, BP_HEAD))
 				target.apply_damage(rand(20,60),DAMAGE_BRUTE,def_zone=zone)
@@ -526,7 +526,7 @@
 	layer = ABOVE_HUMAN_LAYER
 	w_class = ITEM_SIZE_NO_CONTAINER
 	health_max = 200
-	icon = 'icons/effects/psi_effects.dmi'
+	icon = 'mods/psionics/icons/effects/psi_effects.dmi'
 	icon_state = "earth_pillar_2"
 
 /obj/structure/girder/rock/use_tool(obj/item/W, mob/user)
@@ -570,7 +570,7 @@
 			var/turf/A = target
 			if(do_after(user, 10))
 				user.visible_message("<span class='danger'>[user] возводит каменную стену!</span>")
-				new /obj/temporary(A, 9, 'icons/effects/psi_effects.dmi', "earth_pillar_0")
+				new /obj/temporary(A, 9, 'mods/psionics/icons/effects/psi_effects.dmi', "earth_pillar_0")
 				spawn(1 SECONDS)
 					new /obj/structure/girder/rock(get_turf(A))
 				return TRUE

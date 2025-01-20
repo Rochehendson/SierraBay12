@@ -1,10 +1,10 @@
 /obj/item/cryokinesis
 	name = "ice"
-	icon = 'icons/obj/psychic_powers.dmi'
+	icon = 'mods/psionics/icons/psychic_powers.dmi'
 
 	item_icons = list(
-		slot_l_hand_str = 'icons/psi_fd/lefthand.dmi',
-		slot_r_hand_str = 'icons/psi_fd/righthand.dmi',
+		slot_l_hand_str = 'mods/psionics/icons/psi_fd/lefthand.dmi',
+		slot_r_hand_str = 'mods/psionics/icons/psi_fd/righthand.dmi',
 		)
 
 	icon_state = "cryo"

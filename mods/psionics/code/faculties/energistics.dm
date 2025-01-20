@@ -351,7 +351,7 @@
 	anchored = TRUE
 	opacity = FALSE
 	layer = ABOVE_HUMAN_LAYER
-	icon = 'icons/effects/smoke.dmi'
+	icon = 'icons/effects/96x96.dmi'
 	icon_state = "smoke"
 	pixel_x = -9
 	pixel_y = -6

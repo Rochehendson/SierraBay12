@@ -36,22 +36,22 @@
 		if(!use_rating)
 			switch(effective_rating)
 				if(1)
-					use_rating = "[effective_rating-1]-Epsilon"
+					use_rating = "[effective_rating-1]-Omicron"
 					rating_descriptor = "This indicates the presence of minor latent psi potential with little or no appentice capabilities."
 				if(2)
-					use_rating = "[effective_rating-1]-Gamma"
+					use_rating = "[effective_rating]-Omega"
 					rating_descriptor = "This indicates the presence of minor psi capabilities of the Appentice rank or higher."
 				if(3)
-					use_rating = SPAN_COLOR("#f4f441", "[effective_rating-1]-Delta")
+					use_rating = SPAN_COLOR("#f4f441", "[effective_rating]-Lamed")
 					rating_descriptor = "This indicates the presence of minor psi capabilities of the Operant rank or higher."
 				if(4)
-					use_rating = SPAN_COLOR("#f4bc42", "[effective_rating-1]-Beta")
+					use_rating = SPAN_COLOR("#f4bc42", "[effective_rating]-Gimmel")
 					rating_descriptor = "This indicates the presence of significant psi capabilities of the Master rank or higher."
 				if(5)
-					use_rating = SPAN_COLOR("#ff0000", "[effective_rating-1]-Alpha")
+					use_rating = SPAN_COLOR("#ff0000", "[effective_rating]-Aleph")
 					rating_descriptor = "This indicates the presence of significant psi capabilities of the Grandmaster rank or higher."
 				else
-					use_rating = "[effective_rating]-Lambda"
+					use_rating = "[effective_rating]-Omicron"
 					rating_descriptor = "This indicates the presence of trace latent psi capabilities."
 
 		dat += "[use_He_has] an overall psi rating of [use_rating].<br><i>[rating_descriptor]</i><hr>"

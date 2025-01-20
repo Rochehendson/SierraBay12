@@ -101,8 +101,8 @@
 	maintain_cost = 10
 
 	item_icons = list(
-		slot_l_hand_str = 'icons/psi_fd/lefthand.dmi',
-		slot_r_hand_str = 'icons/psi_fd/righthand.dmi',
+		slot_l_hand_str = 'mods/psionics/icons/psi_fd/lefthand.dmi',
+		slot_r_hand_str = 'mods/psionics/icons/psi_fd/righthand.dmi',
 		)
 
 	icon_state = "electro"
@@ -311,8 +311,8 @@
 	maintain_cost = 10
 
 	item_icons = list(
-		slot_l_hand_str = 'icons/psi_fd/lefthand.dmi',
-		slot_r_hand_str = 'icons/psi_fd/righthand.dmi',
+		slot_l_hand_str = 'mods/psionics/icons/psi_fd/lefthand.dmi',
+		slot_r_hand_str = 'mods/psionics/icons/psi_fd/righthand.dmi',
 		)
 
 	icon_state = "pyro"
@@ -497,7 +497,7 @@
 	range_step = 1
 	spread_step = 50
 	armor_penetration = 20
-	icon = 'icons/psi_fd/projectiles.dmi'
+	icon = 'mods/psionics/icons/psi_fd/projectiles.dmi'
 	icon_state = "ice_spikes"
 	color = "#9ee0dd"
 
@@ -508,7 +508,7 @@
 	layer = ABOVE_HUMAN_LAYER
 	w_class = ITEM_SIZE_NO_CONTAINER
 	health_max = 200
-	icon = 'icons/psi_fd/freeze.dmi'
+	icon = 'mods/psionics/icons/psi_fd/freeze.dmi'
 	icon_state = "ice_cube"
 	var/timer = 30
 
@@ -577,8 +577,8 @@
 	maintain_cost = 10
 
 	item_icons = list(
-		slot_l_hand_str = 'icons/psi_fd/lefthand.dmi',
-		slot_r_hand_str = 'icons/psi_fd/righthand.dmi',
+		slot_l_hand_str = 'mods/psionics/icons/psi_fd/lefthand.dmi',
+		slot_r_hand_str = 'mods/psionics/icons/psi_fd/righthand.dmi',
 		)
 
 	icon_state = "cryo"

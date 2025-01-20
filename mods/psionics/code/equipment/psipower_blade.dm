@@ -15,8 +15,8 @@
 	maintain_cost = 6
 
 	item_icons = list(
-		slot_l_hand_str = 'icons/psi_fd/lefthand.dmi',
-		slot_r_hand_str = 'icons/psi_fd/righthand.dmi',
+		slot_l_hand_str = 'mods/psionics/icons/psi_fd/lefthand.dmi',
+		slot_r_hand_str = 'mods/psionics/icons/psi_fd/righthand.dmi',
 		)
 
 	icon_state = "psiblade_short"
@@ -38,8 +38,8 @@
 	maintain_cost = 4
 
 	item_icons = list(
-		slot_l_hand_str = 'icons/psi_fd/lefthand.dmi',
-		slot_r_hand_str = 'icons/psi_fd/righthand.dmi',
+		slot_l_hand_str = 'mods/psionics/icons/psi_fd/lefthand.dmi',
+		slot_r_hand_str = 'mods/psionics/icons/psi_fd/righthand.dmi',
 		)
 
 	icon_state = "psiblade_long"
@@ -83,8 +83,8 @@
 	maintain_cost = 8
 
 	item_icons = list(
-		slot_l_hand_str = 'icons/psi_fd/lefthand.dmi',
-		slot_r_hand_str = 'icons/psi_fd/righthand.dmi',
+		slot_l_hand_str = 'mods/psionics/icons/psi_fd/lefthand.dmi',
+		slot_r_hand_str = 'mods/psionics/icons/psi_fd/righthand.dmi',
 		)
 
 	icon_state = "psiaxe"
@@ -119,8 +119,8 @@
 	maintain_cost = 5
 
 	item_icons = list(
-		slot_l_hand_str = 'icons/psi_fd/lefthand.dmi',
-		slot_r_hand_str = 'icons/psi_fd/righthand.dmi',
+		slot_l_hand_str = 'mods/psionics/icons/psi_fd/lefthand.dmi',
+		slot_r_hand_str = 'mods/psionics/icons/psi_fd/righthand.dmi',
 		)
 
 	icon_state = "psiclub"
@@ -155,8 +155,8 @@
 	maintain_cost = 6
 
 	item_icons = list(
-		slot_l_hand_str = 'icons/psi_fd/lefthand.dmi',
-		slot_r_hand_str = 'icons/psi_fd/righthand.dmi',
+		slot_l_hand_str = 'mods/psionics/icons/psi_fd/lefthand.dmi',
+		slot_r_hand_str = 'mods/psionics/icons/psi_fd/righthand.dmi',
 		)
 
 	icon_state = "psispear"
