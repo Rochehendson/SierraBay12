@@ -10,6 +10,7 @@
 
 /obj/item/ammo_casing/pistol/magnum/nullglass
 	desc = "A revolver bullet casing with a nullglass coating."
+	label = "nullglass"
 	projectile_type = /obj/item/projectile/bullet/nullglass
 
 /obj/item/ammo_casing/pistol/magnum/nullglass/disrupts_psionics()
