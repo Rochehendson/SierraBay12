@@ -38,5 +38,6 @@
 #include "code\on_floor_icon.dm"
 #include "code/vox_beacon.dm"
 #include "code/vox-ship.dm"
-
+#include "code/on_floor_icon.dm"
+#include "code/rndloadout.dm"
 #endif
