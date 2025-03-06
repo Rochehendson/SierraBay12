@@ -1,0 +1,5 @@
+author: Builder13
+changes:
+  - {maptweak: Добавлена кнопка для створок сенсоров Сиерры в комнату между телепортом
+      и мостиком}
+delete-after: true
