@@ -1,0 +1,6 @@
+author: LordNest
+changes:
+  - {tweak: 'Бу теперь можно отдавать команды. Какие - спросите у ГСБ, он знает.'}
+  - {imageadd: Новые спрайты мусорки от Remission}
+  - {maptweak: Поправил в ОФД зеркало и раковину}
+delete-after: true
