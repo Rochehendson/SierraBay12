@@ -1,0 +1,50 @@
+#ifndef MODPACK_COOKING
+#define MODPACK_COOKING
+
+#include "_cook.dm"
+
+#include "code/machinery/cooking_machines/_appliance.dm"
+#include "code/machinery/cooking_machines/_cooker_output.dm"
+#include "code/machinery/cooking_machines/_cooker.dm"
+#include "code/machinery/cooking_machines/_mixer.dm"
+#include "code/machinery/cooking_machines/candy.dm"
+#include "code/machinery/cooking_machines/cereal.dm"
+#include "code/machinery/cooking_machines/container.dm"
+#include "code/machinery/cooking_machines/fryer.dm"
+#include "code/machinery/cooking_machines/grill.dm"
+#include "code/machinery/cooking_machines/oven.dm"
+#include "code/machinery/cooking_machines/stove.dm"
+#include "code/machinery/gibber.dm"
+#include "code/machinery/icecream.dm"
+#include "code/machinery/smartfridge.dm"
+
+#include "code/recipes/cultural/recipes_dionae.dm"
+#include "code/recipes/cultural/recipes_human.dm"
+#include "code/recipes/cultural/recipes_skrell.dm"
+#include "code/recipes/cultural/recipes_tajara.dm"
+#include "code/recipes/cultural/recipes_unathi.dm"
+#include "code/recipes/cultural/recipes_vaurca.dm"
+
+#include "code/recipes/recipe.dm"
+#include "code/recipes/recipes_baked.dm"
+#include "code/recipes/recipes_burger.dm"
+#include "code/recipes/recipes_confections.dm"
+#include "code/recipes/recipes_eggs.dm"
+#include "code/recipes/recipes_fish.dm"
+#include "code/recipes/recipes_fryer.dm"
+#include "code/recipes/recipes_grill.dm"
+#include "code/recipes/recipes_ingredients.dm"
+#include "code/recipes/recipes_meat.dm"
+#include "code/recipes/recipes_mexican.dm"
+#include "code/recipes/recipes_mix.dm"
+#include "code/recipes/recipes_noodles.dm"
+#include "code/recipes/recipes_pastries.dm"
+#include "code/recipes/recipes_pizza.dm"
+#include "code/recipes/recipes_processed.dm"
+#include "code/recipes/recipes_soup.dm"
+
+#include "code/plasticbag.dm"
+#include "code/plates.dm"
+#include "code/trays.dm"
+
+#endif
