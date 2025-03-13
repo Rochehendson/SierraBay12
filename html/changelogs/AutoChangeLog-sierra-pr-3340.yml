@@ -1,0 +1,4 @@
+author: JebediahTechnic
+changes:
+  - {tweak: Hyposprays can now inject through stasis bags and rescue bags.}
+delete-after: true
