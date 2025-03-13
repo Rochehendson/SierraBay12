@@ -1,0 +1,4 @@
+author: Shegar
+changes:
+  - {bugfix: Исправлен баг из-за которого при сборке меха ноги меха танцевали чечётку}
+delete-after: true
