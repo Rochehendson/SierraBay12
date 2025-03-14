@@ -1,0 +1,4 @@
+author: Builder13
+changes:
+  - {tweak: Перенесен рефакторинг кода для GLOB}
+delete-after: true
