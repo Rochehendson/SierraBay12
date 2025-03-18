@@ -1,8 +1,0 @@
-author: LordNest
-changes:
-  - {balance: Удалил Kimber Warrior по ещё январской предложке. Вместо него секьюр
-      револьвер}
-  - {imagedel: Удалил иконки для Kimber Warrior}
-  - {maptweak: 'Поменял названия палуб у некоторых зон на актуальные, убрал из-под
-      стекла консоль заказов РнД'}
-delete-after: true
