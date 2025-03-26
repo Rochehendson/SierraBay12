@@ -1,0 +1,5 @@
+author: Fre3bie Runebyt3 Ryan180602
+changes:
+  - {tweak: Prevent Monkeys from being picked up when they have an item equipped in
+      their back slot}
+delete-after: true
