@@ -1,0 +1,5 @@
+author: LordNest
+changes:
+  - {maptweak: Мелкофиксы по иссуям у Петрова и ГКК}
+  - {balance: Можно заходить за авейки раундстартом}
+delete-after: true
