@@ -1,4 +1,3 @@
-/*
 /datum/map_template/ruin/exoplanet/ranger
 	name = "drowned ranger"
 	id = "planetsite_anomalies_ranger"
@@ -6,4 +5,4 @@
 	mappaths = list('mods/anomaly/maps/water_ruins/ranger/ranger.dmm')
 	spawn_cost = 1
 	ruin_tags = RUIN_CHUDO_ANOMALIES
-*/
+	skip_main_unit_tests = TRUE
