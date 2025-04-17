@@ -1,4 +1,0 @@
-author: Shegar
-changes:
-  - {bugfix: Вывод погоды из игры пока не разберусь в корне проблем}
-delete-after: true
