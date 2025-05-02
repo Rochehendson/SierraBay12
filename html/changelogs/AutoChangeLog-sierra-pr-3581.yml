@@ -1,0 +1,4 @@
+author: Guared1365
+changes:
+  - {tweak: Сделал нормальное функционирование способности адхерантов "Reset Ident".}
+delete-after: true
