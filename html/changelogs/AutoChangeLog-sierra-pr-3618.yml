@@ -1,0 +1,5 @@
+author: Shegar
+changes:
+  - {bugfix: Хотфикс меха и тележки}
+  - {rscadd: Обновление Трейси на 516 бьёнд}
+delete-after: true
