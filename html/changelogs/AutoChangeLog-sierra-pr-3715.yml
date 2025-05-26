@@ -1,0 +1,4 @@
+author: Lexanx
+changes:
+  - {bugfix: Пофиксил баг с fov и aghost}
+delete-after: true
