@@ -1,0 +1,4 @@
+author: Builder13
+changes:
+  - {bugfix: Фикс падения мобов}
+delete-after: true
