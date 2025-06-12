@@ -1,5 +1,0 @@
-author: Teteshnik
-changes:
-  - {maptweak: Починил движки патрульки 3 флота}
-  - {maptweak: Добавлена панель для передачи сигнала.}
-delete-after: true
