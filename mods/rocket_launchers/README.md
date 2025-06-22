@@ -1,9 +1,7 @@
 
 #### Список PRов:
 
-- https://github.com/SierraBay/SierraBay12/pull/1474
-- https://github.com/SierraBay/SierraBay12/pull/1683
-- https://github.com/SierraBay/SierraBay12/pull/1798
+- Отсутствует
 <!--
   Ссылки на PRы, связанные с модом:
   - Создание
@@ -11,9 +9,9 @@
 -->
 
 <!-- Название мода. Не важно на русском или на английском. -->
-## Antag tweaks
+## Мод-пример
 
-ID мода: ANTAGONISTS
+ID мода: ROCKET_LAUNCHERS
 <!--
   Название модпака прописными буквами, СОЕДИНЁННЫМИ_ПОДЧЁРКИВАНИЕМ,
   которое ты будешь использовать для обозначения файлов.
@@ -21,7 +19,7 @@ ID мода: ANTAGONISTS
 
 ### Описание мода
 
-Общие изменения антагонистов, специфичные для SierraBay.
+Мод, содержащий в себе реактивные гранатометы
 <!--
   Что он делает, что добавляет: что, куда, зачем и почему - всё здесь.
   А также любая полезная информация.
@@ -29,7 +27,7 @@ ID мода: ANTAGONISTS
 
 ### Изменения *кор кода*
 
-- Отсутствуют
+- Отсутствует
 <!--
   Если вы редактировали какие-либо процедуры или переменные в кор коде,
   они должны быть указаны здесь.
@@ -40,14 +38,9 @@ ID мода: ANTAGONISTS
 
 ### Оверрайды
 
-- `mods/_master_files/code/game/gamemodes/ert.dm`:
-  - `/datum/map_template/ruin/antag_spawn/ert`:
-    - `var/prefix`
-    - `var/suffixes`
-    - `var/shuttles_to_initialise`
-    - `var/apc_test_exempt_areas`
-  - `/datum/shuttle/autodock/multi/antag/rescue/var/destination_tags`
-  - `/area/map_template/rescue_base/start/var/base_turf`
+- `mods/rocket_launchers/code/effects.dm`
+- `mods/rocket_launchers/code/launcher.dm`
+- `mods/rocket_launchers/code/rockets.dm`
 <!--
   Если ты добавлял новый модульный оверрайд, его нужно указать здесь.
   Здесь указываются оверрайды в твоём моде и папке `_master_files`
@@ -57,7 +50,7 @@ ID мода: ANTAGONISTS
 
 ### Дефайны
 
-- Отсутствуют
+- `mods/rocket_launchers/code/__defines.dm`
 <!--
   Если требовалось добавить какие-либо дефайны, укажи файлы,
   в которые ты их добавил, а также перечисли имена.
@@ -68,11 +61,7 @@ ID мода: ANTAGONISTS
 
 ### Используемые файлы, не содержащиеся в модпаке
 
-- `icons/obj/augment.dmi`
-- `mods/ntnet/code/NTNet-items.dm`
-- `mods/rocket_launchers/code/rockets.dm`
-- `mods/rocket_launchers/code/launcher.dm`
-
+- Отсутствует
 <!--
   Будь то немодульный файл или модульный файл, который не содержится в папке,
   принадлежащей этому конкретному моду, он должен быть упомянут здесь.
@@ -82,7 +71,8 @@ ID мода: ANTAGONISTS
 
 ### Авторы:
 
-LordNest
+thekekman666
+Gfitkiilt
 <!--
   Здесь находится твой никнейм
   Если работал совместно - никнеймы тех, кто помогал.
