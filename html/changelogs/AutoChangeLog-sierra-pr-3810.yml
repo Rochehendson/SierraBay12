@@ -1,4 +1,0 @@
-author: Builder13
-changes:
-  - {bugfix: Пофиксил поворот плейсхолдеров в билдмоде}
-delete-after: true
