@@ -422,6 +422,7 @@ This function restores all organs.
 		return 0 // This is reasonable and means the organ is missing.
 
 	handle_suit_punctures(damagetype, damage, def_zone)
+	handle_clothing_punctures(damagetype, damage, def_zone) // SIERRA ADD - Tearing clothes
 
 	var/list/after_armor = modify_damage_by_armor(def_zone, damage, damagetype, damage_flags, src, armor_pen, silent)
 	damage = after_armor[1]
