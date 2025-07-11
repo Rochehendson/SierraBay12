@@ -1,5 +1,0 @@
-author: 1heShogun
-changes:
-  - {rscadd: Добавил в аплинк трейтора реконфигуратор генома}
-  - {imageadd: Добавил иконки для реконфигуратора генома}
-delete-after: true
