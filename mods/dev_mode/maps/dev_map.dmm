@@ -17,6 +17,14 @@
 /obj/titan_fluid,
 /turf/simulated/floor/exoplanet/concrete/reinforced/road,
 /area/centcom)
+"dIW" = (
+/obj/landmark/no_weather_here{
+	layer = 2
+	},
+/obj/item/reagent_containers/hypospray/autoinjector/combatpain,
+/obj/item/reagent_containers/hypospray/autoinjector/combatpain,
+/turf/unsimulated/floor/grass,
+/area/centcom)
 "dRf" = (
 /turf/simulated/floor/exoplanet/concrete/reinforced/road,
 /area/liberia/atmos)
@@ -25,6 +33,10 @@
 /area/centcom)
 "eDA" = (
 /obj/random/biggun,
+/turf/simulated/floor/exoplanet/concrete/reinforced/road,
+/area/centcom)
+"eHm" = (
+/obj/machinery/psi_monitor,
 /turf/simulated/floor/exoplanet/concrete/reinforced/road,
 /area/centcom)
 "eZS" = (
@@ -38,6 +50,13 @@
 "geK" = (
 /obj/item/gun/magnetic/railgun/tcc,
 /turf/simulated/floor/exoplanet/concrete/reinforced/road,
+/area/centcom)
+"iuU" = (
+/obj/landmark/no_weather_here{
+	layer = 2
+	},
+/obj/item/organ/internal/augment/active/adaptive_monocular,
+/turf/unsimulated/floor/grass,
 /area/centcom)
 "jjy" = (
 /obj/item/artefact/svetlyak,
@@ -106,6 +125,13 @@
 /obj/item/gun/projectile/pistol/m19,
 /turf/simulated/floor/exoplanet/concrete/reinforced/road,
 /area/centcom)
+"qOb" = (
+/obj/landmark/no_weather_here{
+	layer = 2
+	},
+/obj/item/device/augment_implanter/adaptive_monocular,
+/turf/unsimulated/floor/grass,
+/area/centcom)
 "qRd" = (
 /obj/item/clothing/suit/space/void/security,
 /turf/simulated/floor/exoplanet/concrete/reinforced/road,
@@ -142,6 +168,10 @@
 /area/centcom)
 "vPX" = (
 /obj/item/gun/energy/mindflayer,
+/turf/simulated/floor/exoplanet/concrete/reinforced/road,
+/area/centcom)
+"vQB" = (
+/obj/item/reagent_containers/glass/bottle/oxycodone,
 /turf/simulated/floor/exoplanet/concrete/reinforced/road,
 /area/centcom)
 "wVg" = (
@@ -252,9 +282,9 @@ cpC
 cpC
 cpC
 cpC
+vQB
 cpC
-cpC
-cpC
+eHm
 cpC
 cpC
 cpC
@@ -331,9 +361,9 @@ vuz
 djw
 dSB
 cpC
-ooX
-ooX
-ooX
+dIW
+qOb
+iuU
 cpC
 cpC
 cpC
@@ -550,13 +580,13 @@ uzJ
 (16,1,1) = {"
 uzJ
 cpC
+uzJ
+uzJ
+uzJ
 cpC
-cpC
-cpC
-cpC
-cpC
-cpC
-cpC
+uzJ
+uzJ
+uzJ
 cpC
 cpC
 cpC
@@ -576,13 +606,13 @@ uzJ
 (17,1,1) = {"
 uzJ
 cpC
+uzJ
 cpC
 cpC
 cpC
 cpC
 cpC
-cpC
-cpC
+uzJ
 cpC
 cpC
 cpC
@@ -602,13 +632,13 @@ uzJ
 (18,1,1) = {"
 uzJ
 cpC
+uzJ
 cpC
 cpC
 cpC
 cpC
 cpC
-cpC
-cpC
+uzJ
 cpC
 cpC
 cpC
@@ -628,13 +658,13 @@ uzJ
 (19,1,1) = {"
 uzJ
 cpC
+uzJ
+uzJ
+uzJ
+uzJ
+uzJ
 cpC
-cpC
-cpC
-cpC
-cpC
-cpC
-cpC
+uzJ
 cpC
 cpC
 cpC
@@ -654,13 +684,13 @@ uzJ
 (20,1,1) = {"
 uzJ
 cpC
+uzJ
 cpC
 cpC
 cpC
 cpC
 cpC
-cpC
-cpC
+uzJ
 cpC
 cpC
 mJI
@@ -680,13 +710,13 @@ uzJ
 (21,1,1) = {"
 uzJ
 cpC
+uzJ
 cpC
 cpC
 cpC
 cpC
 cpC
-cpC
-cpC
+uzJ
 cpC
 cpC
 cpC
@@ -706,13 +736,13 @@ uzJ
 (22,1,1) = {"
 uzJ
 cpC
+uzJ
 cpC
-cpC
-cpC
-cpC
-cpC
-cpC
-cpC
+uzJ
+uzJ
+uzJ
+uzJ
+uzJ
 cpC
 mJI
 cpC
@@ -732,13 +762,13 @@ uzJ
 (23,1,1) = {"
 uzJ
 cpC
+uzJ
 cpC
 cpC
 cpC
 cpC
 cpC
-cpC
-cpC
+uzJ
 mJI
 cpC
 cpC
@@ -758,13 +788,13 @@ uzJ
 (24,1,1) = {"
 uzJ
 cpC
+uzJ
 cpC
 cpC
 cpC
 cpC
 cpC
-cpC
-cpC
+uzJ
 cpC
 cpC
 cpC
@@ -784,13 +814,13 @@ uzJ
 (25,1,1) = {"
 uzJ
 cpC
+uzJ
+uzJ
+uzJ
 cpC
-cpC
-cpC
-cpC
-cpC
-cpC
-cpC
+uzJ
+uzJ
+uzJ
 cpC
 cpC
 cpC
