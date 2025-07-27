@@ -1,0 +1,4 @@
+author: LordNest
+changes:
+  - {balance: Урон бронебойных патронов карабина C-20A понижен до 30}
+delete-after: true
