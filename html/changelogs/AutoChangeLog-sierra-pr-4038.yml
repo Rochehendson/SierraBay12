@@ -1,0 +1,5 @@
+author: Banditoz
+changes:
+  - {rscadd: "Add orderable rogue maintenance drones. They're contraband, so the console
+      needs to be emagged to order them."}
+delete-after: true
