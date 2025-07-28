@@ -1,0 +1,4 @@
+author: Mucker
+changes:
+  - {admin: Fixed reloading a character's loadout duplicating their implants.}
+delete-after: true
