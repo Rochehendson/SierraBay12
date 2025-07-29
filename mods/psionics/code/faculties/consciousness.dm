@@ -518,6 +518,7 @@
 
 /mob/living/simple_animal/hostile/mirror_shade
 
+	name = "Mirror Shade"
 	turns_per_move = 2
 	response_help = "pokes"
 	response_disarm = "shoves"
@@ -537,6 +538,7 @@
 	if(set_owner)
 		owner = set_owner
 		friends += owner
+		name = owner.name
 	QDEL_IN(src, 30 SECONDS)
 
 /mob/living/simple_animal/hostile/mirror_shade/examine(mob/user)
