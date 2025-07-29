@@ -1,5 +1,0 @@
-author: Titanized
-changes:
-  - {rscadd: Teleporter consoles now display their ID when examined at a close 
-      distance.}
-delete-after: true
