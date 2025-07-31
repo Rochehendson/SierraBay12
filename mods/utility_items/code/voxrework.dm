@@ -82,8 +82,8 @@
 /obj/item/clothing/head/helmet/space/vox/pressure
 	armor = list(
 		melee = ARMOR_MELEE_VERY_HIGH,
-		bullet = ARMOR_BALLISTIC_RESISTANT,
-		laser = ARMOR_LASER_MAJOR,
+		bullet = ARMOR_BALLISTIC_PISTOL,
+		laser = ARMOR_LASER_HANDGUNS,
 		energy = ARMOR_ENERGY_STRONG,
 		bomb = ARMOR_BOMB_PADDED,
 		bio = ARMOR_BIO_SMALL,
@@ -95,8 +95,8 @@
 /obj/item/clothing/suit/space/vox/pressure
 	armor = list(
 		melee = ARMOR_MELEE_VERY_HIGH,
-		bullet = ARMOR_BALLISTIC_RESISTANT,
-		laser = ARMOR_LASER_MAJOR,
+		bullet = ARMOR_BALLISTIC_PISTOL,
+		laser = ARMOR_LASER_HANDGUNS,
 		energy = ARMOR_ENERGY_STRONG,
 		bomb = ARMOR_BOMB_PADDED,
 		bio = ARMOR_BIO_SMALL,
