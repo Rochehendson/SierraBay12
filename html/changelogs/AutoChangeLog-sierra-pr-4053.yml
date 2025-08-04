@@ -1,5 +1,0 @@
-author: Baneuus
-changes:
-  - {bugfix: 'Удалил эмоуты хвоста из эмоутпанели у всех, кроме тех, у кого они быть
-      должны.'}
-delete-after: true
