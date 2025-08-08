@@ -1,0 +1,4 @@
+author: Banditoz
+changes:
+  - {rscadd: Added viscerator and carp grenades to the uplink.}
+delete-after: true
