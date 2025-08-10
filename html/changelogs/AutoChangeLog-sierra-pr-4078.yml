@@ -1,0 +1,4 @@
+author: SierraKomodo
+changes:
+  - {bugfix: Service grippers can now hold the new kitchen equipment.}
+delete-after: true
