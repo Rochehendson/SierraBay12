@@ -1,0 +1,5 @@
+author: SierraKomodo
+changes:
+  - {tweak: 'Chest rigs can now have armor tags and insignia attached to them, just
+      like armor vests.'}
+delete-after: true
