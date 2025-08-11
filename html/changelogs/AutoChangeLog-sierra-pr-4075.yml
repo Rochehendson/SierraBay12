@@ -1,8 +1,0 @@
-author: SierraKomodo
-changes:
-  - {tweak: 'Email programs now display message recipient in applicable screens, such
-      as the Sent tab of the Email Client program, or when listing and viewing emails
-      in Email Administration.'}
-  - {tweak: Email Administration now also displays sent emails when viewing 
-      specific accounts.}
-delete-after: true

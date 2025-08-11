@@ -1,4 +1,0 @@
-author: SierraKomodo
-changes:
-  - {bugfix: It is no longer possible to 'overheal' mech and robot components.}
-delete-after: true
