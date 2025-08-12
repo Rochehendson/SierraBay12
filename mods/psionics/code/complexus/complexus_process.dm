@@ -71,8 +71,8 @@
 
 			var/image/aura_image = get_aura_image()
 			if(rating >= PSI_RANK_GRANDMASTER) // spooky boosters
-				aura_color = "#aaffaa"
-				aura_image.blend_mode = BLEND_SUBTRACT
+				aura_color = "#000000"
+				aura_image.blend_mode = BLEND_ADD
 			else
 				aura_image.blend_mode = BLEND_ADD
 				switch(highest_faculty)

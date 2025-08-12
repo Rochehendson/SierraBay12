@@ -281,3 +281,21 @@
 	icon = 'mods/loadout_items/icons/obj_suit.dmi'
 	item_icons = list(slot_wear_suit_str = 'mods/loadout_items/icons/onmob_suit.dmi')
 	icon_state = "veryshort_jacket_green"
+
+/obj/item/clothing/suit/storage/furcoat
+	name = "fur coat"
+	desc = "Black fur coat made of synthetic fur. Label says it was made in Iolaus for Chatka"
+	icon = 'mods/loadout_items/icons/obj_suit.dmi'
+	item_icons = list(slot_wear_suit_str = 'mods/loadout_items/icons/onmob_suit.dmi')
+	icon_state = "furcoat"
+	item_state = "furcoat"
+	cold_protection = UPPER_TORSO|LOWER_TORSO|ARMS
+	min_cold_protection_temperature = ARMOR_MIN_COLD_PROTECTION_TEMPERATURE
+
+/obj/item/clothing/suit/storage/piratecoat
+	name = "leather big coat"
+	desc = "Large coat with shoulder pads made of synthetic leather. Label says it was made in Iolaus"
+	icon = 'mods/loadout_items/icons/obj_suit.dmi'
+	item_icons = list(slot_wear_suit_str = 'mods/loadout_items/icons/onmob_suit.dmi')
+	icon_state = "elite_coat"
+	item_state = "elite_coat"
