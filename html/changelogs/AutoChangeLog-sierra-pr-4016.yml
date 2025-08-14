@@ -1,5 +1,0 @@
-author: Rockton & SierraKomodo
-changes:
-  - {soundadd: Added looping alarm sound effects to rotating lights for red and 
-      delta alerts.}
-delete-after: true
