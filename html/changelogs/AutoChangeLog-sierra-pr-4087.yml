@@ -1,0 +1,5 @@
+author: SierraKomodo
+changes:
+  - {bugfix: Email Administration program now shows sent emails as well like it 
+      was supposed to in the last update.}
+delete-after: true
