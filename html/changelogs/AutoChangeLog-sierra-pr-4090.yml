@@ -1,0 +1,6 @@
+author: JebediahTechnic
+changes:
+  - {maptweak: Replaces empty compact defibrillator in D2 medical storage with a
+      loaded one. Be sure to thank your local maintenance drone for their 
+      service.}
+delete-after: true
