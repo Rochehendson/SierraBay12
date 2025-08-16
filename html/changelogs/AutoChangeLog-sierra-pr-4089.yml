@@ -1,5 +1,0 @@
-author: SierraKomodo
-changes:
-  - {bugfix: Gunnery booster augments now properly provide feedback on their 
-      status.}
-delete-after: true

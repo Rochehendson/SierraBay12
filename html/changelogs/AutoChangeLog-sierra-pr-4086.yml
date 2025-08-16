@@ -1,5 +1,0 @@
-author: SierraKomodo
-changes:
-  - {bugfix: 'Resin now has a chance to make prosthetic and robotic limbs brittle
-      when used on them, as was originally intended.'}
-delete-after: true

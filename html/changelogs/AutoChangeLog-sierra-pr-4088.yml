@@ -1,5 +1,0 @@
-author: SierraKomodo
-changes:
-  - {bugfix: 'Ghosts no longer block you from placing big things (Beer kegs, etc)
-      on tables.'}
-delete-after: true
