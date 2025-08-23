@@ -135,8 +135,11 @@
 			else if(owner.stat == UNCONSCIOUS)
 				stamina = min(max_stamina, stamina + rand(3,5))
 
-		if(!owner.nervous_system_failure() && owner.stat == CONSCIOUS && stamina && !suppressed && get_rank(PSI_REDACTION) >= PSI_RANK_APPRENTICE)
-			attempt_regeneration()
+		if(!owner.nervous_system_failure() && stamina && !suppressed && get_rank(PSI_REDACTION) >= PSI_RANK_APPRENTICE)
+			if(owner.stat == UNCONSCIOUS && get_rank(PSI_REDACTION) < PSI_RANK_MASTER)
+				attempt_regeneration()
+			else if(get_rank(PSI_REDACTION) >= PSI_RANK_MASTER)
+				attempt_regeneration()
 
 	var/next_aura_size = max(0.1,((stamina/max_stamina)*min(3,rating))/5)
 	var/next_aura_alpha = round(((suppressed ? max(0,rating - 2) : rating)/5)*255)
