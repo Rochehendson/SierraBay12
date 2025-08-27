@@ -1,5 +1,0 @@
-author: Builder13
-changes:
-  - {tweak: Перенесены изменения логики обмена газов}
-  - {tweak: Вновь возвращены оверлеи газов}
-delete-after: true

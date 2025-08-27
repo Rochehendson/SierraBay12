@@ -1,4 +1,0 @@
-author: Mucker
-changes:
-  - {admin: Fixed placeholder buildmode ship rotating.}
-delete-after: true
