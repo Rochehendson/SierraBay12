@@ -1,0 +1,8 @@
+author: SierraKomodo
+changes:
+  - {rscadd: 'Supply orders for ammunition are now separated between boxes of bullets
+      and empty magazines. Supply point costs adjusted to match. The ammoboxes are
+      also the new ones that I might have forgotten to actually implement. Includes
+      some QOL features such as clicking on empty magazines with a box to speed-fill
+      the mag, or a box with a mag to speed-empty it.'}
+delete-after: true
