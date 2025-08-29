@@ -1,0 +1,4 @@
+author: Builder13
+changes:
+  - {admin: Перенес верб MP Panel с Инфинити для админ панели}
+delete-after: true
