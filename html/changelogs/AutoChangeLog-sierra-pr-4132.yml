@@ -1,0 +1,4 @@
+author: LordNest
+changes:
+  - {bugfix: Пилот Харона теперь может разблокировать АПЦ и эир алярмы на Хароне}
+delete-after: true
