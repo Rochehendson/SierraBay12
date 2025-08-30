@@ -1,5 +1,0 @@
-author: Mucker
-changes:
-  - {bugfix: Fixed the emergency shield generator doubling power usage every 
-      time it was turned on.}
-delete-after: true

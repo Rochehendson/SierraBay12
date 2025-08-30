@@ -1,5 +1,0 @@
-author: Mucker
-changes:
-  - {tweak: Players can now jump or be thrown over bluespace tiles without being
-      teleported.}
-delete-after: true
