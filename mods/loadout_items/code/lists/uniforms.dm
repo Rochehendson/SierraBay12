@@ -273,7 +273,7 @@
 
 /datum/gear/uniform/facloth
 	display_name = "frontier uniform selection"
-	path = /obj/item/clothing/under/thermoactive
+	path = /obj/item/clothing/under
 
 /datum/gear/uniform/facloth/New()
 	..()

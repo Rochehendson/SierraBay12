@@ -194,14 +194,14 @@
 					to_chat(target, SPAN_NOTICE("<b>Вы защитили свой разум от вторжения</b>"))
 					return
 				else
-					if (target.getBrainLoss() < 25)
-						target.adjustBrainLoss(25)
+					if (target.getBrainLoss() < 5)
+						target.adjustBrainLoss(5)
 					to_chat(user, SPAN_NOTICE("<b>[target] удаётся предотвратить ваше проникновение, но часть его мозга была повреждена в процессе</b>"))
 					to_chat(target, SPAN_NOTICE("<b>Вам удаётся защитить свои воспоминания. Ваша голова просто раскалывается.</b>"))
 					return
 			else if(!target.psi)
-				if (target.getBrainLoss() < 25)
-					target.adjustBrainLoss(25)
+				if (target.getBrainLoss() < 5)
+					target.adjustBrainLoss(5)
 				to_chat(user, SPAN_NOTICE("<b>[target] удаётся предотвратить ваше проникновение, но часть его мозга была повреждена в процессе!</b>"))
 				to_chat(target, SPAN_NOTICE("<b>Вам удаётся защитить свои воспоминания. Ваша голова просто раскалывается.</b>"))
 				return
@@ -215,21 +215,21 @@
 					to_chat(target, SPAN_NOTICE("<b>Вы защитили свой разум от вторжения!</b>"))
 					return
 				else
-					if (target.getBrainLoss() < 25)
-						target.adjustBrainLoss(25)
+					if (target.getBrainLoss() < 5)
+						target.adjustBrainLoss(5)
 					to_chat(user, SPAN_NOTICE("<b>[target] удаётся предотвратить ваше проникновение, но часть его мозга была повреждена в процессе!</b>"))
 					to_chat(target, SPAN_NOTICE("<b>Вам удаётся защитить свои воспоминания. Ваша голова просто раскалывается.</b>"))
 					return
 			else if(!target.psi)
-				if (target.getBrainLoss() < 25)
-					target.adjustBrainLoss(25)
+				if (target.getBrainLoss() < 5)
+					target.adjustBrainLoss(5)
 				to_chat(user, SPAN_NOTICE("<b>[target] удаётся предотвратить ваше проникновение, но часть его мозга была повреждена в процессе!</b>"))
 				to_chat(target, SPAN_NOTICE("<b>Вам удаётся защитить свои воспоминания. Ваша голова просто раскалывается.</b>"))
 				return
 
 
 		var/answer =  input(target, question, "Чтение мыслей") as null|text
-		if(!answer || world.time > started_mindread + 60 SECONDS || user.stat != CONSCIOUS || target.stat == DEAD)
+		if(!answer || user.stat != CONSCIOUS || target.stat == DEAD)
 			to_chat(user, SPAN_NOTICE("<b>Вам не удалось добиться чего-либо полезного от [target].</b>"))
 		else
 			to_chat(user, SPAN_NOTICE("<b>В разуме [target], вы находите: <i>[answer]</i></b>"))
