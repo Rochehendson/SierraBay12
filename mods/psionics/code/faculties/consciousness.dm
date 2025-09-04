@@ -183,7 +183,6 @@
 			return FALSE
 
 		var/con_rank_user = user.psi.get_rank(PSI_CONSCIOUSNESS)
-		var/started_mindread = world.time
 		to_chat(user, SPAN_NOTICE("<b>Вы погружаетесь в глубины сознания [target], выискивая ответ на вопрос: <i>[question]</i></b>"))
 		var/option = alert(target, "Кто-то пытается проникнуть в ваше сознание! Вы позволите этому случиться?", "Выбирай!", "Да", "Нет")
 		if (!option)
