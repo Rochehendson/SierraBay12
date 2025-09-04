@@ -557,7 +557,7 @@
 		T--
 	src.visible_message(SPAN_WARNING("[src] тает!"))
 	animate(src, alpha = 0, time = 10 SECONDS)
-	QDEL_IN(src, 10 SECONDS)
+	QDEL_IN(src, 9 SECONDS)
 
 //ATOM related stuff ending here
 

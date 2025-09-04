@@ -214,3 +214,75 @@
 	desc = "Mask made of plastic with a target engraved."
 	icon_state = "stonetarget_mask"
 	item_state = "stonetarget_mask"
+
+/obj/item/card/assamblee_card
+	name = "assamblee insignia card"
+	icon = 'mods/psionics/icons/asamblee/asamblee.dmi'
+	on_turf_icon = 'mods/psionics/icons/asamblee/asamblee_tiny.dmi'
+	icon_state = "insignia_closed"
+	desc = "Faux-leather case with some papers inside."
+	w_class = ITEM_SIZE_SMALL
+	attack_verb = list("whipped")
+	hitsound = 'sound/weapons/towelwhip.ogg'
+	var/info
+	var/use_rating
+	var/residence
+	var/closed = TRUE
+	var/open_icon = "insignia"
+
+/obj/item/card/assamblee_card/proc/set_info(mob/living/carbon/human/human)
+	if(!istype(human))
+		return
+	var/singleton/cultural_info/culture = human.get_cultural_value(TAG_HOMEWORLD)
+	var/residence = culture
+	if (!culture.name || culture.name == HOME_SYSTEM_OTHER)
+		residence = "Unset"
+	switch(human.psi?.rating)
+		if(0)
+			use_rating = "Child of Abyss, which means, he not even a psionic or enlightened"
+		if(1)
+			use_rating = "Neophyte. Probably, latent user."
+		if(2)
+			use_rating = "Zealot, beginner user of psionic, probably an apperentice"
+		if(3)
+			use_rating = "Practicus, practical user of psionic, probably an operant"
+		if(4)
+			use_rating = "Adept. Probably, master of some discipline"
+		if(5)
+			use_rating = "Magician. You feel strong energy inside"
+		if (6 to INFINITY)
+			use_rating = "Accomplished, and is truly ascended"
+		else
+			use_rating = "Child of Abyss, which means, he not even a psionic or enlightened"
+
+	info = {"\
+		Assigned to: [human.real_name]\n\
+		Residence: [residence]\n\
+		Fingerprint: [human.dna?.uni_identity ? md5(human.dna.uni_identity) : "N/A"]
+	"}
+
+/obj/item/card/assamblee_card/attack_self(mob/living/user)
+	closed = !closed
+	update_icon()
+	/*user.visible_message(
+		SPAN_ITALIC("\The [user] examines \a [src]."),
+		SPAN_ITALIC("You examine \the [src]."),
+		3
+	)
+	to_chat(user, info || SPAN_WARNING("\The [src] is completely blank!"))
+	if(user.psi)
+		to_chat(user, SPAN_DANGER("As a psionic, your mind was penetrated by encoded message, that imply, that owner of this card is a [use_rating]"))*/
+
+/obj/item/card/assamblee_card/examine(mob/living/user)
+	if(closed)
+		. = ..()
+	else
+		to_chat(user, info || SPAN_WARNING("\The [src] is completely blank!"))
+		if(user.psi)
+			to_chat(user, SPAN_DANGER("As a psionic, your mind was penetrated by encoded message, that imply, that owner of this card is a [use_rating]"))
+
+/obj/item/card/assamblee_card/on_update_icon()
+	if(!closed)
+		icon_state = open_icon
+	else
+		icon_state = initial(icon_state)

@@ -337,7 +337,7 @@
 	cost =           20
 	cooldown =       40
 	use_ranged =     TRUE
-	min_rank =       PSI_RANK_OPERANT
+	min_rank =       PSI_RANK_APPRENTICE
 	use_description = "Выберите любую ногу или пятку на жёлтом интенте, чтобы отправится в полёт."
 
 /singleton/psionic_power/psychokinesis/propel/invoke(mob/living/carbon/user, turf/simulated/target)
