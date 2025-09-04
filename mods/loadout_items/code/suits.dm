@@ -292,6 +292,12 @@
 	cold_protection = UPPER_TORSO|LOWER_TORSO|ARMS
 	min_cold_protection_temperature = ARMOR_MIN_COLD_PROTECTION_TEMPERATURE
 
+/obj/item/clothing/suit/storage/furcoat/brown
+	name = "brown fur coat"
+	desc = "Brown fur coat made of synthetic fur and natural leather. Label says it was made in Iolaus for Chatka"
+	icon_state = "furcoat_brown"
+	item_state = "furcoat_brown"
+
 /obj/item/clothing/suit/storage/piratecoat
 	name = "leather big coat"
 	desc = "Large coat with shoulder pads made of synthetic leather. Label says it was made in Iolaus"

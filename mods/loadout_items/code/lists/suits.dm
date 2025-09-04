@@ -31,6 +31,7 @@
 	fancy_coats += /obj/item/clothing/suit/storage/gentlecoat
 	fancy_coats += /obj/item/clothing/suit/storage/tailcoat
 	fancy_coats += /obj/item/clothing/suit/storage/furcoat
+	fancy_coats += /obj/item/clothing/suit/storage/furcoat/brown
 	fancy_coats += /obj/item/clothing/suit/storage/piratecoat
 	fancy_coats += /obj/item/clothing/suit/storage/jensencoat
 	gear_tweaks += new/datum/gear_tweak/path/specified_types_list(fancy_coats)
