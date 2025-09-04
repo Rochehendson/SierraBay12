@@ -3,7 +3,7 @@
 	icon = 'mods/psionics/icons/psychic_powers.dmi'
 	atom_flags = 0
 	anchored = TRUE
-	var/maintain_cost = 2
+	var/maintain_cost = 3
 	var/mob/living/owner
 /*
 /obj/item/psychic_power/AltClick(mob/user)
