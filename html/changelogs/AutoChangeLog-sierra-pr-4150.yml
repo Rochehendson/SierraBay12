@@ -1,4 +1,0 @@
-author: SierraKomodo
-changes:
-  - {admin: Pulling objects and mobs via ctrl+click now generates hidden prints.}
-delete-after: true
