@@ -1,4 +1,0 @@
-author: Spookerton
-changes:
-  - {bugfix: 'If you see this, fixed changelog generation.'}
-delete-after: true
