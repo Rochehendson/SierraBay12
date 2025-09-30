@@ -1,0 +1,4 @@
+author: Builder13
+changes:
+  - {bugfix: Whale migration event is actually working now.}
+delete-after: true
