@@ -217,7 +217,7 @@
 	. = 0
 	if(isturf(loc))
 		var/turf/turf = loc
-		. += turf.movement_delay
+		. += turf.get_terrain_movement_delay()
 	if (drowsyness > 0)
 		. += 6
 	if(lying) //Crawling, it's slower
@@ -589,6 +589,7 @@
 
 	src.pulling = AM
 	AM.pulledby = src
+	AM.add_hiddenprint(src)
 
 	if(pullin)
 		pullin.icon_state = "pull1"

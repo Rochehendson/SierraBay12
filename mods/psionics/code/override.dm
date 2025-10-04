@@ -43,6 +43,11 @@
 	if(affected)
 		affected.implants += imp
 		imp.part = affected
+		switch(H.mind.assigned_job.department)
+			if("Охранный")
+				if(H.mind.assigned_job.title == "Criminal Investigator" || H.mind.assigned_job.title == "Forensic Technician")
+					return
+				imp.psi_mode = "Issue Reprimand"
 	to_chat(H, SPAN_DANGER("As a registered psionic, you are fitted with a psi-dampening control implant. Using psi-power while the implant is active will result in neural shocks and your violation being reported."))
 
 /datum/job/equip(mob/living/carbon/human/H, alt_title, datum/mil_branch/branch, datum/mil_rank/grade)
@@ -64,5 +69,109 @@
 		H.last_faction = faction
 
 /datum/job
+	give_psionic_implant_on_join = TRUE // Все псионики теперь имплантируются, за некоторыми исключениями.
 
-	give_psionic_implant_on_join = FALSE // If psionic, will be implanted for control.
+// ranged interaction telekinesis
+/obj/machinery/button/do_simple_ranged_interaction(mob/user)
+	if(!LAZYLEN(req_access))
+		activate(user)
+		return TRUE
+
+/obj/machinery/access_button/do_simple_ranged_interaction(mob/user)
+	if(!LAZYLEN(req_access))
+		if(radio_connection)
+			var/datum/signal/signal = new
+			signal.transmission_method = 1 //radio signal
+			signal.data["tag"] = master_tag
+			signal.data["command"] = command
+
+			radio_connection.post_signal(src, signal, RADIO_AIRLOCK, AIRLOCK_CONTROL_RANGE)
+	flick("access_button_cycle", src)
+	return TRUE
+
+/obj/machinery/airlock_sensor/do_simple_ranged_interaction(mob/user)
+	if(!LAZYLEN(req_access))
+		if(radio_connection)
+			var/datum/signal/signal = new
+			signal.transmission_method = 1 //radio signal
+			signal.data["tag"] = master_tag
+			signal.data["command"] = command
+
+			radio_connection.post_signal(src, signal, RADIO_AIRLOCK, AIRLOCK_CONTROL_RANGE)
+	flick("airlock_sensor_cycle", src)
+	return TRUE
+
+/obj/machinery/disposal/do_simple_ranged_interaction(mob/user)
+	flush()
+	return TRUE
+
+/obj/machinery/floodlight/do_simple_ranged_interaction(mob/user)
+	if(use_power)
+		turn_off(1)
+	else
+		if(!turn_on(1))
+			to_chat(user, "You try to turn on \the [src] but it does not work.")
+			playsound(src.loc, 'sound/effects/flashlight.ogg', 50, 0)
+
+	update_icon()
+	return TRUE
+
+/obj/machinery/light_switch/do_simple_ranged_interaction(mob/user)
+	playsound(src, "switch", 30)
+	set_state(!on)
+	return TRUE
+
+/obj/structure/lift/button/do_simple_ranged_interaction(mob/user)
+	interact()
+	return TRUE
+
+// w_class
+/obj/structure/closet
+	w_class = ITEM_SIZE_LARGE
+
+/obj/item/card/operant_card
+	name = "operant registration card"
+	icon_state = "warrantcard_civ"
+	desc = "A registration card in a faux-leather case. It marks the named individual as a registered, law-abiding psionic."
+	w_class = ITEM_SIZE_SMALL
+	attack_verb = list("whipped")
+	hitsound = 'sound/weapons/towelwhip.ogg'
+	var/info
+	var/use_rating
+
+
+/obj/item/card/operant_card/proc/set_info(mob/living/carbon/human/human)
+	if(!istype(human))
+		return
+	switch(human.psi?.rating)
+		if(0)
+			use_rating = "[human.psi.rating]-Omicron"
+		if(1)
+			use_rating = "[human.psi.rating]-Omicron"
+		if(2)
+			use_rating = "[human.psi.rating]-Omega"
+		if(3)
+			use_rating = "[human.psi.rating]-Lamed"
+		if(4)
+			use_rating = "[human.psi.rating]-Gimmel"
+		if(5)
+			use_rating = "[human.psi.rating]-Aleph"
+		if (6 to INFINITY)
+			use_rating = "[human.psi.rating]-Post Aleph"
+		else
+			use_rating = "Non-Psionic"
+
+	info = {"\
+		Name: [human.real_name]\n\
+		Species: [human.get_species()]\n\
+		Fingerprint: [human.dna?.uni_identity ? md5(human.dna.uni_identity) : "N/A"]\n\
+		Assessed Potential: [use_rating]\
+	"}
+
+/obj/item/card/operant_card/attack_self(mob/living/user)
+	user.visible_message(
+		SPAN_ITALIC("\The [user] examines \a [src]."),
+		SPAN_ITALIC("You examine \the [src]."),
+		3
+	)
+	to_chat(user, info || SPAN_WARNING("\The [src] is completely blank!"))
