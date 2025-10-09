@@ -1,4 +1,0 @@
-author: Mucker
-changes:
-  - {admin: Added a log for when players observe from the lobby.}
-delete-after: true

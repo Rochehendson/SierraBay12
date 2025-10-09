@@ -1,5 +1,0 @@
-author: Builder13
-changes:
-  - {bugfix: Fix for certain cooking recipes that had a result override (donk 
-      pockets)}
-delete-after: true
