@@ -1,0 +1,6 @@
+author: Sbotkin
+changes:
+  - {bugfix: Plastic knives are printed with plastic again.}
+  - {tweak: Thermal regulators allow heating (and cooling) various types of 
+      glass and the shaker.}
+delete-after: true
