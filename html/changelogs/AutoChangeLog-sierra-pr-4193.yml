@@ -1,5 +1,0 @@
-author: Builder13
-changes:
-  - {bugfix: Фикс UI карт в программе отслеживания сенсоров и у программы 
-      наблюдения за камерами}
-delete-after: true
