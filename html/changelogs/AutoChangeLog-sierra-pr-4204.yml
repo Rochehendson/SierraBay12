@@ -1,0 +1,4 @@
+author: Tencs
+changes:
+  - {tweak: Torch event posters are now contraband.}
+delete-after: true
