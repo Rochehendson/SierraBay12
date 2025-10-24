@@ -1,0 +1,6 @@
+author: SierraKomodo
+changes:
+  - {tweak: Various things that check if a mob is dead now also look at faked 
+      deaths as well. This should make it harder to accidentally/intentionally 
+      meta ling death.}
+delete-after: true
