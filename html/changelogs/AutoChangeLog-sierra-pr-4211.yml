@@ -1,0 +1,4 @@
+author: KOJIECO
+changes:
+  - {bugfix: Добавил недостающую иконку для шлема iccgn voidsuit.}
+delete-after: true
