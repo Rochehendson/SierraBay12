@@ -1,0 +1,12 @@
+author: Shegar
+changes:
+  - {bugfix: Деревья нельзя таскать}
+  - {bugfix: Пофикшены проблемы спавнов у деревьев}
+  - {bugfix: Исправлена проблема с тыканьем по деревьям (Возможность ползать на 
+      любые расстояния)}
+  - {tweak: 'Пси обмен здоровья теперь обменивается переломами, кровотечениями, некрозами,
+      мутациями крч все вот эти флаги: ORGAN_BLEEDING ORGAN_BROKEN ORGAN_DEAD ORGAN_MUTATED
+      ORGAN_ARTERY_CUT ORGAN_TENDON_CUT ORGAN_DISFIGURED'}
+  - {rscadd: Небольшое расширение контента Ледяной планеты}
+  - {balance: Проведён ребаланс аномалий}
+delete-after: true
