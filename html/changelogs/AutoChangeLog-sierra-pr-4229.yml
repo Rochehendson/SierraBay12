@@ -1,0 +1,7 @@
+author: Roche Hendson - Iceberg
+changes:
+  - {bugfix: Визы из лодаута больше не спавнятся на голове}
+  - {rscadd: Добавлена рабочая виза ГКК}
+  - {imageadd: Новая травел виза Сола}
+  - {imageadd: Новая ворк виза Сола}
+delete-after: true
