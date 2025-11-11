@@ -1,7 +1,0 @@
-author: Podszywacz
-changes:
-  - {rscadd: Added functionality where GAS in hunting stance can rip-open 
-      packages barehanded.}
-  - {rscadd: Added functionality where GAS in hunting stance can pry-open 
-      shellfish barehanded.}
-delete-after: true

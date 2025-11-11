@@ -1,6 +1,0 @@
-author: Mucker
-changes:
-  - {tweak: Mobs can be ignited when hit by objects considered to be a flame 
-      source.}
-  - {admin: 'All throw attempts are now attack logged, even if they miss.'}
-delete-after: true
