@@ -1,0 +1,4 @@
+author: SierraKomodo
+changes:
+  - {bugfix: Shuttles no longer leave outlines in space.}
+delete-after: true
