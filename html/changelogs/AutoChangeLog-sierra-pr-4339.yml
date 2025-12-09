@@ -1,0 +1,5 @@
+author: LordNest
+changes:
+  - rscadd: Добавил хоткей на посмотреть вверх/вниз, джва года ждали (Ctrl + -/=
+      или ,/.)
+delete-after: true
