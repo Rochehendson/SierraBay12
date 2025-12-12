@@ -6,3 +6,6 @@
 	density = FALSE
 	anchored = TRUE
 	can_buckle = TRUE
+	// [SIERRA-ADD] ОЧ ВАЖНОЕ ИЗМЕНЕНИЕ, БЕЗ НАСЕРА В КОРКОД НЕ ВЫЙДЕТ ИНФА 100
+	buckle_stance = BUCKLE_FORCE_STAND
+	// [/SIERRA-ADD]
