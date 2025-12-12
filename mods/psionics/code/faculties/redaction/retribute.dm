@@ -5,18 +5,18 @@
 	use_grab =        TRUE
 	min_rank =        PSI_RANK_MASTER
 	use_description = "Выберите любую конечность тела на зелёном интенте и нажмите по цели, чтобы отрастить или удалить конечность жертвы."
-var/perevod = list(
-	BP_HEAD = "голову",
-	BP_CHEST = "грудь",
-	BP_L_ARM = "левую руку",
-	BP_R_ARM = "правую руку",
-	BP_L_LEG = "левую ногу",
-	BP_R_LEG = "правую ногу",
-	BP_GROIN = "паховую область",
-	BP_L_HAND = "левую кисть",
-	BP_R_HAND = "правую кисть",
-	BP_L_FOOT = "левую стопу",
-	BP_R_FOOT = "правую стопу")
+	var/perevod = list(
+		BP_HEAD = "голову",
+		BP_CHEST = "грудь",
+		BP_L_ARM = "левую руку",
+		BP_R_ARM = "правую руку",
+		BP_L_LEG = "левую ногу",
+		BP_R_LEG = "правую ногу",
+		BP_GROIN = "паховую область",
+		BP_L_HAND = "левую кисть",
+		BP_R_HAND = "правую кисть",
+		BP_L_FOOT = "левую стопу",
+		BP_R_FOOT = "правую стопу")
 
 //UPDATED
 
