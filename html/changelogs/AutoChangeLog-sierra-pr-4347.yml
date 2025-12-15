@@ -1,5 +1,0 @@
-author: Builder13
-changes:
-  - bugfix: Фикс загрузки карты SFV Arbiter
-  - bugfix: Фикс выхода из зарядной станции
-delete-after: true

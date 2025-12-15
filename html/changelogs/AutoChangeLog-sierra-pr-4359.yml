@@ -1,5 +1,0 @@
-author: Shegar
-changes:
-  - bugfix: Мех не бессмертный
-  - bugfix: Эффект попадания по меху всегда виден
-delete-after: true
