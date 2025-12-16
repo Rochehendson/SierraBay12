@@ -123,3 +123,12 @@ Pouches and kits
 	path = /obj/item/storage/fancy/pyx
 	cost = 2
 	allowed_roles = list(/datum/job/chaplain)
+
+/****************
+Instruments
+****************/
+
+/datum/gear/utility/stellascope
+	display_name = "stellascope"
+	path = /obj/item/holosign_creator/stellascope
+	cost = 4
