@@ -1,0 +1,5 @@
+author: Voiko
+changes:
+  - tweak: Исправлены ссылки на Wiki и Discord.
+  - imageadd: Изменена иконка игры.
+delete-after: true
