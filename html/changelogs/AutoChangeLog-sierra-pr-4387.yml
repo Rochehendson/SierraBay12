@@ -1,0 +1,5 @@
+author: Roche Hendson, LordNest
+changes:
+  - bugfix: Пофиксил Retribute
+  - balance: Метакинез - вмораживать людей в лёд можно только в мастера
+delete-after: true
