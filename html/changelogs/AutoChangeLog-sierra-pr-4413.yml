@@ -1,4 +1,0 @@
-author: Kiritsugu-web
-changes:
-  - bugfix: Заменены краши сервера на логирование ошибок при сохранении настроек
-delete-after: true
