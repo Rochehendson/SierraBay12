@@ -1,0 +1,4 @@
+author: Teteshnik
+changes:
+  - rscadd: Добавил уведомления о прибывшем факсе от центрального командования.
+delete-after: true
