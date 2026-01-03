@@ -15,11 +15,12 @@
 #define MOUSE_3 "middle"
 
 /// Truthy when control was down during the event
-#define MOUSE_CTRL "ctrl"
+// [SIERRA-EDIT Keybind]
+#define MOUSE_CTRL "Ctrl"
 
 /// Truthy when shift was down during the event
-#define MOUSE_SHIFT "shift"
-
+#define MOUSE_SHIFT "Shift"
+// [/SIERRA-EDIT-END]
 /// Truthy when alt was down during the event
 #define MOUSE_ALT "alt"
 
