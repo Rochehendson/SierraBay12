@@ -1,0 +1,4 @@
+author: Mr_DarkBladeS
+changes:
+  - wip: Добавлено логирование сохранения pAI для отслеживания крашей.
+delete-after: true
