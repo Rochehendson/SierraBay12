@@ -1,0 +1,5 @@
+author: Albens
+changes:
+  - rscadd: Cutlery and an empty snack bowl are now available in the loadout.
+  - rscadd: Lunch boxes can now let you pick various boiled food.
+delete-after: true
