@@ -1,4 +1,0 @@
-author: Teteshnik
-changes:
-  - bugfix: Пофиксил баг с доступом к вокс маячку.
-delete-after: true
