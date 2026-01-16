@@ -1,0 +1,5 @@
+author: Unchi
+changes:
+  - tweak: Red Cross, Blue Cross, Bronze Flower, Silver Flower, Gold Flower 
+      теперь кастомизируемые.
+delete-after: true
