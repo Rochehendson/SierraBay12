@@ -208,6 +208,7 @@
 		return
 
 	var/obj/item/material/armblade/claws/blade = new(M)
+	blade.canremove = FALSE
 	M.put_in_hands(blade)
 
 	if(!..())
