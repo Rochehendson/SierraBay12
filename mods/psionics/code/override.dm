@@ -175,3 +175,40 @@
 		3
 	)
 	to_chat(user, info || SPAN_WARNING("\The [src] is completely blank!"))
+
+/datum/antagonist/thrall
+	skill_setter = null // Issue #3698 Баг: Траллирование псионика сбрасывает все скиллы цели на бейсик
+
+/datum/reagent/drugs/three_eye/affect_blood(mob/living/carbon/M, removed)
+	M.add_client_color(/datum/client_color/thirdeye)
+	M.add_chemical_effect(CE_THIRDEYE, 1)
+	M.add_chemical_effect(CE_MIND, -2)
+	M.hallucination(50, 50)
+	M.make_jittery(3)
+	M.make_dizzy(3)
+	if(M.psi)
+		M.psi.stamina = M.psi.max_stamina
+	if(prob(0.1) && ishuman(M))
+		var/mob/living/carbon/human/H = M
+		H.seizure()
+		H.adjustBrainLoss(rand(8, 12))
+	..()
+
+/datum/reagent/drugs/three_eye/on_leaving_metabolism(mob/parent, metabolism_class)
+	var/mob/living/carbon/M = parent
+	parent.remove_client_color(/datum/client_color/thirdeye)
+	if(M.psi)
+		M.psi.stamina = 0
+		M.psi.backblast(30)
+		parent.flash_eyes(override_blindness_check = TRUE, visual = TRUE)
+
+/datum/reagent/drugs/three_eye/overdose(mob/living/carbon/M)
+	..()
+	M.adjustBrainLoss(rand(1, 5))
+	if(ishuman(M) && prob(10))
+		var/mob/living/carbon/human/H = M
+		H.seizure()
+	if(prob(10))
+		to_chat(M, SPAN_DANGER(SPAN_SIZE(rand(2,4), pick(overdose_messages))))
+	if(M.psi)
+		M.psi.check_latency_trigger(30, "a Three Eye overdose")
