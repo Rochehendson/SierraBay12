@@ -201,14 +201,3 @@
 		M.psi.stamina = 0
 		M.psi.backblast(30)
 		parent.flash_eyes(override_blindness_check = TRUE, visual = TRUE)
-
-/datum/reagent/drugs/three_eye/overdose(mob/living/carbon/M)
-	..()
-	M.adjustBrainLoss(rand(1, 5))
-	if(ishuman(M) && prob(10))
-		var/mob/living/carbon/human/H = M
-		H.seizure()
-	if(prob(10))
-		to_chat(M, SPAN_DANGER(SPAN_SIZE(rand(2,4), pick(overdose_messages))))
-	if(M.psi)
-		M.psi.check_latency_trigger(30, "a Three Eye overdose")
