@@ -1,4 +1,0 @@
-author: Teteshnik
-changes:
-  - tweak: Теперь факс АВД не пишется в общий канал.
-delete-after: true
