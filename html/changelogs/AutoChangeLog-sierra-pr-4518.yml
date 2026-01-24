@@ -1,5 +1,0 @@
-author: Roche Hendson
-changes:
-  - bugfix: Когти ИКС Фонда более нельзя выбросить, так как они привязаны к 
-      ИКСу.
-delete-after: true
