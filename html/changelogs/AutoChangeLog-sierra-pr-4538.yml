@@ -1,5 +1,0 @@
-author: Mucker
-changes:
-  - rscadd: Research matrix progress is now persistent between rounds, with 0 - 
-      3 levels "decaying" between rounds.
-delete-after: true
