@@ -54,9 +54,6 @@
 
 	var/demi_rank = user.psi.get_rank(PSI_MANIFESTATION)
 
-	if(user.skill_check(SKILL_WEAPONS, SKILL_TRAINED) && user.skill_check(SKILL_CONSTRUCTION, SKILL_EXPERIENCED))
-		paths_lvl4 += /obj/item/gun/energy/psigun
-
 	. = ..()
 	if(.)
 
