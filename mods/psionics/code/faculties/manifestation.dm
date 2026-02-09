@@ -103,8 +103,6 @@
 		items_lvl3.Cut()
 		items_lvl4.Cut()
 
-		paths_lvl4 -= /obj/item/gun/energy/psigun
-
 /singleton/psionic_power/manifestation/tinker
 	name =            "Manifest tool"
 	cost =            5
