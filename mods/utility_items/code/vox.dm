@@ -29,8 +29,8 @@
 		)
 	action_button_name = "Toggle Cloak"
 	var/cloak = FALSE
-	var/cloak_charge = 300
-	var/cloak_charge_max = 300
+	var/cloak_charge = 120
+	var/cloak_charge_max = 120
 
 /obj/item/clothing/suit/space/vox/stealth/attack_self(mob/user)
 	var/mob/living/carbon/human/H = user
@@ -47,10 +47,10 @@
 	if(cloak)
 		cloak = FALSE
 		return 1
-	if(cloak_charge <= 30)
-		to_chat(H, SPAN_WARNING("Cloak is out of charge!"))
+	if(cloak_charge <= 60)
+		to_chat(H, SPAN_BOLD(SPAN_CLASS("vox", "Cloak is out of charge!")))
 		return
-	to_chat(H, SPAN_NOTICE("Stealth mode enabled. Charge: [cloak_charge] seconds"))
+	to_chat(H, SPAN_BOLD(SPAN_CLASS("vox", "Stealth mode enabled. Charge: [cloak_charge] seconds")))
 	cloak = TRUE
 	animate(H, alpha = 255, alpha = 1, time = 10)
 
@@ -64,7 +64,9 @@
 		sleep(1 SECOND)
 		cloak_charge--
 		if(cloak_charge == 60)
-			to_chat(H, SPAN_WARNING("60 seconds untill reveal!"))
+			to_chat(H, SPAN_CLASS("vox", "60 seconds untill reveal!"))
+		if(cloak_charge == 20)
+			to_chat(H, SPAN_BOLD(SPAN_CLASS("vox", "20 seconds untill reveal!")))
 		if(!cloak)
 			remain_cloaked = FALSE
 		if(!istype(H.head, /obj/item/clothing/head/helmet/space/vox/stealth))
