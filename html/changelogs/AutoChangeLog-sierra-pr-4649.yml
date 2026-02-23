@@ -1,0 +1,7 @@
+author: GarryFlint
+changes:
+  - maptweak: Добавлены ATM-ы на четвертую палубу. Добавлены локдаун бласты на 
+      первую. И иные мелкие фиксы.
+  - maptweak: 'Normandite: Исправлено питание ЛКП Утюга'
+  - maptweak: 'FAcolony: Добавлены 1 телекристалл, 8 охладителей'
+delete-after: true
