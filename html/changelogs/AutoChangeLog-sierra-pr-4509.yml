@@ -1,0 +1,5 @@
+author: Teteshnik
+changes:
+  - rscadd: Реворк тайзера
+  - imageadd: Немного изменил иконки электротайзера под тайзер.
+delete-after: true
