@@ -43,6 +43,9 @@
 	return INITIALIZE_HINT_LATELOAD
 
 /mob/living/ventriloquist_decoy/LateInitialize(mapload, mob/living/user, atom/target, phrase)
+	if(!target)
+		qdel(src)
+		return
 	name = target.name
 	pixel_x = target.pixel_x
 	pixel_y = target.pixel_y
