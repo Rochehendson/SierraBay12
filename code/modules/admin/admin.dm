@@ -139,6 +139,7 @@ var/global/floorIsLava = 0
 		body += "<a href='byond://?src=\ref[M.mind];add_goal=1'>Add Random Goal</a>"
 
 	body += "<br><br>"
+	// [SIERRA-ADD] - PSIONICS
 	body += "<details><summary><b>Psionics</b></summary><br/>"
 	if(isliving(M))
 		var/mob/living/psyker = M
@@ -146,7 +147,7 @@ var/global/floorIsLava = 0
 			body += "<a href='byond://?src=\ref[psyker.psi];remove_psionics=1'>Remove psionics.</a><br/><br/>"
 			body += "<a href='byond://?src=\ref[psyker.psi];trigger_psi_latencies=1'>Trigger latencies.</a><br/>"
 		body += "<table width = '100%'>"
-		for(var/faculty in list(PSI_COERCION, PSI_CONSCIOUSNESS, PSI_PSYCHOKINESIS, PSI_MANIFESTATION, PSI_ENERGISTICS, PSI_REDACTION, PSI_METAKINESIS, PSI_SHAYMANISM)) // [SIERRA-ADD] - PSIONICS
+		for(var/faculty in list(PSI_COERCION, PSI_CONSCIOUSNESS, PSI_PSYCHOKINESIS, PSI_MANIFESTATION, PSI_ENERGISTICS, PSI_REDACTION, PSI_METAKINESIS, PSI_SHAYMANISM)) 
 			var/singleton/psionic_faculty/faculty_singleton = SSpsi.get_faculty(faculty)
 			var/faculty_rank = psyker.psi ? psyker.psi.get_rank(faculty) : 0
 			body += "<tr><td><b>[faculty_singleton.name]</b></td>"
@@ -160,6 +161,7 @@ var/global/floorIsLava = 0
 	else
 		body += "<i>Non-living entities cannot have psionics.</i><br/>"
 	body += "</details>"
+	// [SIERRA-ADD] - PSIONICS
 
 	if (M.client)
 		if(!istype(M, /mob/new_player))
