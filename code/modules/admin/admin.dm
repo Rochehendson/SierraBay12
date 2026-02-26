@@ -156,7 +156,10 @@ var/global/floorIsLava = 0
 					psi_title = "<b>[psi_title]</b>"
 				body += "<td><a href='byond://?src=\ref[psyker.mind];set_psi_faculty_rank=[i];set_psi_faculty=[faculty]'>[psi_title]</a></td>"
 			body += "</tr>"
-		body += "</table></details>"
+		body += "</table>"
+	else
+		body += "<i>Non-living entities cannot have psionics.</i><br/>"
+	body += "</details>"
 
 	if (M.client)
 		if(!istype(M, /mob/new_player))
