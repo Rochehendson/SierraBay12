@@ -1,0 +1,4 @@
+author: thekekman666
+changes:
+  - bugfix: Синтетики больше не слышат пси сигнал
+delete-after: true
