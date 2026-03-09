@@ -551,6 +551,11 @@
 		to_chat(src, SPAN_WARNING("It won't budge!"))
 		return
 
+	var/mob/living/carbon/human/user = usr
+	if(user)
+		if(istype(AM, /obj/structure/rhombus) && !GLOB.thralls.is_antagonist(user.mind)) // Nasrano dla ebenta
+			return
+
 	var/mob/M = AM
 	if(ismob(AM))
 
