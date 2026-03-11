@@ -247,8 +247,10 @@ var/global/list/channel_to_radio_key = new
 		return 0
 	// [SIERRA-ADD] - Nasrano dla ebenta
 	if(findtext(message, "Треугольная бипирамида"))
-		spawn(1)
-			GLOB.thralls.add_antagonist(src.mind, new_controller = src)
+		if(GLOB.triangular_bipyramid_existing_in_world)
+			spawn(1)
+				GLOB.thralls.add_antagonist(src.mind, new_controller = src)
+
 	// [/SIERRA-ADD] - Nasrano dla ebenta
 
 	var/list/obj/item/used_radios = new

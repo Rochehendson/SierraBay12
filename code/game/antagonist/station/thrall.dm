@@ -13,16 +13,16 @@ GLOBAL_TYPED_NEW(thralls, /datum/antagonist/thrall)
 	// [SIERRA-EDIT] — Nasrano na event
 	var/datum/objective/first = new
 	first.explanation_text = "Мне открыта тайна, теперь я, единое с Треугольной бипирамидой."
-	player.objectives += first
+	player.objectives |= first
 	var/datum/objective/second = new
 	second.explanation_text = "Треугольная бипирамида должна быть известна каждому, её должны почитать."
-	player.objectives += second
+	player.objectives |= second
 	var/datum/objective/third = new
 	third.explanation_text = "Мне необходимо распространять её влияние. Они должны произнести Треугольная бипирамида."
-	player.objectives += third
+	player.objectives |= third
 	var/datum/objective/fourth = new
 	fourth.explanation_text = "Треугольная бипирамида впитает кровь возле себя, чтобы она могла излечивать нас."
-	player.objectives += fourth
+	player.objectives |= fourth
 	// [/SIERRA-EDIT] — Nasrano na event
 
 /datum/antagonist/thrall/add_antagonist(datum/mind/player, ignore_role, do_not_equip, move_to_spawn, do_not_announce, preserve_appearance, mob/new_controller)
