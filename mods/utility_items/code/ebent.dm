@@ -8,7 +8,7 @@ GLOBAL_VAR(triangular_bipyramid_existing_in_world)
 	light_power = 0.5
 	light_range = 13
 	light_color = "#3e0000"
-	density = 1
+	density = TRUE
 	plane = GAME_PLANE_ABOVE_FOV
 	var/health_points = 4
 	var/charges = 0
@@ -103,7 +103,7 @@ GLOBAL_VAR(triangular_bipyramid_existing_in_world)
 				to_chat(user, SPAN_NOTICE("Я вожу у кристалла инструментом, он слабеет, но мне нужно еще [health_points] раза чтобы уничтожить его действие. \nСледующий обряд будет эффективен только через 10 минут"))
 			else
 				to_chat(user, SPAN_WARNING("Кристалл тухнет"))
-				src.density = 0
+				src.density = FALSE
 				fuckit()
 
 /obj/structure/rhombus/proc/tooc(message)
