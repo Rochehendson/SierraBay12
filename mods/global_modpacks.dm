@@ -78,3 +78,4 @@
 #include "carp_racing/_carp_racing_includes.dm"
 #include "../packs/factions/fa/_pack.dm"
 #include "tribe/_tribe_includes.dm"
+#include "vampire/vampire_includes.dm"
