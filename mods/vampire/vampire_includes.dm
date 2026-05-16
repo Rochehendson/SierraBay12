@@ -4,5 +4,6 @@
 #include "vampire.dm"
 
 #include "code/vampire_gamemode.dm"
+#include "code/organ.dm"
 
 #endif
