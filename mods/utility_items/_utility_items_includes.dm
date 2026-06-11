@@ -63,4 +63,5 @@
 #include "code/cell_rack.dm"
 #include "code/sniper_smoke.dm"
 #include "code/force_open_to_constructs.dm"
+#include "code/firepanic.dm"
 #endif
