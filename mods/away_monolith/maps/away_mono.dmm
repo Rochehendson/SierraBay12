@@ -1,0 +1,13723 @@
+//MAP CONVERTED BY dmm2tgm.py THIS HEADER COMMENT PREVENTS RECONVERSION, DO NOT REMOVE
+"aa" = (
+/turf/space,
+/area/space)
+"ad" = (
+/obj/structure/window/reinforced{
+	polarized = 1;
+	dir = 1
+	},
+/obj/machinery/atmospherics/unary/engine{
+	dir = 1
+	},
+/turf/simulated/floor/reinforced{
+	map_airless = 1
+	},
+/area/monolithship/engineering)
+"ae" = (
+/obj/floor_decal/corner/red/border{
+	dir = 1
+	},
+/obj/structure/cable{
+	d1 = 4;
+	d2 = 8;
+	icon_state = "4-8"
+	},
+/obj/machinery/light,
+/turf/simulated/floor/tiled/dark,
+/area/monolithship/bridge)
+"ah" = (
+/obj/machinery/door/airlock/external/glass/bolted/cycling{
+	frequency = 1380;
+	id_tag = "reefer_outer_doors"
+	},
+/turf/simulated/floor/plating,
+/area/monolithship/sklad)
+"aj" = (
+/obj/floor_decal/corner/brown/border{
+	dir = 5
+	},
+/obj/structure/handrail{
+	dir = 8
+	},
+/obj/machinery/light{
+	dir = 1;
+	icon_state = "tube_map"
+	},
+/obj/paint/black,
+/turf/simulated/floor/tiled/old_cargo{
+	color = "#444444"
+	},
+/area/monolithship/shuttle)
+"al" = (
+/obj/paint/black,
+/obj/paint_stripe/green,
+/obj/machinery/atmospherics/pipe/simple/visible/fuel{
+	dir = 6
+	},
+/turf/simulated/wall/r_titanium,
+/area/monolithship/engineering)
+"am" = (
+/obj/structure/catwalk,
+/obj/machinery/atmospherics/pipe/manifold/visible{
+	dir = 1
+	},
+/turf/simulated/floor/plating,
+/area/monolithship/fuelbay)
+"ap" = (
+/obj/wallframe_spawn/reinforced/titanium,
+/obj/machinery/door/firedoor{
+	req_access = list()
+	},
+/obj/paint/black,
+/turf/simulated/floor/reinforced{
+	map_airless = 1
+	},
+/area/monolithship/bridge)
+"at" = (
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
+/obj/floor_decal/corner/orange/diagonal{
+	dir = 8
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/fuel{
+	dir = 1
+	},
+/turf/simulated/floor/tiled/dark,
+/area/monolithship/engineering)
+"au" = (
+/obj/floor_decal/corner/orange/diagonal{
+	dir = 8
+	},
+/obj/structure/reagent_dispensers/fueltank,
+/turf/simulated/floor/tiled/dark,
+/area/monolithship/engineering)
+"av" = (
+/obj/structure/handrail{
+	dir = 8
+	},
+/obj/floor_decal/corner/brown/bordercorner,
+/obj/paint/black,
+/turf/simulated/floor/tiled/old_cargo{
+	color = "#444444"
+	},
+/area/monolithship/shuttle)
+"ax" = (
+/obj/machinery/atmospherics/unary/vent_scrubber/on{
+	dir = 8
+	},
+/turf/simulated/floor/tiled/dark,
+/area/monolithship/bridge)
+"ay" = (
+/obj/floor_decal/techfloor{
+	dir = 8
+	},
+/obj/machinery/airlock_sensor{
+	id_tag = "reefer_outer_sensor";
+	master_tag = "ZHPWestSolar";
+	pixel_x = 24;
+	frequency = 1380
+	},
+/turf/simulated/floor/tiled/techfloor/grid,
+/area/monolithship/sklad)
+"az" = (
+/obj/floor_decal/corner/beige/diagonal,
+/obj/floor_decal/corner/orange/diagonal{
+	dir = 8
+	},
+/obj/machinery/atmospherics/pipe/manifold4w/hidden/fuel,
+/turf/simulated/floor/tiled/dark,
+/area/monolithship/reactors)
+"aA" = (
+/obj/floor_decal/corner/brown/border{
+	dir = 6
+	},
+/obj/structure/handrail{
+	dir = 8
+	},
+/obj/paint/black,
+/turf/simulated/floor/tiled/old_cargo{
+	color = "#444444"
+	},
+/area/monolithship/shuttle)
+"aD" = (
+/obj/machinery/nav_light/port{
+	pixel_y = -15;
+	dir = 8
+	},
+/obj/structure/lattice,
+/turf/space,
+/area/space)
+"aH" = (
+/obj/machinery/door/firedoor{
+	dir = 4
+	},
+/obj/floor_decal/corner/brown/half{
+	dir = 1
+	},
+/obj/floor_decal/spline/fancy/black{
+	dir = 8
+	},
+/obj/structure/cable{
+	d1 = 4;
+	d2 = 8;
+	icon_state = "4-8"
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
+	dir = 4
+	},
+/turf/simulated/floor/tiled/dark,
+/area/monolithship/sklad)
+"aJ" = (
+/obj/machinery/atmospherics/pipe/simple/hidden/supply,
+/obj/machinery/door/airlock/external/glass/bolted/cycling{
+	frequency = 1380;
+	id_tag = "reefer_inter_doors"
+	},
+/obj/floor_decal/techfloor{
+	dir = 1
+	},
+/turf/simulated/floor/tiled/dark,
+/area/monolithship/sklad)
+"aK" = (
+/obj/machinery/door/blast/regular/open{
+	dir = 8;
+	id_tag = "MonoSensorAccess"
+	},
+/turf/simulated/floor/airless,
+/area/monolithship/reactors)
+"aL" = (
+/obj/structure/handrail{
+	dir = 8
+	},
+/obj/floor_decal/techfloor{
+	dir = 8
+	},
+/obj/machinery/atmospherics/unary/vent_pump/high_volume/external_air{
+	dir = 8;
+	id_tag = "reefer_pump"
+	},
+/turf/simulated/floor/tiled/techfloor/grid,
+/area/monolithship/sklad)
+"aP" = (
+/obj/structure/table/reinforced,
+/obj/machinery/light{
+	dir = 8
+	},
+/obj/machinery/atmospherics/unary/vent_pump/on{
+	dir = 4
+	},
+/turf/simulated/floor/wood/walnut,
+/area/monolithship/bridge)
+"aQ" = (
+/obj/floor_decal/corner/brown/border{
+	dir = 9
+	},
+/obj/structure/handrail{
+	dir = 4
+	},
+/obj/structure/fuel_port{
+	pixel_y = 26
+	},
+/obj/paint/black,
+/turf/simulated/floor/tiled/old_cargo{
+	color = "#444444"
+	},
+/area/monolithship/shuttle)
+"aR" = (
+/obj/overmap/visitable/ship/away_monolith,
+/turf/space,
+/area/space)
+"aS" = (
+/obj/machinery/atmospherics/pipe/simple/hidden/fuel{
+	dir = 1
+	},
+/obj/floor_decal/corner_techfloor_gray/diagonal,
+/obj/floor_decal/corner_techfloor_grid/diagonal{
+	dir = 4
+	},
+/obj/structure/cable{
+	d1 = 1;
+	d2 = 2;
+	icon_state = "1-2";
+	pixel_y = 0
+	},
+/obj/structure/cable{
+	d1 = 1;
+	d2 = 4;
+	icon_state = "1-4"
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/supply,
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
+/turf/simulated/floor/tiled/dark,
+/area/monolithship/sklad)
+"aU" = (
+/obj/machinery/atmospherics/pipe/simple/visible/universal{
+	dir = 4
+	},
+/obj/structure/catwalk,
+/turf/simulated/floor/plating,
+/area/monolithship/fuelbay)
+"aX" = (
+/obj/machinery/light{
+	dir = 1;
+	icon_state = "tube_map"
+	},
+/obj/structure/cable{
+	d1 = 2;
+	d2 = 4;
+	icon_state = "2-4"
+	},
+/obj/structure/cable{
+	d1 = 2;
+	d2 = 8;
+	icon_state = "2-8"
+	},
+/turf/simulated/floor/tiled/monotile,
+/area/monolithship/reactors)
+"aZ" = (
+/obj/floor_decal/corner/orange/diagonal{
+	dir = 8
+	},
+/obj/structure/table/marble,
+/obj/item/storage/toolbox/syndicate{
+	pixel_y = 7;
+	pixel_x = 3
+	},
+/obj/item/storage/toolbox/electrical{
+	pixel_y = -3
+	},
+/obj/item/storage/toolbox/mechanical{
+	pixel_y = -13;
+	pixel_x = -3
+	},
+/turf/simulated/floor/tiled/dark,
+/area/monolithship/engineering)
+"bb" = (
+/obj/machinery/light{
+	dir = 1;
+	icon_state = "tube_map"
+	},
+/obj/floor_decal/corner_techfloor_grid/diagonal{
+	dir = 4
+	},
+/obj/floor_decal/corner_techfloor_gray/diagonal,
+/turf/simulated/floor/tiled/dark,
+/area/monolithship/sklad)
+"bd" = (
+/obj/floor_decal/corner_techfloor_gray/diagonal,
+/obj/floor_decal/corner_techfloor_grid/diagonal{
+	dir = 4
+	},
+/obj/structure/cable{
+	d1 = 4;
+	d2 = 8;
+	icon_state = "4-8"
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/supply,
+/obj/machinery/atmospherics/pipe/manifold/hidden/scrubbers{
+	dir = 8
+	},
+/turf/simulated/floor/tiled/dark,
+/area/monolithship/sklad)
+"be" = (
+/obj/machinery/light{
+	dir = 8
+	},
+/obj/floor_decal/corner_techfloor_gray/diagonal,
+/obj/floor_decal/corner_techfloor_grid/diagonal{
+	dir = 4
+	},
+/turf/simulated/floor/tiled/dark,
+/area/monolithship/sklad)
+"bg" = (
+/obj/machinery/atmospherics/pipe/simple/hidden/supply,
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
+/obj/floor_decal/corner/orange/diagonal{
+	dir = 8
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/fuel{
+	dir = 1
+	},
+/turf/simulated/floor/tiled/dark,
+/area/monolithship/engineering)
+"bi" = (
+/obj/structure/handrail{
+	dir = 4
+	},
+/obj/floor_decal/techfloor{
+	dir = 4
+	},
+/obj/machinery/atmospherics/unary/vent_pump/high_volume/external_air{
+	dir = 4;
+	id_tag = "reefer_pump"
+	},
+/turf/simulated/floor/tiled/techfloor/grid,
+/area/monolithship/sklad)
+"bl" = (
+/obj/floor_decal/corner/orange/diagonal{
+	dir = 8
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
+	dir = 4
+	},
+/turf/simulated/floor/tiled/dark,
+/area/monolithship/engineering)
+"bp" = (
+/obj/floor_decal/corner/brown{
+	dir = 8
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/supply{
+	dir = 10
+	},
+/turf/simulated/floor/tiled/dark,
+/area/monolithship/sklad)
+"bt" = (
+/obj/wallframe_spawn/reinforced/titanium,
+/obj/paint/black,
+/obj/machinery/atmospherics/pipe/simple/hidden/fuel{
+	dir = 4
+	},
+/turf/simulated/floor/plating,
+/area/monolithship/fuelbay)
+"bu" = (
+/obj/structure/cable{
+	d1 = 1;
+	d2 = 8;
+	icon_state = "1-8"
+	},
+/obj/structure/cable{
+	d1 = 1;
+	d2 = 4;
+	icon_state = "1-4"
+	},
+/obj/machinery/atmospherics/pipe/manifold/hidden/scrubbers,
+/obj/machinery/atmospherics/pipe/manifold4w/hidden/supply,
+/obj/machinery/atmospherics/pipe/manifold/hidden/fuel,
+/obj/floor_decal/corner_techfloor_grid/diagonal{
+	dir = 4
+	},
+/obj/floor_decal/corner_techfloor_gray/diagonal,
+/turf/simulated/floor/tiled/dark,
+/area/monolithship/sklad)
+"bv" = (
+/obj/structure/cable{
+	d1 = 4;
+	d2 = 8;
+	icon_state = "4-8"
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/supply{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/fuel{
+	dir = 4
+	},
+/obj/floor_decal/corner_techfloor_grid/diagonal{
+	dir = 4
+	},
+/obj/floor_decal/corner_techfloor_gray/diagonal,
+/turf/simulated/floor/tiled/dark,
+/area/monolithship/sklad)
+"by" = (
+/obj/floor_decal/corner/brown/bordercorner{
+	dir = 1
+	},
+/obj/structure/cable{
+	d1 = 1;
+	d2 = 8;
+	icon_state = "1-8"
+	},
+/obj/paint/black,
+/turf/simulated/floor/tiled/old_cargo{
+	color = "#444444"
+	},
+/area/monolithship/shuttle)
+"bB" = (
+/obj/machinery/computer/modular/preset/sensors,
+/turf/simulated/floor/wood/walnut,
+/area/monolithship/bridge)
+"bC" = (
+/obj/machinery/cryopod{
+	dir = 4
+	},
+/obj/floor_decal/corner/green/borderfull,
+/obj/machinery/light{
+	dir = 8
+	},
+/turf/simulated/floor/tiled/dark/monotile,
+/area/monolithship/living)
+"bD" = (
+/obj/structure/cable{
+	d1 = 2;
+	d2 = 4;
+	icon_state = "2-4"
+	},
+/obj/floor_decal/corner/beige/diagonal,
+/obj/floor_decal/corner/orange/diagonal{
+	dir = 8
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/fuel{
+	dir = 1
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/supply{
+	dir = 5
+	},
+/turf/simulated/floor/tiled/dark,
+/area/monolithship/reactors)
+"bE" = (
+/obj/machinery/atmospherics/unary/engine{
+	dir = 1
+	},
+/obj/structure/shuttle/engine/heater{
+	pixel_y = 32
+	},
+/turf/space,
+/area/monolithship/reactors)
+"bG" = (
+/obj/structure/catwalk,
+/obj/machinery/atmospherics/pipe/simple/visible{
+	dir = 9
+	},
+/turf/simulated/floor/plating,
+/area/monolithship/fuelbay)
+"bH" = (
+/obj/paint/black,
+/turf/simulated/wall/titanium,
+/area/monolithship/fuelbay)
+"bJ" = (
+/obj/floor_decal/corner/orange/diagonal{
+	dir = 8
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/fuel{
+	dir = 1
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
+	dir = 5
+	},
+/turf/simulated/floor/tiled/dark,
+/area/monolithship/engineering)
+"bM" = (
+/obj/floor_decal/corner/brown/half{
+	dir = 8
+	},
+/obj/machinery/atmospherics/unary/vent_scrubber/on,
+/turf/simulated/floor/tiled/dark,
+/area/monolithship/sklad)
+"bP" = (
+/obj/paint/black,
+/turf/simulated/wall/titanium,
+/area/monolithship/living)
+"bQ" = (
+/obj/paint/black,
+/turf/simulated/wall/titanium,
+/area/monolithship/reactors)
+"bS" = (
+/obj/machinery/light{
+	dir = 8
+	},
+/turf/simulated/floor/tiled/dark,
+/area/monolithship/bridge)
+"bT" = (
+/obj/machinery/atmospherics/pipe/simple/hidden/red{
+	dir = 4
+	},
+/obj/paint/black,
+/obj/paint_stripe/green,
+/turf/simulated/wall/r_titanium,
+/area/monolithship/engineering)
+"bU" = (
+/obj/floor_decal/corner/green/border{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/supply{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
+	dir = 4
+	},
+/turf/simulated/floor/tiled/dark,
+/area/monolithship/living)
+"bV" = (
+/obj/machinery/atmospherics/pipe/simple/hidden/universal,
+/obj/floor_decal/corner_techfloor_grid/diagonal{
+	dir = 4
+	},
+/obj/floor_decal/corner_techfloor_gray/diagonal,
+/turf/simulated/floor/tiled/dark,
+/area/monolithship/sklad)
+"bY" = (
+/turf/simulated/floor/lino,
+/area/monolithship/church)
+"bZ" = (
+/obj/machinery/power/port_gen/pacman/super/potato/reactor,
+/obj/structure/cable{
+	d2 = 4;
+	icon_state = "0-4"
+	},
+/turf/simulated/floor/tiled/monotile,
+/area/monolithship/reactors)
+"ca" = (
+/obj/wallframe_spawn/reinforced/titanium,
+/obj/paint/black,
+/turf/simulated/floor/reinforced{
+	map_airless = 1
+	},
+/area/monolithship/reactors)
+"cc" = (
+/obj/floor_decal/corner_techfloor_gray/diagonal,
+/obj/floor_decal/corner_techfloor_grid/diagonal{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/supply,
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
+/obj/machinery/light{
+	dir = 4;
+	icon_state = "tube_map"
+	},
+/turf/simulated/floor/tiled/dark,
+/area/monolithship/sklad)
+"cd" = (
+/obj/floor_decal/corner/brown/three_quarters{
+	dir = 1
+	},
+/turf/simulated/floor/tiled/dark,
+/area/monolithship/sklad)
+"ci" = (
+/obj/structure/sign/warning/mail_delivery{
+	pixel_y = 24
+	},
+/obj/structure/cable{
+	d1 = 4;
+	d2 = 8;
+	icon_state = "4-8"
+	},
+/obj/machinery/door/airlock/external/glass,
+/turf/simulated/floor/tiled/old_cargo{
+	color = "#444444"
+	},
+/area/monolithship/shuttle)
+"ck" = (
+/obj/machinery/light{
+	dir = 4
+	},
+/turf/simulated/floor/tiled/dark,
+/area/monolithship/bridge)
+"cl" = (
+/obj/machinery/door/airlock/multi_tile/mining{
+	dir = 8;
+	name = "Shuttle access"
+	},
+/obj/machinery/door/firedoor{
+	dir = 4
+	},
+/turf/simulated/floor/tiled/dark,
+/area/monolithship/sklad)
+"cm" = (
+/obj/machinery/door/window/westleft,
+/obj/floor_decal/corner/green/border{
+	dir = 8
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/supply{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
+	dir = 4
+	},
+/turf/simulated/floor/tiled/dark,
+/area/monolithship/living)
+"cn" = (
+/obj/machinery/atmospherics/pipe/simple/hidden/supply,
+/obj/floor_decal/corner/beige/diagonal,
+/obj/floor_decal/corner/orange/diagonal{
+	dir = 8
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/fuel{
+	dir = 1
+	},
+/turf/simulated/floor/tiled/dark,
+/area/monolithship/reactors)
+"cp" = (
+/obj/floor_decal/corner/orange/diagonal{
+	dir = 8
+	},
+/obj/machinery/atmospherics/pipe/manifold4w/hidden/fuel,
+/turf/simulated/floor/tiled/dark,
+/area/monolithship/engineering)
+"cq" = (
+/obj/machinery/radio_beacon,
+/obj/machinery/atmospherics/pipe/simple/hidden/supply,
+/turf/simulated/floor/wood/walnut,
+/area/monolithship/bridge)
+"cs" = (
+/turf/simulated/floor/tiled/dark,
+/area/monolithship/living)
+"cx" = (
+/obj/structure/bed/chair/comfy/captain,
+/obj/machinery/atmospherics/pipe/simple/hidden/supply{
+	dir = 10
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
+	dir = 6
+	},
+/turf/simulated/floor/wood/walnut,
+/area/monolithship/bridge)
+"cz" = (
+/obj/floor_decal/corner/b_green/border,
+/obj/floor_decal/corner/b_green/border{
+	dir = 1
+	},
+/obj/machinery/chemical_dispenser,
+/obj/machinery/atmospherics/pipe/simple/hidden/supply,
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
+/turf/simulated/floor/tiled/white,
+/area/monolithship/living)
+"cA" = (
+/obj/floor_decal/corner/brown{
+	dir = 1
+	},
+/obj/structure/cable{
+	d1 = 4;
+	d2 = 8;
+	icon_state = "4-8"
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
+	dir = 9
+	},
+/turf/simulated/floor/tiled/dark,
+/area/monolithship/sklad)
+"cC" = (
+/obj/shuttle_landmark/away_monolith/nav1{
+	name = "Reefer West Navpoint"
+	},
+/turf/space,
+/area/space)
+"cH" = (
+/obj/machinery/computer/ship/helm,
+/turf/simulated/floor/wood/walnut,
+/area/monolithship/bridge)
+"cQ" = (
+/obj/structure/lattice,
+/turf/space,
+/area/space)
+"cS" = (
+/obj/machinery/atmospherics/pipe/simple/hidden/supply,
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
+/obj/machinery/door/firedoor{
+	req_access = list()
+	},
+/obj/machinery/door/airlock/command{
+	name = "Cockpit"
+	},
+/turf/simulated/floor/wood/walnut,
+/area/monolithship/bridge)
+"cU" = (
+/obj/floor_decal/corner/brown/three_quarters,
+/turf/simulated/floor/tiled/dark,
+/area/monolithship/sklad)
+"cY" = (
+/obj/structure/shuttle/engine/propulsion,
+/turf/simulated/floor/reinforced{
+	map_airless = 1
+	},
+/area/monolithship/shuttle)
+"cZ" = (
+/obj/machinery/atmospherics/unary/tank/carbon_dioxide,
+/obj/machinery/light,
+/turf/simulated/floor/plating,
+/area/monolithship/fuelbay)
+"da" = (
+/obj/machinery/door/firedoor{
+	req_access = list()
+	},
+/obj/wallframe_spawn/reinforced/titanium,
+/obj/paint/black,
+/turf/simulated/floor/reinforced{
+	map_airless = 1
+	},
+/area/monolithship/bridge)
+"db" = (
+/obj/machinery/door/airlock/civilian,
+/obj/machinery/door/firedoor{
+	req_access = list()
+	},
+/obj/structure/cable{
+	d1 = 1;
+	d2 = 2;
+	icon_state = "1-2";
+	pixel_y = 0
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/supply,
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
+/obj/structure/sign/directions/bridge{
+	dir = 1;
+	pixel_x = 32;
+	pixel_y = 4
+	},
+/obj/structure/sign/directions/engineering{
+	pixel_y = -8;
+	pixel_x = 32
+	},
+/obj/structure/sign/directions/medical{
+	dir = 1;
+	pixel_y = -2;
+	pixel_x = 32
+	},
+/obj/structure/sign/directions/security{
+	pixel_y = -2;
+	pixel_x = -32;
+	dir = 1
+	},
+/obj/structure/sign/directions/supply{
+	pixel_y = -8;
+	pixel_x = -32
+	},
+/turf/simulated/floor/tiled/dark,
+/area/monolithship/church)
+"dd" = (
+/obj/floor_decal/corner/beige/diagonal,
+/obj/floor_decal/corner/orange/diagonal{
+	dir = 8
+	},
+/obj/structure/sign/warning/airlock{
+	dir = 4;
+	pixel_x = -35
+	},
+/obj/structure/reagent_dispensers/coolanttank,
+/obj/item/reagent_containers/glass/bucket{
+	pixel_y = -8;
+	pixel_x = 20
+	},
+/turf/simulated/floor/tiled/dark,
+/area/monolithship/reactors)
+"de" = (
+/obj/floor_decal/corner/brown/bordercorner{
+	dir = 8
+	},
+/obj/paint/black,
+/turf/simulated/floor/tiled/old_cargo{
+	color = "#444444"
+	},
+/area/monolithship/shuttle)
+"df" = (
+/obj/structure/catwalk,
+/obj/machinery/atmospherics/pipe/simple/visible{
+	dir = 6
+	},
+/turf/simulated/floor/plating,
+/area/monolithship/fuelbay)
+"dh" = (
+/obj/structure/cable{
+	d1 = 2;
+	d2 = 8;
+	icon_state = "2-8"
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/supply{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
+	dir = 4
+	},
+/obj/floor_decal/corner/orange/diagonal{
+	dir = 8
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/fuel{
+	dir = 4
+	},
+/turf/simulated/floor/tiled/dark,
+/area/monolithship/engineering)
+"dj" = (
+/obj/machinery/light{
+	dir = 4
+	},
+/obj/structure/closet/radiation,
+/obj/floor_decal/corner/beige/diagonal,
+/obj/floor_decal/corner/orange/diagonal{
+	dir = 8
+	},
+/turf/simulated/floor/tiled/dark,
+/area/monolithship/reactors)
+"dk" = (
+/obj/structure/window/basic{
+	dir = 8
+	},
+/obj/floor_decal/corner/grey/border{
+	dir = 8
+	},
+/turf/simulated/floor/tiled/dark,
+/area/monolithship/living)
+"dl" = (
+/turf/simulated/floor/airless,
+/area/monolithship/reactors)
+"do" = (
+/obj/shuttle_landmark/away_monolith/nav3,
+/turf/space,
+/area/space)
+"dp" = (
+/obj/machinery/atmospherics/pipe/simple/hidden/supply,
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
+/obj/machinery/hologram/holopad/longrange/remoteship,
+/turf/simulated/floor/wood/walnut,
+/area/monolithship/bridge)
+"dr" = (
+/obj/machinery/nav_light,
+/obj/floor_decal/corner/black/bordercee,
+/turf/simulated/floor/reinforced{
+	map_airless = 1
+	},
+/area/space)
+"du" = (
+/obj/machinery/door/firedoor{
+	dir = 4
+	},
+/obj/structure/cable{
+	d1 = 4;
+	d2 = 8;
+	icon_state = "4-8"
+	},
+/turf/simulated/floor/tiled/dark,
+/area/monolithship/sklad)
+"dA" = (
+/obj/machinery/atmospherics/portables_connector,
+/turf/simulated/floor/plating,
+/area/monolithship/fuelbay)
+"dC" = (
+/obj/machinery/atmospherics/pipe/simple/hidden/supply{
+	dir = 6
+	},
+/obj/machinery/button/blast_door{
+	dir = 2;
+	id_tag = "MonoReactor";
+	name = "Reactor blast";
+	pixel_x = -5;
+	pixel_y = 32
+	},
+/obj/floor_decal/corner/beige/diagonal,
+/obj/floor_decal/industrial/warning/corner{
+	dir = 1
+	},
+/obj/floor_decal/corner/orange/diagonal{
+	dir = 8
+	},
+/obj/structure/sign/warning/radioactive{
+	pixel_y = 33;
+	pixel_x = 6
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/fuel{
+	dir = 6
+	},
+/turf/simulated/floor/tiled/dark,
+/area/monolithship/reactors)
+"dD" = (
+/obj/machinery/atmospherics/pipe/simple/hidden/fuel{
+	dir = 10
+	},
+/obj/floor_decal/corner_techfloor_gray/diagonal,
+/obj/floor_decal/corner_techfloor_grid/diagonal{
+	dir = 4
+	},
+/obj/structure/cable{
+	d1 = 1;
+	d2 = 2;
+	icon_state = "1-2";
+	pixel_y = 0
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/universal,
+/turf/simulated/floor/tiled/dark,
+/area/monolithship/sklad)
+"dJ" = (
+/obj/machinery/atmospherics/pipe/manifold/hidden/supply,
+/turf/simulated/floor/tiled/dark,
+/area/monolithship/sklad)
+"dK" = (
+/obj/floor_decal/corner/orange/diagonal{
+	dir = 8
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/fuel{
+	dir = 10
+	},
+/turf/simulated/floor/tiled/dark,
+/area/monolithship/engineering)
+"dL" = (
+/obj/floor_decal/corner/b_green/bordercorner{
+	dir = 8
+	},
+/obj/floor_decal/corner/b_green/border{
+	dir = 5
+	},
+/obj/machinery/chem_master,
+/turf/simulated/floor/tiled/white,
+/area/monolithship/living)
+"dN" = (
+/obj/machinery/button/blast_door{
+	id_tag = "YachtBar";
+	name = "Bar external blasts";
+	pixel_y = 8;
+	pixel_x = 27
+	},
+/obj/machinery/atmospherics/unary/vent_scrubber/on{
+	dir = 8
+	},
+/obj/structure/table/reinforced,
+/obj/machinery/button/blast_door{
+	dir = 2;
+	id_tag = "YachtBeach";
+	name = "Meteor Shielding";
+	pixel_x = 27;
+	pixel_y = 0
+	},
+/turf/simulated/floor/wood/walnut,
+/area/monolithship/bridge)
+"dQ" = (
+/obj/shuttle_landmark/away_monolith/nav2{
+	name = "Reefer North-East Navpoint"
+	},
+/turf/space,
+/area/space)
+"dR" = (
+/obj/structure/closet/crate,
+/obj/item/storage/backpack/dufflebag/eng,
+/obj/item/device/suit_cooling_unit,
+/obj/item/device/suit_cooling_unit,
+/obj/item/clothing/gloves/insulated,
+/obj/item/storage/backpack/dufflebag/eng,
+/obj/item/storage/belt/utility/full,
+/obj/item/storage/belt/utility/full,
+/obj/item/clothing/gloves/insulated,
+/obj/floor_decal/corner/orange/diagonal{
+	dir = 8
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/universal{
+	dir = 4
+	},
+/turf/simulated/floor/tiled/dark,
+/area/monolithship/engineering)
+"dT" = (
+/obj/floor_decal/steeldecal/steel_decals_central7,
+/obj/floor_decal/corner/beige/diagonal,
+/obj/floor_decal/corner/orange/diagonal{
+	dir = 8
+	},
+/obj/structure/cable{
+	d1 = 1;
+	d2 = 8;
+	icon_state = "1-8"
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/fuel{
+	dir = 1
+	},
+/turf/simulated/floor/tiled/dark,
+/area/monolithship/reactors)
+"dV" = (
+/obj/paint/black,
+/obj/paint_stripe/green,
+/obj/machinery/atmospherics/pipe/simple/visible/fuel{
+	dir = 10
+	},
+/turf/simulated/wall/r_titanium,
+/area/monolithship/engineering)
+"dW" = (
+/obj/machinery/atmospherics/pipe/manifold/visible/fuel{
+	dir = 1
+	},
+/turf/simulated/wall/r_titanium,
+/area/monolithship/reactors)
+"dY" = (
+/obj/floor_decal/corner/beige/diagonal,
+/obj/floor_decal/corner/orange/diagonal{
+	dir = 8
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/fuel{
+	dir = 6
+	},
+/obj/machinery/recharge_station,
+/turf/simulated/floor/tiled/dark,
+/area/monolithship/reactors)
+"ec" = (
+/obj/floor_decal/corner_techfloor_gray/diagonal,
+/obj/floor_decal/corner_techfloor_grid/diagonal{
+	dir = 4
+	},
+/obj/structure/cable{
+	d1 = 1;
+	d2 = 2;
+	icon_state = "1-2";
+	pixel_y = 0
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/cyan{
+	dir = 10
+	},
+/obj/machinery/atmospherics/pipe/manifold/hidden/supply{
+	dir = 8
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
+/turf/simulated/floor/tiled/dark,
+/area/monolithship/sklad)
+"ei" = (
+/obj/machinery/atmospherics/pipe/simple/hidden/fuel{
+	dir = 4
+	},
+/obj/floor_decal/corner_techfloor_gray/diagonal,
+/obj/floor_decal/corner_techfloor_grid/diagonal{
+	dir = 4
+	},
+/turf/simulated/floor/tiled/dark,
+/area/monolithship/sklad)
+"ek" = (
+/obj/machinery/vending/hydroseeds/generic{
+	dir = 4;
+	pixel_x = -24;
+	density = 0
+	},
+/turf/simulated/floor/tiled/dark,
+/area/monolithship/living)
+"em" = (
+/obj/machinery/shipsensors,
+/turf/simulated/floor/airless,
+/area/monolithship/reactors)
+"eq" = (
+/obj/structure/foamedmetal,
+/turf/space,
+/area/space)
+"et" = (
+/obj/machinery/atmospherics/unary/tank/carbon_dioxide,
+/obj/machinery/light{
+	dir = 1;
+	icon_state = "tube_map"
+	},
+/turf/simulated/floor/plating,
+/area/monolithship/fuelbay)
+"eu" = (
+/obj/machinery/atmospherics/pipe/manifold/visible/fuel{
+	dir = 4
+	},
+/turf/simulated/wall/r_titanium,
+/area/monolithship/reactors)
+"ev" = (
+/obj/machinery/light{
+	dir = 4;
+	icon_state = "tube_map"
+	},
+/turf/simulated/floor/lino,
+/area/monolithship/church)
+"ew" = (
+/obj/machinery/atmospherics/pipe/simple/hidden/supply{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
+	dir = 6
+	},
+/obj/structure/cable{
+	d1 = 2;
+	d2 = 4;
+	icon_state = "2-4"
+	},
+/obj/floor_decal/corner/beige/diagonal,
+/obj/floor_decal/corner/orange/diagonal{
+	dir = 8
+	},
+/obj/structure/closet/hydrant{
+	pixel_y = 32
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/fuel{
+	dir = 4
+	},
+/turf/simulated/floor/tiled/dark,
+/area/monolithship/reactors)
+"eC" = (
+/obj/paint/black,
+/turf/simulated/floor/tiled/old_cargo{
+	color = "#444444"
+	},
+/area/monolithship/shuttle)
+"eF" = (
+/obj/item/storage/firstaid/surgery,
+/obj/structure/table/marble,
+/turf/simulated/floor/tiled/white/monotile,
+/area/monolithship/living)
+"eH" = (
+/obj/machinery/light{
+	dir = 8
+	},
+/obj/machinery/fabricator/hacked,
+/obj/item/stack/material/glass/ten,
+/obj/item/stack/material/steel/ten,
+/obj/floor_decal/corner/orange/diagonal{
+	dir = 8
+	},
+/turf/simulated/floor/tiled/dark,
+/area/monolithship/engineering)
+"eN" = (
+/obj/floor_decal/corner/brown/half{
+	dir = 8
+	},
+/obj/machinery/atmospherics/unary/vent_pump/on{
+	dir = 1
+	},
+/turf/simulated/floor/tiled/dark,
+/area/monolithship/sklad)
+"eO" = (
+/obj/floor_decal/corner/red/border,
+/turf/simulated/floor/tiled/techfloor,
+/area/monolithship/living)
+"eQ" = (
+/obj/machinery/atmospherics/unary/vent_pump/on{
+	dir = 1
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
+	dir = 5
+	},
+/turf/simulated/floor/tiled/white/monotile,
+/area/monolithship/living)
+"eV" = (
+/obj/machinery/atmospherics/unary/vent_pump/on{
+	dir = 4
+	},
+/obj/floor_decal/corner/orange/diagonal{
+	dir = 8
+	},
+/obj/machinery/portable_atmospherics/canister/oxygen,
+/turf/simulated/floor/tiled/dark,
+/area/monolithship/engineering)
+"fd" = (
+/obj/floor_decal/corner/brown/border{
+	dir = 8
+	},
+/obj/structure/handrail{
+	dir = 4
+	},
+/obj/paint/black,
+/turf/simulated/floor/tiled/old_cargo{
+	color = "#444444"
+	},
+/area/monolithship/shuttle)
+"fo" = (
+/obj/floor_decal/corner/brown/half{
+	dir = 8
+	},
+/obj/structure/sign/poster/number4{
+	pixel_x = -32
+	},
+/turf/simulated/floor/tiled/dark,
+/area/monolithship/sklad)
+"fr" = (
+/obj/machinery/access_button/airlock_exterior{
+	master_tag = "reefer_controller";
+	pixel_x = -24;
+	frequency = 1380
+	},
+/turf/simulated/floor/reinforced{
+	map_airless = 1
+	},
+/area/space)
+"fv" = (
+/obj/floor_decal/corner/brown/half{
+	dir = 4
+	},
+/obj/structure/sign/poster/nyc/the_goushque{
+	pixel_x = 32
+	},
+/turf/simulated/floor/tiled/dark,
+/area/monolithship/sklad)
+"fH" = (
+/obj/machinery/atmospherics/unary/vent_pump/on{
+	dir = 8
+	},
+/turf/simulated/floor/lino,
+/area/monolithship/church)
+"fR" = (
+/obj/machinery/atmospherics/pipe/manifold4w/hidden/supply,
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
+/turf/simulated/floor/tiled/dark,
+/area/monolithship/bridge)
+"fW" = (
+/obj/machinery/power/terminal,
+/obj/structure/cable,
+/obj/floor_decal/corner/beige/diagonal,
+/obj/floor_decal/corner/orange/diagonal{
+	dir = 8
+	},
+/turf/simulated/floor/tiled/dark,
+/area/monolithship/reactors)
+"ga" = (
+/obj/machinery/atmospherics/unary/vent_scrubber/on{
+	dir = 4
+	},
+/obj/floor_decal/corner/orange/diagonal{
+	dir = 8
+	},
+/obj/machinery/suit_storage_unit/engineering/salvage{
+	req_access = null
+	},
+/turf/simulated/floor/tiled/dark,
+/area/monolithship/engineering)
+"gc" = (
+/obj/structure/handrail{
+	dir = 8
+	},
+/obj/floor_decal/corner/brown/bordercorner{
+	dir = 4
+	},
+/obj/paint/black,
+/turf/simulated/floor/tiled/old_cargo{
+	color = "#444444"
+	},
+/area/monolithship/shuttle)
+"gE" = (
+/obj/structure/cable,
+/obj/machinery/power/apc{
+	dir = 4;
+	name = "west bump";
+	pixel_x = 24
+	},
+/turf/simulated/floor/plating,
+/area/monolithship/fuelbay)
+"gG" = (
+/obj/paint/black,
+/obj/paint_stripe/green,
+/turf/simulated/wall/titanium,
+/area/monolithship/bridge)
+"gK" = (
+/obj/machinery/atmospherics/pipe/simple/hidden/supply,
+/obj/machinery/atmospherics/pipe/manifold4w/hidden/scrubbers,
+/turf/simulated/floor/tiled/dark,
+/area/monolithship/bridge)
+"hn" = (
+/obj/structure/window/basic{
+	dir = 1
+	},
+/obj/machinery/appliance/cooker/stove,
+/turf/simulated/floor/tiled/dark,
+/area/monolithship/living)
+"hy" = (
+/obj/machinery/atmospherics/pipe/simple/hidden/supply,
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
+/obj/structure/cable{
+	d1 = 2;
+	d2 = 4;
+	icon_state = "2-4"
+	},
+/turf/simulated/floor/tiled/dark,
+/area/monolithship/bridge)
+"hK" = (
+/obj/paint/black,
+/obj/paint_stripe/green,
+/obj/machinery/atmospherics/pipe/simple/visible/fuel{
+	dir = 10
+	},
+/turf/simulated/wall/r_titanium,
+/area/monolithship/reactors)
+"hM" = (
+/obj/machinery/appliance/cooker/oven,
+/turf/simulated/floor/tiled/dark,
+/area/monolithship/living)
+"hZ" = (
+/obj/machinery/atmospherics/pipe/manifold/hidden/scrubbers{
+	dir = 8
+	},
+/obj/machinery/atmospherics/pipe/manifold4w/hidden/supply,
+/turf/simulated/floor/tiled/dark,
+/area/monolithship/living)
+"ij" = (
+/obj/machinery/door/blast/regular/open{
+	id_tag = "MonoReactor"
+	},
+/obj/machinery/door/firedoor,
+/obj/machinery/door/window/southleft,
+/obj/structure/cable{
+	d1 = 1;
+	d2 = 2;
+	icon_state = "1-2";
+	pixel_y = 0
+	},
+/obj/structure/sign/warning/toxic_material{
+	pixel_x = -32
+	},
+/turf/simulated/floor/tiled/monotile,
+/area/monolithship/reactors)
+"iy" = (
+/obj/structure/closet/crate/uranium,
+/obj/floor_decal/industrial/warning/fulltile,
+/obj/floor_decal/industrial/warning/corner{
+	dir = 4
+	},
+/turf/simulated/floor/tiled/dark,
+/area/monolithship/reactors)
+"iB" = (
+/obj/machinery/atmospherics/unary/vent_pump/on{
+	dir = 1
+	},
+/turf/simulated/floor/tiled/dark,
+/area/monolithship/living)
+"iR" = (
+/obj/floor_decal/corner/green/border{
+	dir = 4
+	},
+/obj/structure/table/standard,
+/obj/item/storage/box/glasses/pint{
+	pixel_y = 6
+	},
+/turf/simulated/floor/tiled/dark,
+/area/monolithship/living)
+"iU" = (
+/obj/machinery/cryopod{
+	dir = 4
+	},
+/obj/floor_decal/corner/green/borderfull,
+/turf/simulated/floor/tiled/dark/monotile,
+/area/monolithship/living)
+"jg" = (
+/obj/structure/cable{
+	d2 = 4;
+	icon_state = "0-4"
+	},
+/obj/floor_decal/corner/beige/diagonal,
+/obj/floor_decal/corner/orange/diagonal{
+	dir = 8
+	},
+/obj/item/trash/cigbutt/cigarbutt{
+	pixel_y = 9
+	},
+/obj/machinery/power/smes/buildable/preset/colony{
+	name = "Main power"
+	},
+/turf/simulated/floor/tiled/dark,
+/area/monolithship/reactors)
+"jx" = (
+/obj/floor_decal/corner/beige/diagonal,
+/obj/floor_decal/corner/orange/diagonal{
+	dir = 8
+	},
+/obj/machinery/portable_atmospherics/canister/oxygen,
+/turf/simulated/floor/tiled/dark,
+/area/monolithship/reactors)
+"jB" = (
+/obj/floor_decal/corner/red/bordercee{
+	dir = 8
+	},
+/obj/machinery/atmospherics/unary/vent_scrubber/on,
+/turf/simulated/floor/tiled/techfloor,
+/area/monolithship/living)
+"jQ" = (
+/obj/structure/cable{
+	d1 = 1;
+	d2 = 2;
+	icon_state = "1-2";
+	pixel_y = 0
+	},
+/obj/machinery/atmospherics/pipe/manifold4w/hidden/supply,
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
+/obj/machinery/atmospherics/pipe/manifold4w/hidden/scrubbers,
+/turf/simulated/floor/tiled/dark,
+/area/monolithship/living)
+"jV" = (
+/obj/floor_decal/corner/orange/diagonal{
+	dir = 8
+	},
+/obj/machinery/portable_atmospherics/powered/pump/filled,
+/obj/machinery/atmospherics/pipe/simple/hidden/fuel{
+	dir = 6
+	},
+/turf/simulated/floor/tiled/dark,
+/area/monolithship/engineering)
+"kj" = (
+/obj/floor_decal/corner/brown/border,
+/obj/paint/black,
+/turf/simulated/floor/tiled/old_cargo{
+	color = "#444444"
+	},
+/area/monolithship/shuttle)
+"kp" = (
+/obj/machinery/cryopod{
+	dir = 4
+	},
+/obj/floor_decal/corner/green/borderfull,
+/obj/submap_landmark/spawnpoint/monolith_head_spawn,
+/turf/simulated/floor/tiled/dark/monotile,
+/area/monolithship/living)
+"kq" = (
+/obj/structure/catwalk,
+/obj/machinery/alarm{
+	dir = 8;
+	pixel_x = 24;
+	req_access = list();
+	locked = 0
+	},
+/turf/simulated/floor/plating,
+/area/monolithship/fuelbay)
+"ky" = (
+/obj/machinery/door/airlock/external/glass/bolted/cycling{
+	frequency = 1380;
+	id_tag = "reefer_inter_doors"
+	},
+/obj/floor_decal/techfloor{
+	dir = 4
+	},
+/turf/simulated/floor/tiled/techfloor/grid,
+/area/monolithship/sklad)
+"ld" = (
+/obj/floor_decal/corner/green/border{
+	dir = 8
+	},
+/obj/machinery/atmospherics/unary/vent_pump/on{
+	dir = 4
+	},
+/turf/simulated/floor/tiled/dark,
+/area/monolithship/living)
+"lj" = (
+/obj/paint/black,
+/obj/paint_stripe/green,
+/turf/simulated/wall/titanium,
+/area/monolithship/fuelbay)
+"lo" = (
+/obj/structure/window/reinforced{
+	polarized = 1
+	},
+/obj/floor_decal/corner/red/bordercorner{
+	dir = 4
+	},
+/obj/machinery/vending/security{
+	dir = 1;
+	req_access = list()
+	},
+/turf/simulated/floor/tiled/techfloor,
+/area/monolithship/living)
+"lr" = (
+/obj/paint/black,
+/obj/paint_stripe/green,
+/obj/machinery/atmospherics/pipe/simple/visible/fuel{
+	dir = 6
+	},
+/turf/simulated/wall/r_titanium,
+/area/monolithship/reactors)
+"ly" = (
+/obj/paint/black,
+/obj/paint_stripe/green,
+/turf/simulated/wall/titanium,
+/area/monolithship/church)
+"lF" = (
+/obj/machinery/door/blast/regular{
+	dir = 8;
+	id_tag = "MonoSensorAccess"
+	},
+/turf/simulated/floor/plating,
+/area/monolithship/reactors)
+"lR" = (
+/turf/simulated/floor/tiled/techfloor,
+/area/monolithship/living)
+"lW" = (
+/obj/machinery/atmospherics/unary/vent_pump/on{
+	dir = 8
+	},
+/obj/structure/cable{
+	d1 = 1;
+	d2 = 8;
+	icon_state = "1-8"
+	},
+/obj/machinery/alarm{
+	dir = 8;
+	pixel_x = 24;
+	req_access = list();
+	locked = 0
+	},
+/obj/floor_decal/corner/beige/diagonal,
+/obj/floor_decal/corner/orange/diagonal{
+	dir = 8
+	},
+/turf/simulated/floor/tiled/dark,
+/area/monolithship/reactors)
+"mf" = (
+/obj/machinery/alarm{
+	dir = 8;
+	pixel_x = 24;
+	req_access = list();
+	locked = 0
+	},
+/obj/machinery/atmospherics/unary/vent_pump/on{
+	dir = 8
+	},
+/turf/simulated/floor/lino,
+/area/monolithship/church)
+"mh" = (
+/obj/structure/handrail,
+/turf/simulated/floor/reinforced{
+	map_airless = 1
+	},
+/area/space)
+"mG" = (
+/obj/machinery/atmospherics/unary/engine{
+	dir = 1
+	},
+/obj/structure/shuttle/engine/heater{
+	pixel_y = 32
+	},
+/turf/space,
+/area/monolithship/engineering)
+"mQ" = (
+/obj/machinery/appliance/cooker/fryer,
+/obj/structure/window/basic{
+	dir = 1
+	},
+/turf/simulated/floor/tiled/dark,
+/area/monolithship/living)
+"nd" = (
+/obj/floor_decal/corner/brown/half{
+	dir = 4
+	},
+/obj/structure/sign/poster/nyc/big_brother{
+	pixel_x = 32
+	},
+/turf/simulated/floor/tiled/dark,
+/area/monolithship/sklad)
+"ng" = (
+/obj/structure/iv_stand,
+/obj/machinery/light{
+	dir = 4
+	},
+/turf/simulated/floor/tiled/white/monotile,
+/area/monolithship/living)
+"nm" = (
+/obj/floor_decal/corner/brown/border{
+	dir = 8
+	},
+/obj/structure/handrail{
+	dir = 4
+	},
+/obj/structure/cable{
+	d1 = 2;
+	d2 = 4;
+	icon_state = "2-4"
+	},
+/obj/paint/black,
+/turf/simulated/floor/tiled/old_cargo{
+	color = "#444444"
+	},
+/area/monolithship/shuttle)
+"nv" = (
+/obj/machinery/light{
+	dir = 8
+	},
+/turf/simulated/floor/lino,
+/area/monolithship/church)
+"nA" = (
+/obj/structure/cable{
+	d1 = 1;
+	d2 = 2;
+	icon_state = "1-2";
+	pixel_y = 0
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
+/obj/machinery/atmospherics/pipe/manifold/hidden/scrubbers{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/manifold/hidden/supply{
+	dir = 8
+	},
+/turf/simulated/floor/tiled/dark,
+/area/monolithship/living)
+"nK" = (
+/obj/machinery/atmospherics/pipe/simple/hidden/fuel{
+	dir = 1
+	},
+/obj/floor_decal/corner_techfloor_gray/diagonal,
+/obj/floor_decal/corner_techfloor_grid/diagonal{
+	dir = 4
+	},
+/obj/structure/cable{
+	d1 = 1;
+	d2 = 2;
+	icon_state = "1-2";
+	pixel_y = 0
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/supply,
+/obj/machinery/atmospherics/pipe/manifold/hidden/scrubbers{
+	dir = 4
+	},
+/turf/simulated/floor/tiled/dark,
+/area/monolithship/sklad)
+"nP" = (
+/obj/structure/sign/directions/engineering{
+	dir = 4;
+	pixel_y = 10;
+	pixel_x = 28
+	},
+/obj/floor_decal/corner_techfloor_grid/diagonal{
+	dir = 4
+	},
+/obj/floor_decal/corner_techfloor_gray/diagonal,
+/turf/simulated/floor/tiled/dark,
+/area/monolithship/sklad)
+"oN" = (
+/obj/floor_decal/corner/orange/diagonal{
+	dir = 8
+	},
+/obj/machinery/vending/engineering{
+	dir = 8;
+	req_access = list()
+	},
+/turf/simulated/floor/tiled/dark,
+/area/monolithship/engineering)
+"oW" = (
+/obj/structure/shuttle/engine/heater{
+	pixel_y = 32
+	},
+/obj/machinery/atmospherics/unary/engine{
+	dir = 1
+	},
+/turf/simulated/floor/reinforced{
+	map_airless = 1
+	},
+/area/monolithship/reactors)
+"pk" = (
+/obj/floor_decal/corner/brown/border{
+	dir = 10
+	},
+/obj/structure/handrail{
+	dir = 4
+	},
+/obj/machinery/light,
+/obj/paint/black,
+/turf/simulated/floor/tiled/old_cargo{
+	color = "#444444"
+	},
+/area/monolithship/shuttle)
+"pX" = (
+/obj/paint/black,
+/obj/paint_stripe/green,
+/turf/simulated/wall/titanium,
+/area/monolithship/shuttle)
+"qa" = (
+/obj/floor_decal/corner/brown/half{
+	dir = 4
+	},
+/obj/structure/sign/warning/airlock{
+	dir = 8;
+	pixel_x = 32
+	},
+/turf/simulated/floor/tiled/dark,
+/area/monolithship/sklad)
+"qf" = (
+/obj/structure/table/marble,
+/obj/item/material/knife/kitchen/cleaver,
+/obj/item/material/minihoe{
+	pixel_y = -8
+	},
+/obj/item/material/hatchet,
+/obj/item/reagent_containers/glass/bottle/left4zed{
+	pixel_x = 10
+	},
+/turf/simulated/floor/tiled/dark,
+/area/monolithship/living)
+"qV" = (
+/obj/floor_decal/corner/red/bordercorner{
+	dir = 8
+	},
+/obj/machinery/light{
+	dir = 4
+	},
+/turf/simulated/floor/tiled/techfloor,
+/area/monolithship/living)
+"rP" = (
+/obj/structure/table/reinforced,
+/obj/random/drinkbottle,
+/obj/machinery/light{
+	dir = 4
+	},
+/turf/simulated/floor/wood/walnut,
+/area/monolithship/bridge)
+"rR" = (
+/obj/floor_decal/corner/b_green/border{
+	dir = 4
+	},
+/obj/floor_decal/corner/b_green/border{
+	dir = 8
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/supply{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
+	dir = 4
+	},
+/turf/simulated/floor/tiled/white,
+/area/monolithship/living)
+"sa" = (
+/obj/structure/cable{
+	d1 = 1;
+	d2 = 2;
+	icon_state = "1-2";
+	pixel_y = 0
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/supply,
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
+/turf/simulated/floor/tiled/dark,
+/area/monolithship/living)
+"sl" = (
+/obj/floor_decal/corner/b_green/border{
+	dir = 8
+	},
+/obj/floor_decal/corner/b_green/border{
+	dir = 4
+	},
+/obj/machinery/sleeper{
+	dir = 8
+	},
+/obj/machinery/atmospherics/unary/vent_pump/on{
+	dir = 8
+	},
+/turf/simulated/floor/tiled/white,
+/area/monolithship/living)
+"tf" = (
+/obj/machinery/door/firedoor{
+	req_access = list()
+	},
+/obj/structure/cable{
+	d1 = 1;
+	d2 = 2;
+	icon_state = "1-2";
+	pixel_y = 0
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/supply,
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
+/obj/structure/sign/directions/bridge{
+	dir = 1;
+	pixel_x = 32;
+	pixel_y = 4
+	},
+/obj/structure/sign/directions/engineering{
+	pixel_y = -8;
+	pixel_x = 32
+	},
+/obj/structure/sign/directions/medical{
+	dir = 1;
+	pixel_y = -2;
+	pixel_x = 32
+	},
+/obj/structure/sign/directions/security{
+	pixel_y = -2;
+	pixel_x = -32;
+	dir = 1
+	},
+/obj/structure/sign/directions/supply{
+	pixel_y = -8;
+	pixel_x = -32;
+	dir = 1
+	},
+/obj/floor_decal/corner_techfloor_gray/diagonal,
+/obj/floor_decal/corner_techfloor_grid/diagonal{
+	dir = 4
+	},
+/obj/machinery/door/airlock/engineering,
+/turf/simulated/floor/tiled/dark,
+/area/monolithship/sklad)
+"tp" = (
+/obj/machinery/smartfridge{
+	dir = 1
+	},
+/obj/machinery/light{
+	dir = 4;
+	icon_state = "tube_map"
+	},
+/turf/simulated/floor/tiled/dark,
+/area/monolithship/living)
+"ts" = (
+/obj/floor_decal/corner/red/border{
+	dir = 1
+	},
+/obj/machinery/atmospherics/unary/vent_pump/on{
+	dir = 4
+	},
+/turf/simulated/floor/tiled/dark,
+/area/monolithship/bridge)
+"tt" = (
+/obj/structure/window/basic/blacked,
+/obj/structure/window/basic/blacked,
+/turf/simulated/floor/tiled/freezer,
+/area/monolithship/living)
+"tx" = (
+/obj/structure/cable{
+	d1 = 1;
+	d2 = 2;
+	icon_state = "1-2";
+	pixel_y = 0
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/supply,
+/obj/machinery/atmospherics/pipe/manifold4w/hidden/scrubbers,
+/turf/simulated/floor/lino,
+/area/monolithship/church)
+"tz" = (
+/obj/machinery/door/firedoor{
+	dir = 4
+	},
+/obj/machinery/door/airlock/engineering{
+	dir = 4;
+	name = "Fuelbay"
+	},
+/obj/structure/cable{
+	d1 = 4;
+	d2 = 8;
+	icon_state = "4-8"
+	},
+/turf/simulated/floor/tiled/dark,
+/area/monolithship/fuelbay)
+"ug" = (
+/obj/structure/window/reinforced{
+	polarized = 1
+	},
+/obj/floor_decal/corner/red/border{
+	dir = 1
+	},
+/obj/machinery/atmospherics/unary/vent_pump/on{
+	level = 2
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
+/turf/simulated/floor/tiled/techfloor,
+/area/monolithship/living)
+"un" = (
+/obj/structure/cable{
+	d1 = 1;
+	d2 = 2;
+	icon_state = "1-2";
+	pixel_y = 0
+	},
+/obj/structure/cable{
+	d1 = 1;
+	d2 = 8;
+	icon_state = "1-8"
+	},
+/obj/machinery/atmospherics/pipe/manifold4w/hidden/supply,
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
+/turf/simulated/floor/lino,
+/area/monolithship/church)
+"ur" = (
+/obj/paint/black,
+/obj/paint_stripe/green,
+/turf/simulated/wall/r_titanium,
+/area/monolithship/engineering)
+"uO" = (
+/obj/paint/black,
+/obj/paint_stripe/green,
+/turf/simulated/wall/titanium,
+/area/space)
+"uW" = (
+/obj/floor_decal/corner/b_green/bordercee,
+/obj/machinery/atmospherics/pipe/simple/hidden/supply,
+/obj/machinery/atmospherics/pipe/manifold/hidden/scrubbers{
+	dir = 8
+	},
+/turf/simulated/floor/tiled/white,
+/area/monolithship/living)
+"vm" = (
+/obj/paint/black,
+/turf/simulated/wall/titanium,
+/area/monolithship/engineering)
+"vn" = (
+/obj/floor_decal/corner_techfloor_gray/diagonal,
+/obj/floor_decal/corner_techfloor_grid/diagonal{
+	dir = 4
+	},
+/obj/structure/cable{
+	d1 = 1;
+	d2 = 2;
+	icon_state = "1-2";
+	pixel_y = 0
+	},
+/obj/machinery/atmospherics/pipe/manifold/hidden/cyan{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/supply{
+	dir = 5
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
+	dir = 5
+	},
+/turf/simulated/floor/tiled/dark,
+/area/monolithship/sklad)
+"vo" = (
+/obj/structure/window/reinforced{
+	dir = 4
+	},
+/obj/floor_decal/corner/b_green/border{
+	dir = 4
+	},
+/obj/machinery/light/spot{
+	dir = 4
+	},
+/turf/simulated/floor/tiled/dark,
+/area/monolithship/living)
+"vT" = (
+/obj/machinery/nav_light/starboard{
+	pixel_x = -15
+	},
+/turf/space,
+/area/space)
+"vX" = (
+/obj/structure/shuttle/engine/propulsion{
+	dir = 1
+	},
+/turf/simulated/floor/reinforced{
+	map_airless = 1
+	},
+/area/monolithship/shuttle)
+"wh" = (
+/obj/paint/black,
+/turf/simulated/wall/titanium,
+/area/monolithship/bridge)
+"wx" = (
+/obj/machinery/nav_light/starboard{
+	dir = 8;
+	pixel_y = -15
+	},
+/turf/space,
+/area/space)
+"wy" = (
+/obj/machinery/door/window/northleft,
+/obj/machinery/atmospherics/pipe/simple/hidden/supply,
+/obj/machinery/atmospherics/unary/vent_scrubber/on{
+	dir = 1
+	},
+/turf/simulated/floor/tiled/dark,
+/area/monolithship/living)
+"wO" = (
+/obj/machinery/nav_light,
+/turf/simulated/floor/reinforced{
+	map_airless = 1
+	},
+/area/space)
+"wU" = (
+/obj/machinery/door/airlock/hatch{
+	name = "\improper Cargo"
+	},
+/obj/floor_decal/corner_techfloor_grid/diagonal{
+	dir = 4
+	},
+/obj/floor_decal/corner_techfloor_gray/diagonal,
+/turf/simulated/floor/tiled/dark,
+/area/monolithship/church)
+"xo" = (
+/obj/floor_decal/corner/green/border{
+	dir = 6
+	},
+/turf/simulated/floor/tiled/dark,
+/area/monolithship/living)
+"xv" = (
+/obj/floor_decal/corner/b_green/border{
+	dir = 4
+	},
+/obj/floor_decal/corner/b_green/border{
+	dir = 8
+	},
+/obj/machinery/vending/medical{
+	dir = 4;
+	pixel_x = -8;
+	req_access = list();
+	density = 0
+	},
+/turf/simulated/floor/tiled/white,
+/area/monolithship/living)
+"xI" = (
+/obj/machinery/door/airlock/external/glass,
+/turf/simulated/floor/tiled/old_cargo{
+	color = "#444444"
+	},
+/area/monolithship/shuttle)
+"xL" = (
+/obj/machinery/door/window/southleft{
+	opacity = 1;
+	color = "#222222"
+	},
+/obj/machinery/atmospherics/unary/vent_pump/on,
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
+/turf/simulated/floor/tiled/freezer,
+/area/monolithship/living)
+"xZ" = (
+/obj/structure/catwalk,
+/turf/simulated/floor/plating,
+/area/monolithship/fuelbay)
+"yA" = (
+/obj/structure/hygiene/toilet{
+	dir = 4
+	},
+/turf/simulated/floor/tiled/freezer,
+/area/monolithship/living)
+"yW" = (
+/obj/floor_decal/corner_techfloor_gray/diagonal,
+/obj/floor_decal/corner_techfloor_grid/diagonal{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/manifold/hidden/supply{
+	dir = 8
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
+/turf/simulated/floor/tiled/dark,
+/area/monolithship/sklad)
+"za" = (
+/obj/floor_decal/corner/orange/diagonal{
+	dir = 8
+	},
+/turf/simulated/floor/tiled/dark,
+/area/monolithship/engineering)
+"zk" = (
+/obj/floor_decal/corner_techfloor_gray/diagonal,
+/obj/floor_decal/corner_techfloor_grid/diagonal{
+	dir = 4
+	},
+/obj/structure/cable{
+	d1 = 1;
+	d2 = 2;
+	icon_state = "1-2";
+	pixel_y = 0
+	},
+/obj/machinery/atmospherics/pipe/manifold/hidden/cyan{
+	dir = 4
+	},
+/turf/simulated/floor/tiled/dark,
+/area/monolithship/sklad)
+"zz" = (
+/obj/structure/catwalk,
+/obj/machinery/atmospherics/pipe/manifold/visible,
+/turf/simulated/floor/plating,
+/area/monolithship/fuelbay)
+"zO" = (
+/obj/floor_decal/corner/b_green/border{
+	dir = 4
+	},
+/obj/floor_decal/corner/b_green/border{
+	dir = 8
+	},
+/obj/structure/closet/secure_closet/chemical{
+	req_access = list()
+	},
+/turf/simulated/floor/tiled/white,
+/area/monolithship/living)
+"zV" = (
+/obj/structure/window/reinforced{
+	polarized = 1
+	},
+/obj/floor_decal/corner/b_green/bordercorner{
+	dir = 1
+	},
+/obj/floor_decal/corner/b_green/border{
+	dir = 6
+	},
+/obj/machinery/bodyscanner,
+/turf/simulated/floor/tiled/white,
+/area/monolithship/living)
+"Aq" = (
+/obj/floor_decal/spline/fancy/black/corner{
+	dir = 1
+	},
+/turf/simulated/floor/tiled/dark,
+/area/monolithship/bridge)
+"Aw" = (
+/obj/paint/black,
+/obj/paint_stripe/green,
+/obj/machinery/atmospherics/pipe/manifold/visible/fuel{
+	dir = 8
+	},
+/turf/simulated/wall/r_titanium,
+/area/monolithship/reactors)
+"AE" = (
+/obj/structure/hygiene/shower{
+	pixel_y = 25
+	},
+/obj/structure/hygiene/drain,
+/turf/simulated/floor/pool,
+/area/monolithship/living)
+"AG" = (
+/obj/floor_decal/corner/red/border{
+	dir = 1
+	},
+/turf/simulated/floor/tiled/dark,
+/area/monolithship/bridge)
+"AJ" = (
+/obj/structure/shuttle/engine/heater{
+	pixel_y = 32
+	},
+/obj/machinery/atmospherics/unary/engine{
+	dir = 1
+	},
+/turf/simulated/floor/reinforced{
+	map_airless = 1
+	},
+/area/monolithship/engineering)
+"AL" = (
+/obj/machinery/door/window/eastright,
+/obj/floor_decal/corner/red/border{
+	dir = 4
+	},
+/turf/simulated/floor/tiled/dark,
+/area/monolithship/living)
+"Bh" = (
+/obj/floor_decal/corner_techfloor_gray/diagonal,
+/obj/floor_decal/corner_techfloor_grid/diagonal{
+	dir = 4
+	},
+/obj/structure/cable{
+	d1 = 4;
+	d2 = 8;
+	icon_state = "4-8"
+	},
+/turf/simulated/floor/tiled/dark,
+/area/monolithship/sklad)
+"BH" = (
+/obj/structure/cable{
+	d1 = 1;
+	d2 = 2;
+	icon_state = "1-2";
+	pixel_y = 0
+	},
+/obj/floor_decal/corner/beige/diagonal,
+/obj/floor_decal/corner/orange/diagonal{
+	dir = 8
+	},
+/obj/machinery/button/blast_door{
+	dir = 4;
+	id_tag = "MonoSensorAccess";
+	name = "Reactor blast";
+	pixel_x = -20;
+	pixel_y = -10
+	},
+/obj/machinery/light{
+	dir = 8
+	},
+/turf/simulated/floor/tiled/dark,
+/area/monolithship/reactors)
+"BS" = (
+/obj/machinery/atmospherics/pipe/simple/hidden/fuel{
+	dir = 1
+	},
+/obj/floor_decal/corner_techfloor_gray/diagonal,
+/obj/floor_decal/corner_techfloor_grid/diagonal{
+	dir = 4
+	},
+/obj/structure/cable{
+	d1 = 1;
+	d2 = 2;
+	icon_state = "1-2";
+	pixel_y = 0
+	},
+/obj/structure/cable{
+	d1 = 2;
+	d2 = 8;
+	icon_state = "2-8"
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
+	dir = 6
+	},
+/obj/machinery/atmospherics/pipe/manifold/hidden/supply{
+	dir = 8
+	},
+/turf/simulated/floor/tiled/dark,
+/area/monolithship/sklad)
+"BW" = (
+/obj/structure/window/reinforced{
+	dir = 4;
+	polarized = 1
+	},
+/obj/floor_decal/corner/white/border{
+	dir = 4
+	},
+/turf/simulated/floor/tiled/dark,
+/area/monolithship/living)
+"BY" = (
+/obj/machinery/door/airlock/external/glass/bolted/cycling{
+	frequency = 1380;
+	id_tag = "reefer_inter_doors"
+	},
+/obj/floor_decal/techfloor{
+	dir = 8
+	},
+/turf/simulated/floor/tiled/techfloor/grid,
+/area/monolithship/sklad)
+"Cj" = (
+/obj/floor_decal/corner/green/border{
+	dir = 8
+	},
+/obj/machinery/atmospherics/unary/vent_scrubber/on{
+	dir = 4
+	},
+/turf/simulated/floor/tiled/dark,
+/area/monolithship/living)
+"Cs" = (
+/obj/structure/closet/fridge/meat,
+/turf/simulated/floor/tiled/dark,
+/area/monolithship/living)
+"Cx" = (
+/obj/floor_decal/corner/b_green/border{
+	dir = 8
+	},
+/obj/floor_decal/corner/b_green/border{
+	dir = 4
+	},
+/obj/machinery/body_scanconsole,
+/obj/machinery/light{
+	dir = 4
+	},
+/turf/simulated/floor/tiled/white,
+/area/monolithship/living)
+"Db" = (
+/obj/floor_decal/corner/brown/three_quarters{
+	dir = 4
+	},
+/obj/machinery/portable_atmospherics/powered/pump/filled,
+/turf/simulated/floor/tiled/dark,
+/area/monolithship/sklad)
+"Dk" = (
+/obj/machinery/power/apc{
+	dir = 4;
+	name = "west bump";
+	pixel_x = 24
+	},
+/obj/structure/cable,
+/obj/structure/cable{
+	d1 = 1;
+	d2 = 2;
+	icon_state = "1-2"
+	},
+/obj/machinery/atmospherics/unary/vent_scrubber/on{
+	dir = 1
+	},
+/obj/floor_decal/corner/beige/diagonal,
+/obj/floor_decal/corner/orange/diagonal{
+	dir = 8
+	},
+/turf/simulated/floor/tiled/dark,
+/area/monolithship/reactors)
+"Dm" = (
+/obj/floor_decal/corner/brown/three_quarters{
+	dir = 8
+	},
+/turf/simulated/floor/tiled/dark,
+/area/monolithship/sklad)
+"Dt" = (
+/obj/floor_decal/corner/red/border{
+	dir = 8
+	},
+/obj/structure/sign/warning/secure_area/armory{
+	dir = 8;
+	pixel_x = 32
+	},
+/turf/simulated/floor/tiled/techfloor,
+/area/monolithship/living)
+"DR" = (
+/obj/floor_decal/corner/brown/border{
+	dir = 4
+	},
+/obj/structure/handrail{
+	dir = 8
+	},
+/obj/machinery/power/apc{
+	dir = 4;
+	name = "west bump";
+	pixel_x = 24
+	},
+/obj/structure/cable{
+	d2 = 8;
+	icon_state = "0-8"
+	},
+/obj/paint/black,
+/turf/simulated/floor/tiled/old_cargo{
+	color = "#444444"
+	},
+/area/monolithship/shuttle)
+"Eh" = (
+/obj/floor_decal/corner/green/border{
+	dir = 4
+	},
+/obj/structure/table/standard,
+/obj/machinery/chemical_dispenser/bar_soft/full{
+	dir = 8
+	},
+/turf/simulated/floor/tiled/dark,
+/area/monolithship/living)
+"Ek" = (
+/obj/machinery/atmospherics/pipe/manifold/visible/fuel{
+	dir = 1
+	},
+/turf/simulated/wall/r_titanium,
+/area/monolithship/engineering)
+"Em" = (
+/obj/paint/black,
+/obj/paint_stripe/green,
+/turf/simulated/wall/titanium,
+/area/monolithship/living)
+"EC" = (
+/obj/floor_decal/corner/b_green/bordercee{
+	dir = 1
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/supply,
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
+/turf/simulated/floor/tiled/white,
+/area/monolithship/living)
+"EF" = (
+/obj/paint/black,
+/turf/simulated/wall/titanium,
+/area/space)
+"Fa" = (
+/obj/machinery/access_button/airlock_interior{
+	master_tag = "reefer_controller";
+	pixel_x = -24;
+	frequency = 1380
+	},
+/obj/structure/sign/directions/engineering{
+	dir = 8;
+	pixel_y = 10;
+	pixel_x = -28
+	},
+/obj/floor_decal/corner_techfloor_grid/diagonal{
+	dir = 4
+	},
+/obj/floor_decal/corner_techfloor_gray/diagonal,
+/turf/simulated/floor/tiled/dark,
+/area/monolithship/sklad)
+"Fb" = (
+/obj/structure/cable{
+	d1 = 4;
+	d2 = 8;
+	icon_state = "4-8"
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/supply{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
+	dir = 4
+	},
+/obj/machinery/door/firedoor{
+	req_access = list()
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/fuel{
+	dir = 4
+	},
+/obj/machinery/door/airlock/engineering{
+	dir = 4;
+	name = "Engineering"
+	},
+/turf/simulated/floor/tiled/dark,
+/area/monolithship/engineering)
+"Ff" = (
+/obj/structure/window/basic{
+	dir = 8
+	},
+/obj/floor_decal/corner/green/border{
+	dir = 8
+	},
+/obj/machinery/atmospherics/unary/vent_scrubber/on{
+	dir = 4
+	},
+/turf/simulated/floor/tiled/dark,
+/area/monolithship/living)
+"Fs" = (
+/obj/structure/catwalk,
+/obj/machinery/atmospherics/pipe/simple/visible{
+	dir = 10
+	},
+/turf/simulated/floor/plating,
+/area/monolithship/fuelbay)
+"Fz" = (
+/obj/machinery/atmospherics/unary/vent_scrubber/on{
+	dir = 8
+	},
+/turf/simulated/floor/lino,
+/area/monolithship/church)
+"FO" = (
+/obj/floor_decal/corner/green/border{
+	dir = 4
+	},
+/turf/simulated/floor/tiled/dark,
+/area/monolithship/living)
+"FP" = (
+/obj/floor_decal/corner/brown/border{
+	dir = 4
+	},
+/obj/structure/handrail{
+	dir = 8
+	},
+/obj/machinery/alarm{
+	dir = 8;
+	pixel_x = 24;
+	req_access = list();
+	locked = 0
+	},
+/obj/paint/black,
+/turf/simulated/floor/tiled/old_cargo{
+	color = "#444444"
+	},
+/area/monolithship/shuttle)
+"FX" = (
+/obj/structure/cable{
+	d1 = 1;
+	d2 = 2;
+	icon_state = "1-2";
+	pixel_y = 0
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/supply,
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
+/obj/machinery/atmospherics/pipe/simple/hidden/fuel{
+	dir = 1
+	},
+/obj/floor_decal/corner_techfloor_grid/diagonal{
+	dir = 4
+	},
+/obj/floor_decal/corner_techfloor_gray/diagonal,
+/turf/simulated/floor/tiled/dark,
+/area/monolithship/sklad)
+"Ga" = (
+/obj/floor_decal/corner/red/border{
+	dir = 1
+	},
+/obj/structure/cable{
+	d1 = 4;
+	d2 = 8;
+	icon_state = "4-8"
+	},
+/turf/simulated/floor/tiled/dark,
+/area/monolithship/bridge)
+"Gq" = (
+/obj/machinery/portable_atmospherics/powered/scrubber,
+/obj/floor_decal/corner/orange/diagonal{
+	dir = 8
+	},
+/turf/simulated/floor/tiled/dark,
+/area/monolithship/engineering)
+"GD" = (
+/obj/floor_decal/corner/red/border{
+	dir = 1
+	},
+/obj/machinery/atmospherics/unary/vent_pump/on{
+	dir = 8
+	},
+/turf/simulated/floor/tiled/dark,
+/area/monolithship/bridge)
+"GJ" = (
+/obj/structure/window/reinforced{
+	polarized = 1;
+	dir = 1
+	},
+/obj/machinery/atmospherics/unary/engine{
+	dir = 1
+	},
+/turf/simulated/floor/reinforced{
+	map_airless = 1
+	},
+/area/monolithship/reactors)
+"GR" = (
+/obj/floor_decal/corner/b_green/border{
+	dir = 4
+	},
+/obj/floor_decal/corner/b_green/border{
+	dir = 8
+	},
+/obj/machinery/atmospherics/pipe/manifold4w/hidden/supply,
+/obj/machinery/atmospherics/pipe/manifold/hidden/scrubbers{
+	dir = 4
+	},
+/turf/simulated/floor/tiled/white,
+/area/monolithship/living)
+"GU" = (
+/obj/structure/table/marble,
+/obj/item/storage/firstaid/combat/bunker,
+/obj/item/storage/box/latexgloves,
+/turf/simulated/floor/tiled/white/monotile,
+/area/monolithship/living)
+"GX" = (
+/obj/structure/window/basic{
+	dir = 8
+	},
+/obj/floor_decal/corner/green/border{
+	dir = 8
+	},
+/turf/simulated/floor/tiled/dark,
+/area/monolithship/living)
+"Hk" = (
+/obj/floor_decal/corner/red/border{
+	dir = 1
+	},
+/obj/machinery/power/apc{
+	dir = 4;
+	name = "west bump";
+	pixel_x = 24
+	},
+/obj/structure/cable{
+	d2 = 8;
+	icon_state = "0-8"
+	},
+/turf/simulated/floor/tiled/dark,
+/area/monolithship/bridge)
+"Ho" = (
+/obj/floor_decal/corner/green/border{
+	dir = 10
+	},
+/turf/simulated/floor/tiled/dark,
+/area/monolithship/living)
+"HD" = (
+/obj/floor_decal/corner/brown,
+/turf/simulated/floor/tiled/dark,
+/area/monolithship/sklad)
+"HQ" = (
+/obj/structure/window/reinforced{
+	dir = 4
+	},
+/obj/floor_decal/corner/b_green/border{
+	dir = 4
+	},
+/obj/machinery/atmospherics/unary/vent_pump/on{
+	dir = 8
+	},
+/turf/simulated/floor/tiled/dark,
+/area/monolithship/living)
+"HV" = (
+/obj/floor_decal/corner/grey/border,
+/obj/machinery/atmospherics/pipe/simple/hidden/supply,
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
+/turf/simulated/floor/tiled/dark,
+/area/monolithship/living)
+"HY" = (
+/obj/structure/hygiene/sink{
+	dir = 1;
+	pixel_y = 25
+	},
+/obj/machinery/atmospherics/unary/vent_scrubber/on,
+/turf/simulated/floor/tiled/freezer,
+/area/monolithship/living)
+"Ig" = (
+/obj/floor_decal/techfloor{
+	dir = 4
+	},
+/obj/machinery/embedded_controller/radio/airlock/airlock_controller{
+	id_tag = "reefer_controller";
+	tag_airpump = "reefer_pump";
+	tag_chamber_sensor = "reefer_outer_sensor";
+	tag_exterior_door = "reefer_outer_doors";
+	tag_interior_door = "reefer_inter_doors";
+	dir = 4;
+	pixel_x = -24;
+	frequency = 1380
+	},
+/turf/simulated/floor/tiled/techfloor/grid,
+/area/monolithship/sklad)
+"Io" = (
+/obj/machinery/nav_light/port{
+	pixel_x = 15
+	},
+/obj/structure/lattice,
+/turf/space,
+/area/space)
+"Ir" = (
+/obj/machinery/atmospherics/pipe/simple/hidden/supply{
+	dir = 9
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
+/obj/floor_decal/corner/orange/diagonal{
+	dir = 8
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/fuel{
+	dir = 1
+	},
+/turf/simulated/floor/tiled/dark,
+/area/monolithship/engineering)
+"Iz" = (
+/obj/shuttle_landmark/away_monolith/nav4{
+	name = "Reefer East Navpoint"
+	},
+/turf/space,
+/area/space)
+"IE" = (
+/obj/machinery/alarm{
+	dir = 8;
+	pixel_x = 24;
+	req_access = list();
+	locked = 0
+	},
+/obj/floor_decal/corner_techfloor_gray/diagonal,
+/obj/floor_decal/corner_techfloor_grid/diagonal{
+	dir = 4
+	},
+/turf/simulated/floor/tiled/dark,
+/area/monolithship/sklad)
+"IK" = (
+/turf/simulated/wall/titanium,
+/area/monolithship/living)
+"IU" = (
+/obj/machinery/atmospherics/pipe/simple/hidden/supply,
+/turf/simulated/floor/tiled/dark,
+/area/monolithship/sklad)
+"IZ" = (
+/obj/floor_decal/corner/brown/half{
+	dir = 4
+	},
+/turf/simulated/floor/tiled/dark,
+/area/monolithship/sklad)
+"Jb" = (
+/obj/machinery/door/airlock/civilian,
+/obj/machinery/door/firedoor{
+	req_access = list()
+	},
+/obj/structure/cable{
+	d1 = 1;
+	d2 = 2;
+	icon_state = "1-2";
+	pixel_y = 0
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/supply,
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
+/obj/structure/sign/directions/bridge{
+	dir = 1;
+	pixel_x = 32;
+	pixel_y = 4
+	},
+/obj/structure/sign/directions/engineering{
+	pixel_y = -8;
+	pixel_x = 32
+	},
+/obj/structure/sign/directions/medical{
+	pixel_y = -2;
+	pixel_x = 32
+	},
+/obj/structure/sign/directions/security{
+	pixel_y = -2;
+	pixel_x = -32;
+	dir = 4
+	},
+/obj/structure/sign/directions/supply{
+	pixel_y = -8;
+	pixel_x = -32
+	},
+/turf/simulated/floor/tiled/dark,
+/area/monolithship/living)
+"Jh" = (
+/obj/structure/cable{
+	d1 = 1;
+	d2 = 2;
+	icon_state = "1-2";
+	pixel_y = 0
+	},
+/obj/floor_decal/corner/beige/diagonal,
+/obj/floor_decal/corner/orange/diagonal{
+	dir = 8
+	},
+/obj/floor_decal/industrial/warning{
+	dir = 1
+	},
+/turf/simulated/floor/tiled/dark,
+/area/monolithship/reactors)
+"Jv" = (
+/obj/machinery/atmospherics/binary/pump{
+	dir = 8
+	},
+/turf/simulated/floor/plating,
+/area/monolithship/fuelbay)
+"JE" = (
+/obj/structure/window/basic{
+	dir = 8
+	},
+/obj/floor_decal/corner/grey/border{
+	dir = 8
+	},
+/obj/machinery/power/apc{
+	name = "west bump";
+	pixel_y = -26
+	},
+/obj/structure/cable{
+	d2 = 4;
+	icon_state = "0-4"
+	},
+/turf/simulated/floor/tiled/dark,
+/area/monolithship/living)
+"JI" = (
+/obj/paint/black,
+/turf/simulated/wall/titanium,
+/area/monolithship/sklad)
+"JJ" = (
+/obj/structure/catwalk,
+/obj/machinery/atmospherics/pipe/simple/visible{
+	dir = 5
+	},
+/turf/simulated/floor/plating,
+/area/monolithship/fuelbay)
+"JU" = (
+/obj/floor_decal/corner/red/bordercorner,
+/turf/simulated/floor/tiled/techfloor,
+/area/monolithship/living)
+"Km" = (
+/obj/floor_decal/corner/b_green/bordercorner,
+/obj/floor_decal/corner/b_green/border{
+	dir = 9
+	},
+/obj/structure/table/marble,
+/obj/machinery/reagent_temperature{
+	pixel_x = 7;
+	pixel_y = -2
+	},
+/turf/simulated/floor/tiled/white,
+/area/monolithship/living)
+"Ko" = (
+/obj/structure/cable{
+	d1 = 1;
+	d2 = 2;
+	icon_state = "1-2";
+	pixel_y = 0
+	},
+/obj/machinery/atmospherics/pipe/manifold4w/hidden/supply,
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
+/turf/simulated/floor/lino,
+/area/monolithship/church)
+"Kv" = (
+/obj/floor_decal/corner_techfloor_gray/diagonal,
+/obj/floor_decal/corner_techfloor_grid/diagonal{
+	dir = 4
+	},
+/obj/structure/cable{
+	d1 = 1;
+	d2 = 2;
+	icon_state = "1-2";
+	pixel_y = 0
+	},
+/obj/structure/cable{
+	d1 = 2;
+	d2 = 4;
+	icon_state = "2-4"
+	},
+/obj/machinery/atmospherics/binary/pump/on,
+/turf/simulated/floor/tiled/dark,
+/area/monolithship/sklad)
+"KB" = (
+/obj/machinery/light{
+	dir = 8
+	},
+/obj/floor_decal/corner_techfloor_gray/diagonal,
+/obj/floor_decal/corner_techfloor_grid/diagonal{
+	dir = 4
+	},
+/obj/machinery/atmospherics/unary/tank/air,
+/turf/simulated/floor/tiled/dark,
+/area/monolithship/sklad)
+"KE" = (
+/obj/paint_stripe/yellow,
+/turf/simulated/wall/r_wall/hull,
+/area/monolithship/shuttle)
+"KJ" = (
+/obj/floor_decal/corner/brown{
+	dir = 4
+	},
+/obj/structure/cable{
+	d1 = 4;
+	d2 = 8;
+	icon_state = "4-8"
+	},
+/turf/simulated/floor/tiled/dark,
+/area/monolithship/sklad)
+"KV" = (
+/obj/machinery/atmospherics/pipe/manifold4w/hidden/supply,
+/turf/simulated/floor/tiled/dark,
+/area/monolithship/sklad)
+"Lb" = (
+/obj/structure/catwalk,
+/obj/structure/cable{
+	d1 = 2;
+	d2 = 4;
+	icon_state = "2-4"
+	},
+/turf/simulated/floor/plating,
+/area/monolithship/fuelbay)
+"Lg" = (
+/obj/paint/black,
+/turf/simulated/wall/r_titanium,
+/area/monolithship/reactors)
+"Lj" = (
+/obj/machinery/atmospherics/unary/vent_scrubber/on{
+	dir = 4
+	},
+/turf/simulated/floor/tiled/dark,
+/area/monolithship/bridge)
+"Lp" = (
+/obj/floor_decal/corner/green/border{
+	dir = 8
+	},
+/obj/machinery/computer/cryopod{
+	pixel_y = 17;
+	pixel_x = -32
+	},
+/turf/simulated/floor/tiled/dark,
+/area/monolithship/living)
+"Lq" = (
+/obj/machinery/power/apc{
+	dir = 4;
+	name = "west bump";
+	pixel_x = 24
+	},
+/obj/floor_decal/corner_techfloor_gray/diagonal,
+/obj/floor_decal/corner_techfloor_grid/diagonal{
+	dir = 4
+	},
+/obj/structure/cable{
+	d2 = 8;
+	icon_state = "0-8"
+	},
+/turf/simulated/floor/tiled/dark,
+/area/monolithship/sklad)
+"LB" = (
+/obj/machinery/alarm{
+	req_access = list();
+	locked = 0;
+	dir = 8;
+	pixel_x = 24
+	},
+/obj/floor_decal/corner/orange/diagonal{
+	dir = 8
+	},
+/obj/structure/table/marble,
+/obj/item/flame/lighter/green,
+/turf/simulated/floor/tiled/dark,
+/area/monolithship/engineering)
+"LL" = (
+/obj/machinery/atmospherics/binary/pump{
+	dir = 4;
+	name = "gas thrusters pump"
+	},
+/turf/simulated/floor/plating,
+/area/monolithship/fuelbay)
+"LR" = (
+/obj/floor_decal/corner_techfloor_gray/diagonal,
+/obj/floor_decal/corner_techfloor_grid/diagonal{
+	dir = 4
+	},
+/obj/machinery/atmospherics/unary/vent_scrubber/on{
+	dir = 4
+	},
+/obj/structure/sign/poster/custom/miss_security{
+	pixel_x = -32
+	},
+/turf/simulated/floor/tiled/dark,
+/area/monolithship/sklad)
+"LS" = (
+/obj/machinery/portable_atmospherics/canister/hydrogen,
+/turf/simulated/floor/plating,
+/area/monolithship/fuelbay)
+"Md" = (
+/obj/machinery/power/apc{
+	dir = 8;
+	name = "north bump";
+	pixel_x = -24
+	},
+/obj/structure/cable{
+	d2 = 4;
+	icon_state = "0-4"
+	},
+/obj/machinery/atmospherics/unary/vent_pump/on{
+	dir = 4
+	},
+/turf/simulated/floor/lino,
+/area/monolithship/church)
+"Mn" = (
+/obj/machinery/door/firedoor{
+	dir = 4
+	},
+/obj/floor_decal/corner/brown/half,
+/obj/floor_decal/spline/fancy/black{
+	dir = 8
+	},
+/obj/machinery/door/airlock/multi_tile/mining{
+	dir = 8;
+	name = "Cargo access"
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/supply{
+	dir = 4
+	},
+/turf/simulated/floor/tiled/dark,
+/area/monolithship/sklad)
+"Nj" = (
+/obj/floor_decal/spline/fancy/black/corner{
+	dir = 4
+	},
+/obj/structure/sign/poster/nyc/attention{
+	pixel_y = 32
+	},
+/turf/simulated/floor/tiled/dark,
+/area/monolithship/bridge)
+"Ns" = (
+/obj/floor_decal/spline/fancy/black{
+	dir = 1
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/supply,
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
+/turf/simulated/floor/tiled/dark,
+/area/monolithship/bridge)
+"NE" = (
+/obj/floor_decal/corner/red/border{
+	dir = 1
+	},
+/obj/machinery/light,
+/turf/simulated/floor/tiled/dark,
+/area/monolithship/bridge)
+"NO" = (
+/obj/floor_decal/corner/beige/diagonal,
+/obj/floor_decal/corner/orange/diagonal{
+	dir = 8
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/fuel{
+	dir = 1
+	},
+/turf/simulated/floor/tiled/dark,
+/area/monolithship/reactors)
+"NQ" = (
+/obj/machinery/computer/modular/preset/helm,
+/turf/simulated/floor/wood/walnut,
+/area/monolithship/bridge)
+"Pe" = (
+/obj/floor_decal/corner/brown/half{
+	dir = 8
+	},
+/obj/machinery/light{
+	dir = 8
+	},
+/turf/simulated/floor/tiled/dark,
+/area/monolithship/sklad)
+"Pi" = (
+/obj/machinery/atmospherics/unary/vent_pump/on{
+	dir = 4
+	},
+/turf/simulated/floor/lino,
+/area/monolithship/church)
+"Pj" = (
+/obj/structure/catwalk,
+/obj/machinery/atmospherics/pipe/manifold4w/visible,
+/turf/simulated/floor/plating,
+/area/monolithship/fuelbay)
+"Pk" = (
+/obj/structure/window/reinforced{
+	dir = 4
+	},
+/obj/floor_decal/corner/b_green/border{
+	dir = 4
+	},
+/turf/simulated/floor/tiled/dark,
+/area/monolithship/living)
+"PN" = (
+/obj/paint_stripe/green,
+/obj/paint/black,
+/turf/simulated/wall/titanium,
+/area/monolithship/fuelbay)
+"PY" = (
+/turf/simulated/floor/tiled/dark,
+/area/monolithship/bridge)
+"PZ" = (
+/obj/floor_decal/corner/brown/border{
+	dir = 1
+	},
+/obj/paint/black,
+/turf/simulated/floor/tiled/old_cargo{
+	color = "#444444"
+	},
+/area/monolithship/shuttle)
+"Qw" = (
+/obj/machinery/atmospherics/pipe/simple/hidden/supply,
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
+/turf/simulated/floor/tiled/dark,
+/area/monolithship/living)
+"Qy" = (
+/obj/structure/cable{
+	d1 = 1;
+	d2 = 2;
+	icon_state = "1-2";
+	pixel_y = 0
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/supply,
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
+/turf/simulated/floor/lino,
+/area/monolithship/church)
+"QI" = (
+/obj/machinery/atmospherics/unary/tank/carbon_dioxide,
+/turf/simulated/floor/plating,
+/area/monolithship/fuelbay)
+"QJ" = (
+/obj/paint/black,
+/obj/paint_stripe/green,
+/obj/machinery/atmospherics/pipe/manifold/visible/fuel{
+	dir = 4
+	},
+/turf/simulated/wall/r_titanium,
+/area/monolithship/engineering)
+"QY" = (
+/obj/machinery/power/port_gen/pacman/super/potato/reactor,
+/obj/structure/cable{
+	d2 = 8;
+	icon_state = "0-8"
+	},
+/turf/simulated/floor/tiled/monotile,
+/area/monolithship/reactors)
+"Rd" = (
+/obj/structure/window/reinforced{
+	dir = 4;
+	polarized = 1
+	},
+/obj/floor_decal/corner/white/border{
+	dir = 4
+	},
+/obj/machinery/alarm{
+	dir = 1;
+	req_access = list();
+	locked = 0;
+	pixel_y = -26
+	},
+/turf/simulated/floor/tiled/dark,
+/area/monolithship/living)
+"Ru" = (
+/obj/structure/hygiene/sink{
+	dir = 4;
+	pixel_x = 12;
+	pixel_y = 5
+	},
+/obj/machinery/atmospherics/unary/vent_scrubber/on{
+	dir = 8
+	},
+/turf/simulated/floor/tiled/white/monotile,
+/area/monolithship/living)
+"Rv" = (
+/obj/submap_landmark/joinable_submap/monolithship,
+/turf/space,
+/area/space)
+"Rx" = (
+/obj/structure/cable{
+	d1 = 1;
+	d2 = 2;
+	icon_state = "1-2";
+	pixel_y = 0
+	},
+/obj/structure/cable{
+	d1 = 1;
+	d2 = 8;
+	icon_state = "1-8"
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/supply,
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
+/turf/simulated/floor/tiled/dark,
+/area/monolithship/living)
+"RC" = (
+/obj/floor_decal/corner_techfloor_gray/diagonal,
+/obj/floor_decal/corner_techfloor_grid/diagonal{
+	dir = 4
+	},
+/turf/simulated/floor/tiled/dark,
+/area/monolithship/sklad)
+"RR" = (
+/obj/floor_decal/corner/orange/diagonal{
+	dir = 8
+	},
+/obj/machinery/vending/tool{
+	dir = 8
+	},
+/turf/simulated/floor/tiled/dark,
+/area/monolithship/engineering)
+"RU" = (
+/obj/floor_decal/corner/green/border{
+	dir = 8
+	},
+/turf/simulated/floor/tiled/dark,
+/area/monolithship/living)
+"RY" = (
+/turf/simulated/floor/reinforced{
+	map_airless = 1
+	},
+/area/space)
+"Su" = (
+/obj/paint/black,
+/turf/simulated/wall/titanium,
+/area/monolithship/church)
+"SA" = (
+/obj/machinery/atmospherics/pipe/manifold/visible/fuel{
+	dir = 8
+	},
+/turf/simulated/wall/r_titanium,
+/area/monolithship/engineering)
+"SS" = (
+/obj/machinery/power/apc{
+	dir = 8;
+	name = "north bump";
+	pixel_x = -24
+	},
+/obj/structure/cable,
+/obj/floor_decal/corner/orange/diagonal{
+	dir = 8
+	},
+/turf/simulated/floor/tiled/dark,
+/area/monolithship/engineering)
+"SU" = (
+/obj/floor_decal/corner_techfloor_gray/diagonal,
+/obj/floor_decal/corner_techfloor_grid/diagonal{
+	dir = 4
+	},
+/obj/machinery/atmospherics/unary/tank/air,
+/turf/simulated/floor/tiled/dark,
+/area/monolithship/sklad)
+"Te" = (
+/obj/structure/window/reinforced{
+	dir = 4
+	},
+/obj/floor_decal/corner/red/border{
+	dir = 4
+	},
+/turf/simulated/floor/tiled/dark,
+/area/monolithship/living)
+"To" = (
+/obj/structure/sign/directions/supply{
+	dir = 4;
+	pixel_y = 8;
+	pixel_x = 32
+	},
+/obj/floor_decal/corner_techfloor_gray/diagonal,
+/obj/floor_decal/corner_techfloor_grid/diagonal{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/supply{
+	dir = 9
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
+	dir = 9
+	},
+/obj/machinery/light{
+	dir = 4;
+	icon_state = "tube_map"
+	},
+/turf/simulated/floor/tiled/dark,
+/area/monolithship/sklad)
+"Tq" = (
+/obj/machinery/nav_light/port{
+	pixel_x = 15
+	},
+/turf/space,
+/area/space)
+"Tv" = (
+/obj/machinery/optable,
+/turf/simulated/floor/tiled/white/monotile,
+/area/monolithship/living)
+"Tw" = (
+/obj/machinery/atmospherics/unary/vent_scrubber/on{
+	dir = 4
+	},
+/turf/simulated/floor/lino,
+/area/monolithship/church)
+"TD" = (
+/obj/machinery/portable_atmospherics/hydroponics,
+/turf/simulated/floor/tiled/dark,
+/area/monolithship/living)
+"TF" = (
+/obj/paint/black,
+/obj/paint_stripe/green,
+/turf/simulated/wall/r_titanium,
+/area/monolithship/fuelbay)
+"TI" = (
+/obj/machinery/vending/dinnerware{
+	dir = 4;
+	pixel_x = -24;
+	density = 0
+	},
+/turf/simulated/floor/tiled/dark,
+/area/monolithship/living)
+"TJ" = (
+/obj/machinery/door/airlock/civilian,
+/obj/machinery/door/firedoor{
+	req_access = list()
+	},
+/obj/structure/cable{
+	d1 = 1;
+	d2 = 2;
+	icon_state = "1-2";
+	pixel_y = 0
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/supply,
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
+/obj/structure/sign/directions/bridge{
+	dir = 1;
+	pixel_x = 32;
+	pixel_y = 4
+	},
+/obj/structure/sign/directions/engineering{
+	pixel_y = -8;
+	pixel_x = 32
+	},
+/obj/structure/sign/directions/medical{
+	dir = 1;
+	pixel_y = -2;
+	pixel_x = 32
+	},
+/obj/structure/sign/directions/security{
+	pixel_y = -2;
+	pixel_x = -32;
+	dir = 1
+	},
+/obj/structure/sign/directions/supply{
+	pixel_y = -8;
+	pixel_x = -32
+	},
+/turf/simulated/floor/tiled/dark,
+/area/monolithship/living)
+"TU" = (
+/obj/floor_decal/corner/b_green/border{
+	dir = 4
+	},
+/obj/machinery/door/window/eastright,
+/obj/machinery/atmospherics/pipe/simple/hidden/supply{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
+	dir = 4
+	},
+/turf/simulated/floor/tiled/dark,
+/area/monolithship/living)
+"Ud" = (
+/obj/floor_decal/corner/b_green/border{
+	dir = 8
+	},
+/obj/floor_decal/corner/b_green/border{
+	dir = 4
+	},
+/obj/structure/sign/warning/nosmoking_2{
+	pixel_x = 32
+	},
+/obj/machinery/atmospherics/unary/vent_scrubber/on{
+	dir = 8
+	},
+/obj/machinery/light{
+	dir = 4
+	},
+/turf/simulated/floor/tiled/white,
+/area/monolithship/living)
+"Uo" = (
+/obj/shuttle_landmark/away_monolith,
+/turf/space,
+/area/space)
+"UB" = (
+/obj/floor_decal/corner/red/border{
+	dir = 1
+	},
+/obj/machinery/alarm{
+	dir = 8;
+	pixel_x = 24;
+	req_access = list();
+	locked = 0
+	},
+/turf/simulated/floor/tiled/dark,
+/area/monolithship/bridge)
+"Vc" = (
+/obj/structure/cable{
+	d1 = 4;
+	d2 = 8;
+	icon_state = "4-8"
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/supply{
+	dir = 4
+	},
+/obj/machinery/door/firedoor{
+	req_access = list()
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
+	dir = 4
+	},
+/obj/floor_decal/corner/orange/diagonal{
+	dir = 8
+	},
+/obj/floor_decal/corner/beige/diagonal,
+/obj/machinery/door/airlock/engineering{
+	dir = 4;
+	name = "Reactors"
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/fuel{
+	dir = 4
+	},
+/turf/simulated/floor/tiled/dark,
+/area/monolithship/reactors)
+"Vq" = (
+/obj/structure/closet/fridge/extra,
+/obj/machinery/light,
+/turf/simulated/floor/tiled/dark,
+/area/monolithship/living)
+"VK" = (
+/obj/floor_decal/corner_techfloor_gray/diagonal,
+/obj/floor_decal/corner_techfloor_grid/diagonal{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/supply{
+	dir = 10
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
+	dir = 10
+	},
+/turf/simulated/floor/tiled/dark,
+/area/monolithship/sklad)
+"VO" = (
+/obj/structure/window/reinforced{
+	polarized = 1
+	},
+/obj/floor_decal/corner/b_green/bordercorner{
+	dir = 4
+	},
+/obj/floor_decal/corner/b_green/border{
+	dir = 10
+	},
+/turf/simulated/floor/tiled/white,
+/area/monolithship/living)
+"VY" = (
+/obj/structure/window/reinforced{
+	polarized = 1
+	},
+/obj/floor_decal/corner/red/bordercorner{
+	dir = 1
+	},
+/obj/machinery/fabricator/hacked,
+/obj/item/stack/material/aluminium/fifty,
+/obj/item/stack/material/glass/fifty,
+/obj/item/stack/material/plastic/fifty,
+/obj/item/stack/material/steel/fifty,
+/obj/structure/closet/walllocker{
+	pixel_x = 32
+	},
+/turf/simulated/floor/tiled/techfloor,
+/area/monolithship/living)
+"WN" = (
+/obj/machinery/atmospherics/pipe/manifold/hidden/scrubbers{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/supply,
+/turf/simulated/floor/tiled/dark,
+/area/monolithship/living)
+"WZ" = (
+/obj/machinery/light{
+	dir = 1;
+	icon_state = "tube_map"
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
+	dir = 10
+	},
+/obj/floor_decal/corner/orange/diagonal{
+	dir = 8
+	},
+/obj/machinery/suit_cycler/engineering,
+/turf/simulated/floor/tiled/dark,
+/area/monolithship/engineering)
+"Xa" = (
+/obj/machinery/light{
+	dir = 8
+	},
+/obj/structure/window/basic/blacked,
+/turf/simulated/floor/tiled/freezer,
+/area/monolithship/living)
+"Xm" = (
+/obj/machinery/atmospherics/pipe/simple/hidden/supply{
+	dir = 10
+	},
+/obj/machinery/atmospherics/pipe/manifold/hidden/scrubbers{
+	dir = 4
+	},
+/obj/floor_decal/corner/orange/diagonal{
+	dir = 8
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/fuel{
+	dir = 10
+	},
+/turf/simulated/floor/tiled/dark,
+/area/monolithship/engineering)
+"Xw" = (
+/obj/floor_decal/corner_techfloor_gray/diagonal,
+/obj/floor_decal/corner_techfloor_grid/diagonal{
+	dir = 4
+	},
+/obj/machinery/atmospherics/unary/vent_pump/on{
+	dir = 8
+	},
+/turf/simulated/floor/tiled/dark,
+/area/monolithship/sklad)
+"XQ" = (
+/obj/structure/cable{
+	d1 = 4;
+	d2 = 8;
+	icon_state = "4-8"
+	},
+/obj/paint/black,
+/turf/simulated/floor/tiled/old_cargo{
+	color = "#444444"
+	},
+/area/monolithship/shuttle)
+"Yo" = (
+/obj/structure/window/basic{
+	dir = 8
+	},
+/obj/floor_decal/corner/green/border{
+	dir = 8
+	},
+/obj/machinery/light/spot{
+	dir = 8
+	},
+/turf/simulated/floor/tiled/dark,
+/area/monolithship/living)
+"YH" = (
+/obj/structure/dispenser,
+/obj/floor_decal/corner/beige/diagonal,
+/obj/floor_decal/corner/orange/diagonal{
+	dir = 8
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/fuel{
+	dir = 10
+	},
+/turf/simulated/floor/tiled/dark,
+/area/monolithship/reactors)
+"YJ" = (
+/obj/structure/catwalk,
+/obj/machinery/atmospherics/pipe/simple/visible{
+	dir = 5
+	},
+/obj/machinery/light{
+	dir = 8
+	},
+/turf/simulated/floor/plating,
+/area/monolithship/fuelbay)
+"YY" = (
+/obj/structure/catwalk,
+/obj/machinery/atmospherics/pipe/simple/visible,
+/turf/simulated/floor/plating,
+/area/monolithship/fuelbay)
+"Zi" = (
+/obj/paint/black,
+/turf/simulated/wall/r_titanium,
+/area/monolithship/engineering)
+"Zn" = (
+/obj/paint/black,
+/obj/paint_stripe/green,
+/turf/simulated/wall/r_titanium,
+/area/space)
+"Zp" = (
+/obj/floor_decal/corner/grey/border{
+	dir = 8
+	},
+/obj/structure/window/basic/blacked{
+	dir = 8
+	},
+/turf/simulated/floor/tiled/dark,
+/area/monolithship/living)
+"Zr" = (
+/obj/paint/black,
+/obj/paint_stripe/green,
+/turf/simulated/wall/r_titanium,
+/area/monolithship/reactors)
+"ZM" = (
+/obj/machinery/atmospherics/unary/vent_pump/on{
+	icon_state = "map_vent_in";
+	pump_direction = 0;
+	dir = 8
+	},
+/turf/simulated/floor/reinforced{
+	map_airless = 1
+	},
+/area/space)
+"ZP" = (
+/obj/floor_decal/borderfloorwhite,
+/obj/floor_decal/corner/b_green/border{
+	dir = 1
+	},
+/obj/floor_decal/corner/b_green/border,
+/obj/machinery/door/window/southright,
+/obj/machinery/atmospherics/pipe/simple/hidden/supply,
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
+/turf/simulated/floor/tiled/white,
+/area/monolithship/living)
+
+(1,1,1) = {"
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+"}
+(2,1,1) = {"
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+"}
+(3,1,1) = {"
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+"}
+(4,1,1) = {"
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+"}
+(5,1,1) = {"
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+"}
+(6,1,1) = {"
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+"}
+(7,1,1) = {"
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+"}
+(8,1,1) = {"
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+"}
+(9,1,1) = {"
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+"}
+(10,1,1) = {"
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+"}
+(11,1,1) = {"
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+"}
+(12,1,1) = {"
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+"}
+(13,1,1) = {"
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+Uo
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+"}
+(14,1,1) = {"
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+"}
+(15,1,1) = {"
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+"}
+(16,1,1) = {"
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+"}
+(17,1,1) = {"
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+"}
+(18,1,1) = {"
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+"}
+(19,1,1) = {"
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+"}
+(20,1,1) = {"
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+"}
+(21,1,1) = {"
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+"}
+(22,1,1) = {"
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+cC
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+"}
+(23,1,1) = {"
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+"}
+(24,1,1) = {"
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+"}
+(25,1,1) = {"
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+"}
+(26,1,1) = {"
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+"}
+(27,1,1) = {"
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+"}
+(28,1,1) = {"
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+"}
+(29,1,1) = {"
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+"}
+(30,1,1) = {"
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+"}
+(31,1,1) = {"
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+"}
+(32,1,1) = {"
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+"}
+(33,1,1) = {"
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+"}
+(34,1,1) = {"
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+"}
+(35,1,1) = {"
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+"}
+(36,1,1) = {"
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+"}
+(37,1,1) = {"
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+"}
+(38,1,1) = {"
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+"}
+(39,1,1) = {"
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+"}
+(40,1,1) = {"
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+Tq
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+"}
+(41,1,1) = {"
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+lj
+PN
+aa
+aa
+aa
+aa
+Tq
+cQ
+cQ
+cQ
+cQ
+Tq
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+"}
+(42,1,1) = {"
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+Tq
+aa
+aa
+aa
+lj
+lj
+lj
+lj
+PN
+aa
+aa
+aa
+Zr
+Zr
+aK
+ca
+Zr
+lr
+bE
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+"}
+(43,1,1) = {"
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+Tq
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+Tq
+aa
+aa
+aa
+aa
+aa
+Tq
+aa
+uO
+uO
+lj
+lj
+lj
+dA
+YJ
+df
+QI
+TF
+Zr
+Zr
+Zr
+Lg
+dl
+em
+Lg
+hK
+Aw
+bE
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+"}
+(44,1,1) = {"
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+cQ
+Io
+cQ
+Em
+Em
+Em
+Em
+Em
+Em
+Em
+Em
+Em
+Em
+Em
+cQ
+cQ
+cQ
+cQ
+cQ
+uO
+uO
+uO
+EF
+bH
+QI
+JJ
+xZ
+Jv
+am
+QI
+bH
+bZ
+Lg
+iy
+Lg
+lF
+ca
+Lg
+Lg
+dW
+oW
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+"}
+(45,1,1) = {"
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+Io
+cQ
+cQ
+cQ
+cQ
+Em
+Em
+Em
+kp
+iU
+bC
+iU
+iU
+mQ
+TI
+ek
+Cs
+Em
+ly
+ly
+ly
+ly
+ly
+ly
+eq
+eq
+eq
+bH
+QI
+Pj
+YY
+Pj
+zz
+LS
+bH
+aX
+ij
+Jh
+BH
+fW
+jg
+dd
+dY
+eu
+oW
+RY
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+"}
+(46,1,1) = {"
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aD
+gG
+gG
+gG
+gG
+gG
+Em
+yA
+Xa
+Lp
+RU
+Cj
+ld
+Ho
+hn
+cs
+cs
+Vq
+bP
+Su
+Su
+bY
+nv
+bY
+Su
+Su
+Su
+eq
+bH
+et
+zz
+xZ
+LL
+Fs
+cZ
+bH
+QY
+Lg
+dC
+cn
+bD
+dT
+NO
+az
+GJ
+RY
+RY
+wO
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+"}
+(47,1,1) = {"
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+cQ
+gG
+PY
+bS
+AG
+AG
+bP
+HY
+xL
+Qw
+Qw
+WN
+hZ
+HV
+wy
+iB
+cs
+TD
+bP
+nv
+bY
+bY
+bY
+bY
+bY
+nv
+Su
+eq
+bH
+QI
+bG
+kq
+aU
+Lb
+gE
+bH
+Lg
+Lg
+ew
+Dk
+lW
+dj
+jx
+YH
+GJ
+RY
+RY
+RY
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+"}
+(48,1,1) = {"
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+gG
+gG
+gG
+gG
+gG
+PY
+PY
+AG
+AG
+bP
+AE
+tt
+Eh
+iR
+FO
+bU
+xo
+tp
+qf
+hM
+bP
+bP
+bY
+bY
+bY
+bY
+bY
+bY
+bY
+Su
+Su
+bH
+bH
+bH
+bH
+bt
+tz
+bH
+bH
+bQ
+bQ
+Vc
+bQ
+Lg
+Lg
+Lg
+Lg
+Zr
+Zn
+mh
+RY
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+"}
+(49,1,1) = {"
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+dr
+da
+NQ
+aP
+cq
+wh
+Aq
+Lj
+ts
+NE
+bP
+Zp
+Zp
+GX
+Yo
+Ff
+cm
+GX
+dk
+dk
+JE
+bP
+Pi
+Tw
+bY
+bY
+bY
+bY
+bY
+Tw
+Md
+Su
+SU
+KB
+SU
+RC
+ei
+Bh
+be
+LR
+JI
+bb
+bv
+Fa
+ky
+bi
+Ig
+bi
+ah
+fr
+RY
+RY
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+"}
+(50,1,1) = {"
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aR
+Rv
+ap
+cH
+cx
+dp
+cS
+Ns
+gK
+fR
+hy
+Jb
+sa
+sa
+sa
+sa
+nA
+jQ
+sa
+sa
+sa
+Rx
+TJ
+Ko
+tx
+Qy
+Qy
+Qy
+Qy
+Qy
+tx
+un
+db
+ec
+vn
+zk
+Kv
+dD
+BS
+aS
+nK
+tf
+FX
+bu
+bV
+aJ
+KV
+IU
+dJ
+ah
+RY
+RY
+RY
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+"}
+(51,1,1) = {"
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+dr
+ap
+bB
+dN
+rP
+wh
+Nj
+ax
+GD
+ae
+bP
+Te
+AL
+Te
+Pk
+HQ
+TU
+vo
+Pk
+BW
+Rd
+bP
+fH
+Fz
+bY
+bY
+bY
+bY
+bY
+Fz
+mf
+Su
+Xw
+VK
+cc
+bd
+yW
+To
+Lq
+IE
+JI
+bb
+bv
+nP
+BY
+aL
+ay
+aL
+ah
+RY
+RY
+RY
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+"}
+(52,1,1) = {"
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+gG
+gG
+gG
+gG
+gG
+PY
+PY
+AG
+Ga
+bP
+JU
+lR
+lo
+Km
+xv
+rR
+zO
+VO
+GU
+eF
+bP
+bP
+bY
+bY
+bY
+bY
+bY
+bY
+bY
+Su
+Su
+JI
+JI
+JI
+aH
+Mn
+JI
+JI
+JI
+vm
+vm
+Fb
+vm
+Zi
+Zi
+Zi
+Zi
+ur
+Zn
+mh
+RY
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+"}
+(53,1,1) = {"
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+cQ
+gG
+PY
+ck
+UB
+Hk
+bP
+eO
+jB
+ug
+cz
+uW
+GR
+EC
+ZP
+eQ
+Tv
+IK
+bP
+ev
+bY
+bY
+bY
+bY
+bY
+ev
+wU
+Dm
+Pe
+fo
+bM
+cA
+bp
+eN
+Pe
+cU
+vm
+ga
+dh
+SS
+eV
+eH
+Gq
+jV
+ad
+RY
+RY
+RY
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+"}
+(54,1,1) = {"
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+wx
+gG
+gG
+gG
+gG
+gG
+Em
+qV
+Dt
+VY
+dL
+Ud
+sl
+Cx
+zV
+Ru
+ng
+IK
+bP
+Su
+Su
+bY
+ev
+bY
+Su
+Su
+Su
+cd
+IZ
+nd
+qa
+KJ
+HD
+qa
+fv
+Db
+vm
+WZ
+Xm
+bg
+Ir
+at
+bJ
+cp
+ad
+RY
+RY
+wO
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+"}
+(55,1,1) = {"
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+vT
+cQ
+cQ
+cQ
+cQ
+uO
+uO
+uO
+Em
+bP
+bP
+bP
+bP
+bP
+IK
+IK
+IK
+uO
+ly
+ly
+ly
+ly
+ly
+ly
+cQ
+JI
+JI
+JI
+JI
+JI
+du
+cl
+JI
+JI
+JI
+vm
+za
+za
+za
+za
+za
+bl
+dK
+SA
+AJ
+RY
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+"}
+(56,1,1) = {"
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+vT
+cQ
+uO
+uO
+uO
+uO
+uO
+uO
+uO
+uO
+uO
+uO
+uO
+cQ
+cQ
+cQ
+cQ
+cQ
+uO
+uO
+uO
+cQ
+vX
+KE
+KE
+ci
+xI
+KE
+KE
+KE
+vm
+RR
+oN
+za
+aZ
+LB
+dR
+au
+Ek
+AJ
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+"}
+(57,1,1) = {"
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+vT
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+vT
+aa
+aa
+aa
+aa
+aa
+vT
+cQ
+uO
+pX
+KE
+aQ
+nm
+by
+de
+fd
+pk
+KE
+pX
+ur
+ur
+Zi
+ur
+ur
+bT
+al
+QJ
+mG
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+"}
+(58,1,1) = {"
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+cQ
+vT
+pX
+xI
+PZ
+XQ
+eC
+eC
+eC
+kj
+xI
+pX
+cQ
+ur
+ur
+ur
+RY
+ZM
+dV
+mG
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+"}
+(59,1,1) = {"
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+cQ
+aa
+pX
+KE
+aj
+DR
+gc
+av
+FP
+aA
+KE
+pX
+cQ
+vT
+cQ
+vT
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+"}
+(60,1,1) = {"
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+cQ
+cQ
+cQ
+KE
+KE
+KE
+xI
+xI
+KE
+KE
+cY
+cQ
+cQ
+cQ
+cQ
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+"}
+(61,1,1) = {"
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+cQ
+cQ
+cQ
+uO
+uO
+uO
+uO
+cQ
+cQ
+cQ
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+"}
+(62,1,1) = {"
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+vT
+aa
+aa
+vT
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+"}
+(63,1,1) = {"
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+"}
+(64,1,1) = {"
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+"}
+(65,1,1) = {"
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+"}
+(66,1,1) = {"
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+"}
+(67,1,1) = {"
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+"}
+(68,1,1) = {"
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+"}
+(69,1,1) = {"
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+"}
+(70,1,1) = {"
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+"}
+(71,1,1) = {"
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+"}
+(72,1,1) = {"
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+"}
+(73,1,1) = {"
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+"}
+(74,1,1) = {"
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+do
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+"}
+(75,1,1) = {"
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+"}
+(76,1,1) = {"
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+"}
+(77,1,1) = {"
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+Iz
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+"}
+(78,1,1) = {"
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+"}
+(79,1,1) = {"
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+"}
+(80,1,1) = {"
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+dQ
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+"}
+(81,1,1) = {"
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+"}
+(82,1,1) = {"
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+"}
+(83,1,1) = {"
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+"}
+(84,1,1) = {"
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+"}
+(85,1,1) = {"
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+"}
+(86,1,1) = {"
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+"}
+(87,1,1) = {"
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+"}
+(88,1,1) = {"
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+"}
+(89,1,1) = {"
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+"}
+(90,1,1) = {"
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+"}
+(91,1,1) = {"
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+"}
+(92,1,1) = {"
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+"}
+(93,1,1) = {"
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+"}
+(94,1,1) = {"
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+"}
+(95,1,1) = {"
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+"}
+(96,1,1) = {"
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+"}
+(97,1,1) = {"
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+"}
+(98,1,1) = {"
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+"}
+(99,1,1) = {"
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+"}
+(100,1,1) = {"
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+"}

@@ -226,7 +226,8 @@
 	..()
 
 /datum/reagent/drugs/three_eye/process_overdose(mob/living/carbon/M)
-	..()
+	M.add_chemical_effect(CE_TOXIN, 1)
+	M.adjustToxLoss(REM)
 	M.adjustBrainLoss(rand(1, 5))
 	if(ishuman(M) && prob(10))
 		var/mob/living/carbon/human/H = M
